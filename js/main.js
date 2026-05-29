@@ -98,21 +98,23 @@ function renderHome() {
   // Search
   initSearch();
   
-  // Categories
+  // Categories (skip empty ones)
   const catGrid = document.getElementById('catGrid');
   if (catGrid) {
-    catGrid.innerHTML = appData.categories.map(cat => {
-      const count = appData.tools.filter(t => t.category === cat.id).length;
-      return `
-        <a href="category.html?id=${cat.slug}" class="cat-card">
-          <span class="cat-icon">${cat.icon}</span>
-          <div class="cat-info">
-            <h3>${cat.name}</h3>
-            <span>${count} tools</span>
-          </div>
-        </a>
-      `;
-    }).join('');
+    catGrid.innerHTML = appData.categories
+      .filter(cat => appData.tools.some(t => t.category === cat.id))
+      .map(cat => {
+        const count = appData.tools.filter(t => t.category === cat.id).length;
+        return `
+          <a href="category.html?id=${cat.slug}" class="cat-card">
+            <span class="cat-icon">${cat.icon}</span>
+            <div class="cat-info">
+              <h3>${cat.name}</h3>
+              <span>${count} tools</span>
+            </div>
+          </a>
+        `;
+      }).join('');
   }
   
   // Featured tools
@@ -128,17 +130,24 @@ function renderHome() {
     recentGrid.innerHTML = recent.map(t => toolCardHTML(t, false)).join('');
   }
   
-  // Coming Soon
+  // Coming Soon — click to expand/collapse
   const upcomingList = document.getElementById('upcomingList');
   if (upcomingList && appData.upcoming) {
-    upcomingList.innerHTML = appData.upcoming.map(u => `
-      <div class="upcoming-item">
+    upcomingList.innerHTML = appData.upcoming.map((u, i) => `
+      <div class="upcoming-item" onclick="toggleUpcoming(this)" role="button" tabindex="0" aria-expanded="false">
         <span class="upcoming-dot"></span>
-        <div>
-          <strong>${u.name}</strong>
-          <span style="color: var(--text-muted); margin-left: 8px; font-size: 0.85rem;">${u.category}</span>
+        <div class="upcoming-body">
+          <div class="upcoming-header">
+            <strong>${u.name}</strong>
+            <span class="upcoming-cat">${u.category}</span>
+          </div>
+          <p class="upcoming-desc">${u.desc || ''}</p>
+          <div class="upcoming-details">
+            <p>${u.details || ''}</p>
+          </div>
         </div>
         <span class="upcoming-eta">${u.eta}</span>
+        <span class="upcoming-arrow">▾</span>
       </div>
     `).join('');
   }
@@ -462,4 +471,18 @@ function getToolEmoji(tool) {
 function getToolName(id) {
   const tool = appData.tools.find(t => t.id === id);
   return tool ? tool.name : id;
+}
+
+// ===== Upcoming expand/collapse =====
+function toggleUpcoming(item) {
+  const wasExpanded = item.classList.contains('expanded');
+  // Close all
+  document.querySelectorAll('.upcoming-item.expanded').forEach(el => el.classList.remove('expanded'));
+  // Toggle clicked one
+  if (!wasExpanded) {
+    item.classList.add('expanded');
+    item.setAttribute('aria-expanded', 'true');
+  } else {
+    item.setAttribute('aria-expanded', 'false');
+  }
 }
