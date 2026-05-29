@@ -377,10 +377,8 @@ function renderCompare() {
   const compareEl = document.getElementById('compareContent');
   if (!compareEl) return; // static compare article page, skip JS rendering
   
-  if (!tool1 || !tool2) {
-    compareEl.innerHTML = '<div class="empty-state"><div class="emoji">🔍</div><p>Please select two tools to compare.</p></div>';
-    return;
-  }
+  // Only render when t1/t2 params are present; otherwise keep static HTML content
+  if (!tool1 || !tool2) return;
   
   document.title = `${tool1.name} vs ${tool2.name} | AI Tool Directory`;
   
