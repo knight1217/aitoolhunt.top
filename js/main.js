@@ -24,6 +24,13 @@ document.addEventListener('DOMContentLoaded', () => {
 // ===== Data Loading =====
 async function loadData() {
   try {
+    // Use embedded data if available (avoids fetch CORS on file://)
+    if (window.__TOOLS_DATA__) {
+      appData = window.__TOOLS_DATA__;
+      if (!appData.tools) appData.tools = [];
+      return appData;
+    }
+    // Fallback: fetch from file (works on HTTP server)
     const res = await fetch('data/tools.json');
     appData = await res.json();
     if (!appData.tools) appData.tools = [];
@@ -137,7 +144,7 @@ function renderHome() {
   }
   
   // All tools
-  const allGrid = document.getElementById('allTools');
+  const allGrid = document.getElementById('allToolsGrid');
   if (allGrid) {
     allGrid.innerHTML = appData.tools.map(t => toolCardHTML(t, t.featured)).join('');
   }
