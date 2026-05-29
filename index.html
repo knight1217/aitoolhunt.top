@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover the best AI tools of 2026. Honest reviews, side-by-side comparisons, and beginner-friendly guides for ChatGPT, Midjourney, Claude, and 200+ AI tools.">
+  <title>AI Tool Directory — Find & Compare the Best AI Tools 2026</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><span class="logo-icon">🤖</span>AI Tool Hunt</a>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="#categories">Categories</a>
+      <a href="guide.html">Guide</a>
+      <a href="compare.html">Compare</a>
+      <a href="about.html">About</a>
+    </nav>
+    <button class="mobile-toggle" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <h1>Find the <span class="gradient-text">Best AI Tools</span><br>for Everything You Do</h1>
+  <p>Honest reviews, side-by-side comparisons, and beginner-friendly guides. No fluff, just facts.</p>
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search 15+ AI tools... (e.g. ChatGPT, image generation, coding)">
+    <span class="search-icon">🔍</span>
+    <div id="searchResults" class="search-results"></div>
+  </div>
+</section>
+
+<!-- Stats -->
+<div class="container">
+  <div class="stats-bar">
+    <div class="stat-item"><div class="stat-number">15</div><div class="stat-label">AI Tools Reviewed</div></div>
+    <div class="stat-item"><div class="stat-number">10</div><div class="stat-label">Categories</div></div>
+    <div class="stat-item"><div class="stat-number">Weekly</div><div class="stat-label">Updated</div></div>
+  </div>
+</div>
+
+<!-- Categories -->
+<section class="section" id="categories">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Browse by Category</h2>
+    </div>
+    <div class="cat-grid" id="catGrid"></div>
+  </div>
+</section>
+
+<!-- Recently Added -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title"><span class="emoji">🆕</span> Recently Added</h2>
+      <span style="color: var(--text-muted); font-size: 0.9rem;">Updated May 28, 2026</span>
+    </div>
+    <div class="tool-grid" id="recentTools"></div>
+  </div>
+</section>
+
+<!-- Coming Soon -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title"><span class="emoji">🔮</span> Coming Soon</h2>
+    </div>
+    <div class="upcoming-grid" id="upcomingList"></div>
+  </div>
+</section>
+
+<!-- Featured Tools -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title"><span class="emoji">⭐</span> Top Picks</h2>
+      <a href="#allTools" class="section-link">View All →</a>
+    </div>
+    <div class="tool-grid" id="featuredTools"></div>
+  </div>
+</section>
+
+<!-- All Tools -->
+<section class="section" id="allTools">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title"><span class="emoji">🛠️</span> All AI Tools</h2>
+    </div>
+    <div class="tool-grid" id="allTools"></div>
+  </div>
+</section>
+
+<!-- Newsletter -->
+<section class="container">
+  <div class="newsletter">
+    <h2>🚀 Stay Updated</h2>
+    <p>New AI tools drop every week. Get our curated picks in your inbox.</p>
+    <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Coming soon!')">
+      <input type="email" placeholder="your@email.com">
+      <button class="btn btn-primary">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>🤖 AI Tool Hunt</h3>
+        <p>Your guide to the AI tool jungle. We test, compare, and review — so you don't have to.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <a href="category.html?id=writing">AI Writing</a>
+        <a href="category.html?id=image">AI Image</a>
+        <a href="category.html?id=video">AI Video</a>
+        <a href="category.html?id=coding">AI Coding</a>
+        <a href="category.html?id=chat">AI Chat</a>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <a href="index.html">Home</a>
+        <a href="compare.html">Compare Tools</a>
+        <a href="about.html">About</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+      </div>
+      <div class="footer-col">
+        <h4>Popular</h4>
+        <a href="tool.html?id=chatgpt">ChatGPT Review</a>
+        <a href="tool.html?id=midjourney">Midjourney Review</a>
+        <a href="tool.html?id=claude">Claude Review</a>
+        <a href="tool.html?id=cursor">Cursor Review</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 AI Tool Hunt. All rights reserved.</span>
+      <span>Made with ❤️ for AI explorers</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
