@@ -17,13 +17,17 @@ document.addEventListener('DOMContentLoaded', () => {
         case 'category': renderCategory(); break;
         case 'tool': renderToolDetail(); break;
         case 'compare': renderCompare(); break;
+        case 'guide': break;  // static page, no JS rendering needed
+        case 'blog': break;   // static page, no JS rendering needed
         case 'about': break;
+        case 'static': break; // unknown static page, do nothing
       }
     } catch(e) {
       console.error('Page render error (' + page + '):', e.message, e.stack);
-      const container = document.querySelector('.container');
-      if (container) {
-        container.innerHTML = '<div class="empty-state"><div class="emoji">🔧</div><p>Something went wrong loading this page. Please try again.</p></div>';
+      // Target main content area only, never the header
+      const mainContent = document.querySelector('main .container') || document.querySelector('main');
+      if (mainContent) {
+        mainContent.innerHTML = '<div class="empty-state" style="padding:40px"><div class="emoji">🔧</div><p>Something went wrong loading this page. Please try again.</p></div>';
       }
     }
   });
@@ -57,7 +61,12 @@ function detectPage() {
   if (path.includes('tool')) return 'tool';
   if (path.includes('compare')) return 'compare';
   if (path.includes('about')) return 'about';
-  return 'home';
+  if (path.includes('guide')) return 'guide';
+  if (path.includes('blog')) return 'blog';
+  if (path.includes('privacy')) return 'static';
+  // Default: check if page has home-specific elements, otherwise treat as static
+  if (document.getElementById('catGrid') || document.getElementById('featuredTools')) return 'home';
+  return 'static';  // unknown static page, do nothing
 }
 
 // ===== Mobile Menu =====
@@ -99,9 +108,12 @@ function renderHome() {
   const totalTools = appData.tools.length;
   
   // Stats
-  document.querySelectorAll('.stat-number')[0].textContent = totalTools;
-  document.querySelectorAll('.stat-number')[1].textContent = appData.categories.length;
-  document.querySelectorAll('.stat-number')[2].textContent = 'Weekly';
+  const statEls = document.querySelectorAll('.stat-number');
+  if (statEls.length >= 3) {
+    statEls[0].textContent = totalTools;
+    statEls[1].textContent = appData.categories.length;
+    statEls[2].textContent = 'Weekly';
+  }
   
   // Search
   initSearch();
@@ -362,14 +374,17 @@ function renderCompare() {
   const tool1 = appData.tools.find(t => t.id === t1Id);
   const tool2 = appData.tools.find(t => t.id === t2Id);
   
+  const compareEl = document.getElementById('compareContent');
+  if (!compareEl) return; // static compare article page, skip JS rendering
+  
   if (!tool1 || !tool2) {
-    document.querySelector('.container').innerHTML = '<div class="empty-state"><div class="emoji">🔍</div><p>Please select two tools to compare.</p></div>';
+    compareEl.innerHTML = '<div class="empty-state"><div class="emoji">🔍</div><p>Please select two tools to compare.</p></div>';
     return;
   }
   
   document.title = `${tool1.name} vs ${tool2.name} | AI Tool Directory`;
   
-  document.getElementById('compareContent').innerHTML = `
+  compareEl.innerHTML = `
     <div class="breadcrumb">
       <a href="index.html">Home</a> <span class="sep">/</span>
       <span>${tool1.name} vs ${tool2.name}</span>
