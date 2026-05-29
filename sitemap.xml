@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Static pages -->
   <url><loc>https://aitoolhunt.top/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://aitoolhunt.top/guide.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aitoolhunt.top/compare.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -12,6 +14,66 @@
   <url><loc>https://aitoolhunt.top/blog/free-ai-tools-2026.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aitoolhunt.top/blog/ai-coding-assistants-compared-2026.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aitoolhunt.top/blog/ai-tools-beginners-guide-2026.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Tool detail pages -->
   <url><loc>https://aitoolhunt.top/tool.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://aitoolhunt.top/category.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+
+  <url><loc>https://aitoolhunt.top/tool.html?id=chatgpt</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=claude</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=gemini</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=midjourney</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=dalle</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=stable-diffusion</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=cursor</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=copilot</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=runway</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=perplexity</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=notion-ai</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=jasper</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=suno</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=canva-ai</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=elevenlabs</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=grammarly</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=deepseek</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=leonardo</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=firefly</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=ideogram</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=pika</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=sora</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=windsurf</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=replit-ai</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=udio</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=copy-ai</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=figma-ai</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=taskade</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=hubspot-ai</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=writesonic</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=surfer-seo</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=adcreative</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=khanmigo</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=duolingo-max</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=quizlet-ai</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aitoolhunt.top/tool.html?id=socratic</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+
+  <!-- Comparison pages -->
+  <url><loc>https://aitoolhunt.top/compare.html?comp=chatgpt-vs-claude</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aitoolhunt.top/compare.html?comp=midjourney-vs-dalle</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aitoolhunt.top/compare.html?comp=cursor-vs-copilot</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aitoolhunt.top/compare.html?comp=perplexity-vs-google</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aitoolhunt.top/compare.html?comp=chatgpt-vs-deepseek</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aitoolhunt.top/compare.html?comp=claude-vs-gemini</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aitoolhunt.top/compare.html?comp=suno-vs-udio</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aitoolhunt.top/compare.html?comp=midjourney-vs-stable-diffusion</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aitoolhunt.top/compare.html?comp=windsurf-vs-cursor</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aitoolhunt.top/compare.html?comp=runway-vs-sora</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aitoolhunt.top/compare.html?comp=ideogram-vs-dalle</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aitoolhunt.top/compare.html?comp=pika-vs-runway</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aitoolhunt.top/compare.html?comp=chatgpt-vs-perplexity</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aitoolhunt.top/compare.html?comp=khanmigo-vs-duolingo</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aitoolhunt.top/compare/chatgpt-vs-claude.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aitoolhunt.top/compare/midjourney-vs-dalle.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aitoolhunt.top/compare/cursor-vs-copilot.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aitoolhunt.top/compare/perplexity-vs-google.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
 </urlset>
