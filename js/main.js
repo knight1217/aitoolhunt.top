@@ -11,12 +11,20 @@ document.addEventListener('DOMContentLoaded', () => {
   initMobileMenu();
   loadData().then(() => {
     const page = detectPage();
-    switch(page) {
-      case 'home': renderHome(); break;
-      case 'category': renderCategory(); break;
-      case 'tool': renderToolDetail(); break;
-      case 'compare': renderCompare(); break;
-      case 'about': break;
+    try {
+      switch(page) {
+        case 'home': renderHome(); break;
+        case 'category': renderCategory(); break;
+        case 'tool': renderToolDetail(); break;
+        case 'compare': renderCompare(); break;
+        case 'about': break;
+      }
+    } catch(e) {
+      console.error('Page render error (' + page + '):', e.message, e.stack);
+      const container = document.querySelector('.container');
+      if (container) {
+        container.innerHTML = '<div class="empty-state"><div class="emoji">🔧</div><p>Something went wrong loading this page. Please try again.</p></div>';
+      }
     }
   });
 });
@@ -298,11 +306,11 @@ function renderToolDetail() {
       <div class="pros-cons">
         <div class="pro-list">
           <h3>👍 Pros</h3>
-          <ul>${tool.pros.map(p => `<li>${p}</li>`).join('')}</ul>
+          <ul>${(tool.pros || []).map(p => `<li>${p}</li>`).join('')}</ul>
         </div>
         <div class="con-list">
           <h3>👎 Cons</h3>
-          <ul>${tool.cons.map(c => `<li>${c}</li>`).join('')}</ul>
+          <ul>${(tool.cons || []).map(c => `<li>${c}</li>`).join('')}</ul>
         </div>
       </div>
     </div>
@@ -339,7 +347,7 @@ function renderToolDetail() {
     <div class="detail-section">
       <h2>Tags</h2>
       <div class="tool-card-tags">
-        ${tool.tags.map(tag => `<span class="tool-tag">${tag}</span>`).join('')}
+        ${(tool.tags || []).map(tag => `<span class="tool-tag">${tag}</span>`).join('')}
       </div>
     </div>
   `;
@@ -376,8 +384,8 @@ function renderCompare() {
       <tr><th>Pricing</th><td>${tool1.price_detail}</td><td>${tool2.price_detail}</td></tr>
       <tr><th>Category</th><td>${tool1.category}</td><td>${tool2.category}</td></tr>
       <tr><th>Summary</th><td>${tool1.summary}</td><td>${tool2.summary}</td></tr>
-      <tr><th>Pros</th><td>${tool1.pros.map(p => '✓ '+p).join('<br>')}</td><td>${tool2.pros.map(p => '✓ '+p).join('<br>')}</td></tr>
-      <tr><th>Cons</th><td>${tool1.cons.map(c => '✗ '+c).join('<br>')}</td><td>${tool2.cons.map(c => '✗ '+c).join('<br>')}</td></tr>
+      <tr><th>Pros</th><td>${(tool1.pros || []).map(p => '✓ '+p).join('<br>')}</td><td>${(tool2.pros || []).map(p => '✓ '+p).join('<br>')}</td></tr>
+      <tr><th>Cons</th><td>${(tool1.cons || []).map(c => '✗ '+c).join('<br>')}</td><td>${(tool2.cons || []).map(c => '✗ '+c).join('<br>')}</td></tr>
       <tr><th>Best For</th><td>${tool1.best_for}</td><td>${tool2.best_for}</td></tr>
       <tr><th>Link</th><td><a href="${tool1.url}" target="_blank" class="btn btn-primary" style="font-size:0.85rem">Visit →</a></td><td><a href="${tool2.url}" target="_blank" class="btn btn-primary" style="font-size:0.85rem">Visit →</a></td></tr>
     </table>
@@ -401,7 +409,7 @@ function initSearch() {
       
       const matches = appData.tools.filter(t => 
         t.name.toLowerCase().includes(query) ||
-        t.tags.some(tag => tag.includes(query)) ||
+        (t.tags || []).some(tag => tag.includes(query)) ||
         t.category.includes(query) ||
         t.summary.toLowerCase().includes(query)
       ).slice(0, 8);
@@ -436,7 +444,7 @@ function toolCardHTML(tool, isFeatured) {
         <div class="tool-card-icon">${getToolEmoji(tool)}</div>
         <div class="tool-card-meta">
           <div class="tool-card-name">${tool.name}</div>
-          <div class="tool-card-pricing">${tool.pricing} · ${tool.price_detail.split(' / ')[0]}</div>
+          <div class="tool-card-pricing">${tool.pricing} · ${(tool.price_detail || '').split(' / ')[0]}</div>
         </div>
       </div>
       <p class="tool-card-summary">${tool.summary}</p>
@@ -446,7 +454,7 @@ function toolCardHTML(tool, isFeatured) {
           <span class="score">${tool.rating}</span>
         </div>
         <div class="tool-card-tags">
-          ${tool.tags.slice(0, 2).map(t => `<span class="tool-tag">${t}</span>`).join('')}
+          ${(tool.tags || []).slice(0, 2).map(t => `<span class="tool-tag">${t}</span>`).join('')}
         </div>
       </div>
     </a>
