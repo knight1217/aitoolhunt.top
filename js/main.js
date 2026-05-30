@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         case 'tool': renderToolDetail(); break;
         case 'compare': renderCompare(); break;
         case 'guide': break;  // static page, no JS rendering needed
-        case 'blog': break;   // static page, no JS rendering needed
+        case 'blog': initBlogArticleNav(); break;  // add back link on article pages
         case 'about': break;
         case 'static': break; // unknown static page, do nothing
       }
@@ -67,6 +67,40 @@ function detectPage() {
   // Default: check if page has home-specific elements, otherwise treat as static
   if (document.getElementById('catGrid') || document.getElementById('featuredTools')) return 'home';
   return 'static';  // unknown static page, do nothing
+}
+
+// ===== Blog Article Navigation =====
+function initBlogArticleNav() {
+  // Only inject back link on article pages, not blog index
+  const path = window.location.pathname.toLowerCase();
+  const isIndex = path.endsWith('/blog/') || path.endsWith('/blog') || path.endsWith('/blog/index.html');
+  if (isIndex) return;
+
+  const main = document.querySelector('main');
+  if (!main) return;
+
+  // Inject back button
+  const backHTML = `
+    <div class="blog-back-nav" style="max-width:800px;margin:0 auto 16px;padding:12px 0;">
+      <a href="index.html" style="display:inline-flex;align-items:center;gap:8px;color:var(--accent);font-weight:600;font-size:0.95rem;text-decoration:none;padding:8px 16px;border-radius:8px;background:var(--bg-card);border:1px solid var(--border);transition:all 0.2s;">
+        ← Back to All Articles
+      </a>
+    </div>`;
+  main.querySelector('.container').insertAdjacentHTML('afterbegin', backHTML);
+
+  // Ensure header nav is visible (in case CSS failed to load header)
+  const header = document.querySelector('.header');
+  if (!header || header.offsetHeight === 0) {
+    const fallbackNav = document.createElement('div');
+    fallbackNav.className = 'blog-fallback-nav';
+    fallbackNav.innerHTML = `
+      <a href="../index.html">Home</a>
+      <a href="../index.html#categories">Categories</a>
+      <a href="index.html">Blog</a>
+      <a href="../about.html">About</a>`;
+    fallbackNav.style.cssText = 'display:flex;gap:20px;padding:12px 20px;background:var(--bg-secondary);border-bottom:1px solid var(--border);flex-wrap:wrap;justify-content:center;';
+    document.body.insertBefore(fallbackNav, document.body.firstChild);
+  }
 }
 
 // ===== Mobile Menu =====
