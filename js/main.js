@@ -184,7 +184,7 @@ function renderHome() {
 // ===== CATEGORY PAGE =====
 function renderCategory() {
   const params = new URLSearchParams(window.location.search);
-  const slug = params.get('id');
+  const slug = params.get('id') || params.get('cat');
   const cat = appData.categories.find(c => c.slug === slug);
   
   if (!cat) {
