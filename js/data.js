@@ -1404,27 +1404,37 @@ window.__TOOLS_DATA__ = {
     {
       "name": "Grok (xAI)",
       "category": "chat",
-      "eta": "Coming soon"
+      "eta": "Coming soon",
+      "desc": "Elon Musk's AI chatbot with real-time X (Twitter) access and unfiltered responses.",
+      "details": "Grok stands out for its real-time access to X platform data, giving it a unique advantage in current events and trending topics. It's known for a more irreverent, less censored tone than competitors like ChatGPT. Best for: users who want real-time information and a more personality-driven AI experience."
     },
     {
       "name": "Synthesia",
       "category": "video",
-      "eta": "Coming soon"
+      "eta": "Coming soon",
+      "desc": "Create professional AI videos with virtual avatars — no camera or studio needed.",
+      "details": "Synthesia lets you generate talking-head videos using AI avatars that lip-sync to your script. Used by 50,000+ companies for training videos, marketing, and personalized sales outreach. Supports 140+ languages and 230+ avatars. Best for: businesses creating video content at scale without production costs."
     },
     {
       "name": "Claude Code",
       "category": "coding",
-      "eta": "Coming soon"
+      "eta": "Coming soon",
+      "desc": "Anthropic's agentic coding tool that can explore, edit, and manage entire codebases.",
+      "details": "Claude Code runs in your terminal and can understand large codebases, make multi-file edits, run tests, and handle git operations — all with human oversight. It's designed as a collaborative coding partner rather than just autocomplete. Best for: developers who want an AI that understands their full project context."
     },
     {
       "name": "Gamma",
       "category": "design",
-      "eta": "Coming soon"
+      "eta": "Coming soon",
+      "desc": "AI-powered presentation and document builder — turn ideas into polished decks in minutes.",
+      "details": "Gamma replaces PowerPoint and Google Slides with an AI-first approach: type your topic, and it generates a complete presentation with layouts, images, and talking points. Great for pitch decks, project proposals, and reports. Best for: anyone who needs professional presentations without spending hours on design."
     },
     {
       "name": "Luma Dream Machine",
       "category": "video",
-      "eta": "Coming soon"
+      "eta": "Coming soon",
+      "desc": "Turn text or images into realistic AI-generated videos in seconds.",
+      "details": "Luma's Dream Machine creates short video clips from text prompts or starter images. Unlike earlier AI video tools, it produces physically realistic motion and consistent characters. Currently generates 5-second clips. Best for: creators prototyping video ideas, social media content, and visual storytelling."
     }
   ],
   "comparisons": [
