@@ -1398,6 +1398,517 @@ window.__TOOLS_DATA__ = {
         "mobile"
       ],
       "featured": false
+    },
+    {
+      "id": "character-ai",
+      "name": "Character.AI",
+      "url": "https://character.ai",
+      "affiliate": null,
+      "category": "chat",
+      "pricing": "Freemium",
+      "price_detail": "Free unlimited chats; premium $9.99/month for faster responses",
+      "rating": 8.5,
+      "summary": "Chat with AI versions of anyone — fictional characters, historical figures, or your own creations.",
+      "description": "Character.AI lets you create and chat with AI personas. Talk to a philosopher, a fictional character, a language tutor, or build your own AI with custom personality traits. Uses a proprietary LLM optimized for conversational depth and personality consistency. Massively popular with younger users — over 20 million monthly active users.",
+      "tutorial": "1. Go to character.ai and sign up (free). 2. Browse the homepage to see trending characters, or use the search bar to find a specific person/character. 3. Click any character to start chatting immediately. 4. To create your own: click '+ Create' → choose 'Character' → fill in name, greeting, description, and example dialogue. 5. Advanced: use the 'Definition' field to write detailed personality instructions for your AI. 6. You can make characters public (anyone can chat) or private (only you). 7. The 'Rooms' feature lets multiple AI characters interact in a group chat.",
+      "pros": [
+        "Free unlimited chats",
+        "Incredibly engaging and addictive",
+        "Huge library of user-created characters",
+        "Great for language practice and creative writing"
+      ],
+      "cons": [
+        "Not for factual research — AI can hallucinate",
+        "NSFW filters can be restrictive",
+        "Response quality varies by character setup"
+      ],
+      "best_for": "Creative writing, roleplay, language practice, and casual fun conversations with AI personas",
+      "alternatives": [
+        "chatgpt",
+        "claude",
+        "deepseek"
+      ],
+      "tags": [
+        "chatbot",
+        "entertainment",
+        "creative",
+        "freemium"
+      ],
+      "featured": false
+    },
+    {
+      "id": "quillbot",
+      "name": "QuillBot",
+      "url": "https://quillbot.com",
+      "affiliate": null,
+      "category": "writing",
+      "pricing": "Freemium",
+      "price_detail": "Free: 125 words per paraphrase; Premium: $9.95/month for unlimited",
+      "rating": 8.2,
+      "summary": "AI paraphrasing tool that rewrites text while preserving meaning — great for students and writers.",
+      "description": "QuillBot is the most popular AI paraphrasing tool with over 50 million users. It offers 7 paraphrasing modes (Standard, Fluency, Formal, Academic, Creative, Expand, Shorten) and a built-in grammar checker, plagiarism checker, and citation generator. Perfect for rewriting sentences, avoiding plagiarism, and improving writing clarity.",
+      "tutorial": "1. Go to quillbot.com — no signup needed to try. 2. Paste your text into the left panel. 3. QuillBot instantly paraphrases in the right panel. 4. Click the mode selector (top of right panel) to switch between Standard, Fluency, Formal, Academic, Creative, Expand, and Shorten. 5. Click any rewritten word to see synonyms and pick alternatives. 6. Use the 'Grammar Checker' tab for proofreading. 7. Free plan: 125 words per paraphrase. Upgrade for unlimited words and all modes.",
+      "pros": [
+        "Best-in-class paraphrasing quality",
+        "7 writing modes for different needs",
+        "Built-in grammar and plagiarism checker",
+        "Free tier is genuinely useful"
+      ],
+      "cons": [
+        "125-word limit on free plan is tight",
+        "Some paraphrases sound robotic",
+        "Premium is subscription-only"
+      ],
+      "best_for": "Students rewriting essays, non-native speakers improving writing, and content creators avoiding repetition",
+      "alternatives": [
+        "grammarly",
+        "writesonic",
+        "chatgpt"
+      ],
+      "tags": [
+        "writing",
+        "paraphrasing",
+        "grammar",
+        "freemium"
+      ],
+      "featured": false
+    },
+    {
+      "id": "otter-ai",
+      "name": "Otter.ai",
+      "url": "https://otter.ai",
+      "affiliate": null,
+      "category": "productivity",
+      "pricing": "Freemium",
+      "price_detail": "Free: 300 monthly minutes; Pro: $16.99/month; Business: $30/month",
+      "rating": 8.3,
+      "summary": "AI meeting assistant that transcribes, summarizes, and captures action items from conversations in real time.",
+      "description": "Otter.ai records and transcribes meetings, interviews, and lectures in real time with high accuracy. It automatically identifies speakers, generates summaries, and extracts action items. Integrates with Zoom, Google Meet, and Microsoft Teams. Over 10 million users including journalists, students, and business professionals.",
+      "tutorial": "1. Sign up at otter.ai with Google/Microsoft account. 2. Install the mobile app (iOS/Android) or Chrome extension. 3. To record: click 'Record' → Otter transcribes in real time. 4. For Zoom/Meet/Teams: connect Otter to your calendar → it auto-joins and transcribes. 5. After recording: Otter generates a summary with key points and action items. 6. Click any word in the transcript to jump to that moment in the audio. 7. Share transcripts via link — recipients can search, highlight, and comment.",
+      "pros": [
+        "Real-time transcription is impressively accurate",
+        "Auto-joins meetings hands-free",
+        "Searchable, shareable transcripts",
+        "Speaker identification works well"
+      ],
+      "cons": [
+        "300 min/month free limit runs out fast",
+        "Struggles with heavy accents",
+        "No offline recording"
+      ],
+      "best_for": "Professionals with lots of meetings, journalists doing interviews, and students recording lectures",
+      "alternatives": [
+        "notion-ai",
+        "fireflies"
+      ],
+      "tags": [
+        "transcription",
+        "meetings",
+        "productivity",
+        "freemium"
+      ],
+      "featured": false
+    },
+    {
+      "id": "kling",
+      "name": "Kling AI",
+      "url": "https://klingai.com",
+      "affiliate": null,
+      "category": "video",
+      "pricing": "Freemium",
+      "price_detail": "Free: daily credits; Premium: $8-28/month",
+      "rating": 8.7,
+      "summary": "Kuaishou's AI video generator — currently producing the highest-quality AI videos with realistic motion.",
+      "description": "Kling AI by Kuaishou (the company behind TikTok's biggest Chinese competitor) is widely considered the best AI video generator in 2026. It creates up to 2-minute videos from text prompts or images, with industry-leading motion coherence, physics simulation, and character consistency. Supports text-to-video, image-to-video, and video extension.",
+      "tutorial": "1. Go to klingai.com and sign up (email or phone). 2. On the dashboard, click 'Text to Video' or 'Image to Video'. 3. For text-to-video: write a detailed prompt describing the scene, motion, style, and mood. 4. Choose video duration (5s or 10s) and aspect ratio (16:9, 9:16, 1:1). 5. Click 'Generate' — wait 2-5 minutes. 6. For image-to-video: upload a photo and Kling animates it with natural motion. 7. Download your video or use the 'Extend' feature to make it longer.",
+      "pros": [
+        "Best motion quality in AI video generation",
+        "Supports longer videos (up to 2 min)",
+        "Image-to-video animation is stunning",
+        "Free daily credits"
+      ],
+      "cons": [
+        "Interface is partly in Chinese",
+        "Generating takes 2-5 minutes",
+        "Free credits are limited"
+      ],
+      "best_for": "Creators who want the highest-quality AI-generated video clips without paying for Runway or Sora",
+      "alternatives": [
+        "runway",
+        "sora",
+        "pika"
+      ],
+      "tags": [
+        "video-generation",
+        "text-to-video",
+        "freemium",
+        "trending"
+      ],
+      "featured": true
+    },
+    {
+      "id": "opus-clip",
+      "name": "Opus Clip",
+      "url": "https://opus.pro",
+      "affiliate": null,
+      "category": "video",
+      "pricing": "Freemium",
+      "price_detail": "Free: 5 clips/month; Pro: $19/month; Unlimited: $49/month",
+      "rating": 8.4,
+      "summary": "AI tool that turns long videos into viral short clips — one click turns a podcast into 10+ social-ready shorts.",
+      "description": "Opus Clip is an AI video repurposing tool that analyzes long-form content (podcasts, interviews, webinars) and automatically extracts the most engaging moments as short clips. It adds captions, B-roll, emoji reactions, and face tracking — all automatically. Used by major creators and podcasters to multiply their content output.",
+      "tutorial": "1. Go to opus.pro and sign up. 2. Paste a YouTube link or upload a video file. 3. Opus analyzes the video and identifies viral-worthy moments based on pacing, emotional peaks, and topic shifts. 4. In 5-10 minutes, you get 10+ short clips (usually 30-90 seconds each). 5. Each clip comes with auto-generated captions, face tracking, and B-roll overlays. 6. Review and edit any clip — tweak captions, trim, or adjust styling. 7. Export individually or in batch. Free plan: 5 clips per month.",
+      "pros": [
+        "Saves hours of manual editing",
+        "AI clip selection is surprisingly good",
+        "Auto captions with emoji are social-media ready",
+        "Face tracking keeps speaker centered"
+      ],
+      "cons": [
+        "5 free clips/month is limited",
+        "AI sometimes picks boring moments",
+        "Editing tools are basic"
+      ],
+      "best_for": "Podcasters, YouTubers, and content creators who want to repurpose long videos into TikTok/Reels/Shorts",
+      "alternatives": [
+        "runway",
+        "pictory"
+      ],
+      "tags": [
+        "video-editing",
+        "social-media",
+        "repurposing",
+        "freemium"
+      ],
+      "featured": false
+    },
+    {
+      "id": "notebooklm",
+      "name": "NotebookLM",
+      "url": "https://notebooklm.google.com",
+      "affiliate": null,
+      "category": "productivity",
+      "pricing": "Free",
+      "price_detail": "Completely free with Google account",
+      "rating": 8.8,
+      "summary": "Google's AI research assistant — upload your sources and get answers based ONLY on your documents, zero hallucinations.",
+      "description": "NotebookLM is Google's experimental AI notebook that grounds its answers exclusively in the sources you provide. Upload PDFs, Google Docs, websites, or YouTube links — up to 50 sources per notebook. The AI summarizes, answers questions, creates study guides, and even generates podcast-style audio overviews. Because it only uses YOUR sources, it virtually eliminates hallucinations.",
+      "tutorial": "1. Go to notebooklm.google.com and sign in with Google account. 2. Click 'New Notebook' and give it a name. 3. Add sources: upload PDFs, paste URLs, select Google Docs, or paste text directly. 4. Once sources are loaded, the AI auto-generates a summary. 5. Use the chat panel to ask questions — every answer includes citations pointing to exact locations in your sources. 6. Click 'Notebook Guide' for auto-generated FAQ, study guide, table of contents, and timeline. 7. The 'Audio Overview' feature generates a conversational podcast about your sources.",
+      "pros": [
+        "Zero hallucinations — answers grounded in your docs",
+        "Completely free, no limits",
+        "Auto-generated study guides and FAQs",
+        "Audio overviews are uniquely useful"
+      ],
+      "cons": [
+        "50 source limit per notebook",
+        "Only available in select countries (needs VPN in some regions)",
+        "No mobile app yet"
+      ],
+      "best_for": "Researchers, students, and professionals who need to synthesize large amounts of information from trusted sources",
+      "alternatives": [
+        "perplexity",
+        "notion-ai",
+        "chatgpt"
+      ],
+      "tags": [
+        "research",
+        "study",
+        "free",
+        "google"
+      ],
+      "featured": true
+    },
+    {
+      "id": "fooocus",
+      "name": "Fooocus",
+      "url": "https://github.com/lllyasviel/Fooocus",
+      "affiliate": null,
+      "category": "image",
+      "pricing": "Free",
+      "price_detail": "Free and open source — runs locally on your own GPU",
+      "rating": 8.1,
+      "summary": "Free open-source AI image generator that delivers Midjourney-quality results — runs on your own computer.",
+      "description": "Fooocus is a free, open-source AI image generator built on Stable Diffusion technology. Unlike cloud services, it runs entirely on your own computer (requires a GPU with 4GB+ VRAM). It simplifies Stable Diffusion's complex settings into an easy-to-use interface while producing professional-quality images. No subscriptions, no credits, no internet required after installation.",
+      "tutorial": "1. Go to github.com/lllyasviel/Fooocus and click 'Releases' to download the installer for Windows or Mac. 2. Run the installer — it downloads the AI model (~6GB) automatically. 3. Launch Fooocus — it opens in your web browser (local, no internet needed). 4. Type your image prompt in the text box at the bottom. 5. Click 'Generate' — first image takes 10-30 seconds depending on your GPU. 6. Use 'Advanced' checkbox to access: image-to-image, inpainting, face swap, and style controls. 7. Images save automatically to the 'outputs' folder.",
+      "pros": [
+        "Completely free, no limits, no internet needed",
+        "Midjourney-quality output",
+        "Advanced features like inpainting and face swap",
+        "Privacy: images never leave your computer"
+      ],
+      "cons": [
+        "Requires a decent GPU (4GB+ VRAM)",
+        "Installation can be tricky for beginners",
+        "No cloud/team collaboration"
+      ],
+      "best_for": "Users with a gaming PC who want unlimited high-quality AI image generation without paying subscriptions",
+      "alternatives": [
+        "stable-diffusion",
+        "leonardo-ai",
+        "midjourney"
+      ],
+      "tags": [
+        "image-generation",
+        "open-source",
+        "free",
+        "local"
+      ],
+      "featured": false
+    },
+    {
+      "id": "browse-ai",
+      "name": "Browse AI",
+      "url": "https://browse.ai",
+      "affiliate": null,
+      "category": "productivity",
+      "pricing": "Freemium",
+      "price_detail": "Free: 50 credits/month; Starter: $49/month; Professional: $99/month",
+      "rating": 8.0,
+      "summary": "No-code web scraping and monitoring — train an AI to extract data from any website in 2 minutes.",
+      "description": "Browse AI lets you extract data from any website without writing code. You train a robot by showing it what to click and what data to extract — then it runs on schedule, monitoring changes and exporting structured data. Used for competitor price monitoring, job listing tracking, real estate data, and lead generation. Over 500,000 users.",
+      "tutorial": "1. Go to browse.ai and sign up. 2. Click 'Create New Robot' and paste a URL. 3. Browse AI opens the page — click on the data you want to extract (prices, names, links). 4. It auto-detects repeating patterns (like product listings) and captures all matching items. 5. Set a schedule: run once, daily, hourly, or on webhook trigger. 6. Export data as CSV, JSON, Google Sheets, or API. 7. Set up email alerts when data changes (e.g., competitor drops prices).",
+      "pros": [
+        "No coding required",
+        "Handles pagination and infinite scroll automatically",
+        "Scheduled monitoring with change alerts",
+        "Good for non-technical users"
+      ],
+      "cons": [
+        "50 credits/month on free plan is very limited",
+        "Complex sites with CAPTCHAs can fail",
+        "Paid plans are expensive for casual use"
+      ],
+      "best_for": "Business owners tracking competitor prices, job seekers monitoring listings, and researchers collecting web data",
+      "alternatives": [
+        "notion-ai"
+      ],
+      "tags": [
+        "web-scraping",
+        "automation",
+        "data",
+        "freemium"
+      ],
+      "featured": false
+    },
+    {
+      "id": "consensus",
+      "name": "Consensus",
+      "url": "https://consensus.app",
+      "affiliate": null,
+      "category": "education",
+      "pricing": "Freemium",
+      "price_detail": "Free: limited searches; Premium: $11.99/month for unlimited",
+      "rating": 8.3,
+      "summary": "AI research search engine — ask a question, get answers backed by real scientific papers with citations.",
+      "description": "Consensus is an AI-powered academic search engine that finds and summarizes insights from over 200 million peer-reviewed research papers. Unlike ChatGPT, every answer is backed by real published studies with direct citations. It's like Google Scholar + AI summarization — perfect for evidence-based answers to scientific, medical, and social science questions.",
+      "tutorial": "1. Go to consensus.app — no signup needed to try. 2. Type a research question like 'Does coffee improve athletic performance?' or 'Effect of meditation on anxiety'. 3. Consensus searches 200M+ papers and returns: a consensus meter (Yes/No/Maybe based on study results), top 5-10 relevant papers with key findings, and an AI-generated summary. 4. Click any paper to see: full citation, study design, population, and key results. 5. Use filters: date range, study type (RCT, meta-analysis, etc.), journal quality. 6. Free plan: limited searches per month.",
+      "pros": [
+        "Every answer backed by real research papers",
+        "Consensus meter shows overall scientific agreement",
+        "Filters for study quality and design",
+        "Great for fact-checking health and science claims"
+      ],
+      "cons": [
+        "Limited to academic research topics",
+        "Free searches are limited",
+        "Mostly English-language papers"
+      ],
+      "best_for": "Students writing papers, health-conscious users fact-checking claims, and professionals needing evidence-based answers",
+      "alternatives": [
+        "perplexity",
+        "elicit",
+        "chatgpt"
+      ],
+      "tags": [
+        "research",
+        "academic",
+        "science",
+        "freemium"
+      ],
+      "featured": false
+    },
+    {
+      "id": "removebg",
+      "name": "Remove.bg",
+      "url": "https://remove.bg",
+      "affiliate": null,
+      "category": "image",
+      "pricing": "Freemium",
+      "price_detail": "Free: 1 credit (low-res); Subscription: from $9/month for 40 credits",
+      "rating": 8.6,
+      "summary": "Remove image backgrounds in 5 seconds with AI — the fastest and most accurate background remover online.",
+      "description": "Remove.bg is the most popular AI background removal tool, processing over 300 million images. Upload any photo and it automatically detects the subject and removes the background with pixel-perfect accuracy in 5 seconds. Works on portraits, products, animals, cars, and more. No manual selection needed — just upload and done.",
+      "tutorial": "1. Go to remove.bg. 2. Click 'Upload Image' or drag-and-drop a photo. 3. Wait 5 seconds — the AI removes the background automatically. 4. Preview the result: transparent background behind your subject. 5. Click 'Edit' to manually refine (restore/erase areas) if needed. 6. Download: free gives low-res preview; upgrade for HD. 7. API available for developers to integrate into apps.",
+      "pros": [
+        "Incredibly fast and accurate",
+        "Works on almost any subject type",
+        "No manual selection required",
+        "API for developers"
+      ],
+      "cons": [
+        "Free download is low resolution",
+        "One free credit only (not per day)",
+        "Struggles with complex hair/fur sometimes"
+      ],
+      "best_for": "Anyone who needs to remove image backgrounds quickly — designers, e-commerce sellers, social media creators",
+      "alternatives": [
+        "canva-ai",
+        "adobe-firefly"
+      ],
+      "tags": [
+        "image-editing",
+        "background-removal",
+        "freemium",
+        "design"
+      ],
+      "featured": false
+    },
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "url": "https://synthesia.io",
+      "affiliate": null,
+      "category": "video",
+      "pricing": "Paid",
+      "price_detail": "Starter: $29/month; Creator: $89/month; Enterprise: custom pricing",
+      "rating": 8.3,
+      "summary": "Create professional AI videos with lifelike avatars — no camera, studio, or actors needed.",
+      "description": "Synthesia is the leading AI video platform for businesses. Type a script, choose from 230+ AI avatars, and Synthesia generates a professional talking-head video with perfect lip-sync in 140+ languages. Used by 50,000+ companies for training videos, marketing, sales outreach, and internal communications. No filming, editing, or production skills required.",
+      "tutorial": "1. Sign up at synthesia.io (free demo available). 2. Click 'Create New Video' and choose a template or blank canvas. 3. Select an AI avatar from the library (230+ options across ages, ethnicities, and styles). 4. Type or paste your script — supports 140+ languages. 5. Customize background (upload your own, choose stock, or use screen recording). 6. Add text overlays, images, shapes, and transitions. 7. Click 'Generate' — your avatar delivers the script with natural lip-sync. 8. Download as MP4 or share via link.",
+      "pros": [
+        "Avatars are incredibly lifelike",
+        "140+ languages with native-quality lip-sync",
+        "No filming equipment or actors needed",
+        "Enterprise-grade security and compliance"
+      ],
+      "cons": [
+        "Expensive for individuals ($29/month minimum)",
+        "Avatars can feel slightly uncanny",
+        "Limited creative control vs real filming"
+      ],
+      "best_for": "Companies creating training videos, sales teams personalizing outreach, and marketers producing video content at scale",
+      "alternatives": [
+        "runway",
+        "heygen"
+      ],
+      "tags": [
+        "video-creation",
+        "avatar",
+        "business",
+        "paid"
+      ],
+      "featured": false
+    },
+    {
+      "id": "claude-code-tool",
+      "name": "Claude Code",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
+      "affiliate": null,
+      "category": "coding",
+      "pricing": "Paid",
+      "price_detail": "API usage-based; included with Claude Pro ($20/month) for limited use",
+      "rating": 8.8,
+      "summary": "Anthropic's agentic coding CLI — explores, edits, tests, and commits across entire codebases with human oversight.",
+      "description": "Claude Code is Anthropic's terminal-based agentic coding tool. Unlike autocomplete tools, it understands your entire codebase, plans multi-file changes, runs tests, fixes bugs, and handles git operations. It works as a collaborative partner — showing you what it plans to do before executing. Best-in-class for large refactoring and complex debugging tasks.",
+      "tutorial": "1. Install via npm: open terminal and run 'npm install -g @anthropic-ai/claude-code'. 2. Run 'claude' in your project directory. 3. Claude Code scans your entire codebase to understand structure and conventions. 4. Describe what you want: 'Add error handling to all API routes' or 'Refactor the auth module to use JWT'. 5. Claude shows a plan of changes before executing — review and approve. 6. It makes edits, runs tests, and iterates until tests pass. 7. Claude can create commits with meaningful messages. 8. You maintain full control — approve, reject, or modify any step.",
+      "pros": [
+        "Understands entire codebases, not just open files",
+        "Plans before executing — no surprises",
+        "Runs tests and fixes failures automatically",
+        "Handles git workflow end-to-end"
+      ],
+      "cons": [
+        "Terminal-only (no GUI)",
+        "API costs can add up for heavy users",
+        "Requires some technical comfort with CLI"
+      ],
+      "best_for": "Professional developers working on large codebases who want an AI that truly understands their project",
+      "alternatives": [
+        "cursor",
+        "copilot",
+        "windsurf"
+      ],
+      "tags": [
+        "coding",
+        "agentic",
+        "terminal",
+        "paid"
+      ],
+      "featured": true
+    },
+    {
+      "id": "gamma-ai",
+      "name": "Gamma",
+      "url": "https://gamma.app",
+      "affiliate": null,
+      "category": "design",
+      "pricing": "Freemium",
+      "price_detail": "Free: 400 AI credits; Plus: $10/month; Pro: $20/month",
+      "rating": 8.5,
+      "summary": "AI presentation and document builder — turn a one-line idea into a polished deck, doc, or webpage in 30 seconds.",
+      "description": "Gamma replaces PowerPoint, Google Slides, and Notion with an AI-first approach. Type a topic or paste an outline, and Gamma generates a complete presentation with layouts, images, charts, and talking points. It's also a document builder and webpage creator — all from the same editor. Used by millions for pitch decks, reports, proposals, and internal docs.",
+      "tutorial": "1. Go to gamma.app and sign up. 2. Click 'Create New' and choose: Presentation, Document, or Webpage. 3. Type a topic like 'Q2 Marketing Strategy' or paste an outline. 4. Gamma generates a complete deck with slides, images, and content in 30 seconds. 5. Use the AI chat to refine: 'Make slide 3 more data-heavy' or 'Add a competitor comparison slide'. 6. Customize with themes, fonts, and your brand colors. 7. Share via link, export as PDF/PPT, or present live with speaker notes.",
+      "pros": [
+        "Generates complete presentations in 30 seconds",
+        "Beautiful design out of the box",
+        "AI chat editing is intuitive",
+        "Free tier is genuinely useful"
+      ],
+      "cons": [
+        "Less granular control than PowerPoint",
+        "AI-generated images can be hit-or-miss",
+        "Export to PPT loses some formatting"
+      ],
+      "best_for": "Anyone who needs professional presentations, pitch decks, or reports without spending hours on design",
+      "alternatives": [
+        "canva-ai",
+        "notion-ai"
+      ],
+      "tags": [
+        "presentations",
+        "design",
+        "documents",
+        "freemium"
+      ],
+      "featured": true
+    },
+    {
+      "id": "luma-dream-machine",
+      "name": "Luma Dream Machine",
+      "url": "https://lumalabs.ai/dream-machine",
+      "affiliate": null,
+      "category": "video",
+      "pricing": "Freemium",
+      "price_detail": "Free: limited generations; Premium: $9.99/month for more",
+      "rating": 8.2,
+      "summary": "Turn text or images into realistic AI videos — physically accurate motion and consistent characters.",
+      "description": "Luma Dream Machine creates short video clips from text prompts or starter images with industry-leading physical realism. Unlike earlier AI video tools, characters stay consistent frame-to-frame, motion follows real-world physics, and camera movements feel cinematic. Great for prototyping video ideas, social media content, and visual storytelling.",
+      "tutorial": "1. Go to lumalabs.ai/dream-machine and sign up. 2. Choose 'Text to Video' or 'Image to Video'. 3. For text: write a prompt describing the scene and motion ('A drone flying over a misty mountain lake at sunrise, cinematic'). 4. For image: upload a photo and Luma animates it with realistic motion. 5. Click 'Generate' — wait 2-5 minutes. 6. Video is generated as a 5-second clip. 7. You can extend, loop, or download the result.",
+      "pros": [
+        "Best physical realism in AI video",
+        "Character consistency across frames",
+        "Cinematic camera motion",
+        "Free tier available"
+      ],
+      "cons": [
+        "Only 5-second clips",
+        "Generation can be slow",
+        "Limited control over specific movements"
+      ],
+      "best_for": "Creators prototyping video concepts, social media content creators, and anyone exploring AI video generation",
+      "alternatives": [
+        "runway",
+        "sora",
+        "kling"
+      ],
+      "tags": [
+        "video-generation",
+        "text-to-video",
+        "freemium",
+        "trending"
+      ],
+      "featured": false
     }
   ],
   "upcoming": [
@@ -1407,34 +1918,6 @@ window.__TOOLS_DATA__ = {
       "eta": "Coming soon",
       "desc": "Elon Musk's AI chatbot with real-time X (Twitter) access and unfiltered responses.",
       "details": "Grok stands out for its real-time access to X platform data, giving it a unique advantage in current events and trending topics. It's known for a more irreverent, less censored tone than competitors like ChatGPT. Best for: users who want real-time information and a more personality-driven AI experience."
-    },
-    {
-      "name": "Synthesia",
-      "category": "video",
-      "eta": "Coming soon",
-      "desc": "Create professional AI videos with virtual avatars — no camera or studio needed.",
-      "details": "Synthesia lets you generate talking-head videos using AI avatars that lip-sync to your script. Used by 50,000+ companies for training videos, marketing, and personalized sales outreach. Supports 140+ languages and 230+ avatars. Best for: businesses creating video content at scale without production costs."
-    },
-    {
-      "name": "Claude Code",
-      "category": "coding",
-      "eta": "Coming soon",
-      "desc": "Anthropic's agentic coding tool that can explore, edit, and manage entire codebases.",
-      "details": "Claude Code runs in your terminal and can understand large codebases, make multi-file edits, run tests, and handle git operations — all with human oversight. It's designed as a collaborative coding partner rather than just autocomplete. Best for: developers who want an AI that understands their full project context."
-    },
-    {
-      "name": "Gamma",
-      "category": "design",
-      "eta": "Coming soon",
-      "desc": "AI-powered presentation and document builder — turn ideas into polished decks in minutes.",
-      "details": "Gamma replaces PowerPoint and Google Slides with an AI-first approach: type your topic, and it generates a complete presentation with layouts, images, and talking points. Great for pitch decks, project proposals, and reports. Best for: anyone who needs professional presentations without spending hours on design."
-    },
-    {
-      "name": "Luma Dream Machine",
-      "category": "video",
-      "eta": "Coming soon",
-      "desc": "Turn text or images into realistic AI-generated videos in seconds.",
-      "details": "Luma's Dream Machine creates short video clips from text prompts or starter images. Unlike earlier AI video tools, it produces physically realistic motion and consistent characters. Currently generates 5-second clips. Best for: creators prototyping video ideas, social media content, and visual storytelling."
     }
   ],
   "comparisons": [
