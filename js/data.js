@@ -3315,6 +3315,154 @@ window.__TOOLS_DATA__ = {
                 "branding"
             ],
             "featured": false
+        },
+        {
+            "id": "runway-ml",
+            "name": "Runway ML",
+            "url": "https://runwayml.com",
+            "affiliate": null,
+            "category": "video",
+            "pricing": "Freemium",
+            "price_detail": "Free / Standard $12/mo / Unlimited $76/mo",
+            "rating": 9.1,
+            "summary": "Professional AI video generation + editing. Gen-2 makes videos from text/images.",
+            "description": "Runway is the leading AI video generation platform. Gen-2 creates videos from text or images. In-painting, motion tracking, super-slow-mo — all AI-powered. Used by content creators, filmmakers, and marketers. The free tier gives 125 credits/month.",
+            "tutorial": "1. Sign up at runwayml.com (free). 2. Go to Gen-2 tab. 3. Type a prompt (e.g., 'A drone flying over a cyberpunk city at sunset'). 4. Or upload an image as starting frame. 5. Click 'Generate' — 4K video in 45-90 seconds. 6. Use In-painting: upload a video, mask an object, type what to replace.",
+            "pros": [
+                "Best AI video quality (Gen-2)",
+                "In-painting and motion tracking",
+                "4K export",
+                "Used by professionals"
+            ],
+            "cons": [
+                "Expensive for heavy use ($76/mo for unlimited)",
+                "Free tier limited (125 credits/mo)",
+                "Can take 1-2 mins per video"
+            ],
+            "best_for": "Content creators and filmmakers who want AI video generation",
+            "alternatives": [
+                "pika-labs",
+                "genmo",
+                "stable-video"
+            ],
+            "tags": [
+                "ai-video",
+                "gen-2",
+                "video-generation",
+                "filmmaking"
+            ],
+            "featured": true
+        },
+        {
+            "id": "pika-labs",
+            "name": "Pika Labs",
+            "url": "https://pika.art",
+            "affiliate": null,
+            "category": "video",
+            "pricing": "Freemium",
+            "price_detail": "Free / Standard $8/mo / Pro $24/mo",
+            "rating": 8.8,
+            "summary": "AI video generation via Discord. Text/image → video in seconds.",
+            "description": "Pika generates AI videos from text or images. Works via Discord — type /create, enter prompt, get video. Also: image-to-video, video-to-video (restyle), and camera motion control (zoom, pan, rotate). Great alternative to Runway with a free tier.",
+            "tutorial": "1. Join Pika Discord (pika.art). 2. Go to a #generate channel. 3. Type /create prompt: your description. 4. Wait 30-60 seconds. 5. For image-to-video: /animate, upload image. 6. For camera control: add --camera zoom_in or --camera pan_right.",
+            "pros": [
+                "Great quality (competitve with Runway)",
+                "Free tier (30 credits/day)",
+                "Camera motion control",
+                "Discord-based (easy)"
+            ],
+            "cons": [
+                "Discord-only (no web UI yet)",
+                "Free tier has watermarks",
+                "Limited video length (3-7 seconds)"
+            ],
+            "best_for": "Creators who want AI video without complex software",
+            "alternatives": [
+                "runway-ml",
+                "genmo",
+                "stable-video"
+            ],
+            "tags": [
+                "ai-video",
+                "discord-bot",
+                "video-generation",
+                "free-tier"
+            ],
+            "featured": false
+        },
+        {
+            "id": "leonardo-ai",
+            "name": "Leonardo AI",
+            "url": "https://leonardo.ai",
+            "affiliate": null,
+            "category": "image",
+            "pricing": "Freemium",
+            "price_detail": "Free / Apprentice $10/mo / Artisan $24/mo",
+            "rating": 8.9,
+            "summary": "High-quality AI images with a web UI. Better than Midjourney for some use cases.",
+            "description": "Leonardo AI is a web-based AI image generator that rivals Midjourney in quality. Supports SDXL, custom models, image-to-image, and in-painting. The free tier gives 150 tokens/day. Great for product design, concept art, and game assets.",
+            "tutorial": "1. Sign up at leonardo.ai (free). 2. Click 'Image Generation'. 3. Enter prompt, pick model (SDXL, Leonardo Vision XL, etc.). 4. Click 'Generate' — get 4 images. 5. Use 'Image Guidance' (image-to-image): upload reference, adjust strength. 6. 'In-painting': upload image, mask area, type what to replace.",
+            "pros": [
+                "Web UI (no Discord needed)",
+                "Free tier (150 tokens/day)",
+                "Custom models (train your own)",
+                "Image-to-image and in-painting"
+            ],
+            "cons": [
+                "Less artistic than Midjourney for some prompts",
+                "Free tier has daily limits",
+                "Can be slow during peak hours"
+            ],
+            "best_for": "Designers who want a web UI instead of Discord",
+            "alternatives": [
+                "midjourney",
+                "dall-e-3",
+                "stable-diffusion"
+            ],
+            "tags": [
+                "ai-image",
+                "web-ui",
+                "free-tier",
+                "sdxl"
+            ],
+            "featured": true
+        },
+        {
+            "id": "jasper-ai",
+            "name": "Jasper AI",
+            "url": "https://jasper.ai",
+            "affiliate": null,
+            "category": "writing",
+            "pricing": "Paid",
+            "price_detail": "Creator $39/mo / Pro $59/mo / Business custom",
+            "rating": 8.0,
+            "summary": "AI writing for marketing teams. Blogs, ads, emails, SEO-optimized.",
+            "description": "Jasper is the leading AI writing tool for marketing teams. Generates blog posts, ads, emails, and social media posts — SEO-optimized. Integrates with Surfer SEO for ranking. Brand Voice: Jasper learns your brand's tone. Used by 100K+ marketing teams.",
+            "tutorial": "1. Sign up at jasper.ai (free trial). 2. Pick a template: Blog Post, Facebook Ad, Email, etc. 3. Enter topic, keywords, tone. 4. Click 'Generate' — Jasper writes. 5. For Blog Post: enter title + outline, Jasper writes 1000+ words. 6. Use 'Brand Voice': upload examples of your writing, Jasper matches your tone.",
+            "pros": [
+                "SEO-optimized (integrates with Surfer SEO)",
+                "Brand Voice (learns your tone)",
+                "100K+ marketing teams use it",
+                "Long-form content (1000+ words)"
+            ],
+            "cons": [
+                "Expensive ($39/mo minimum)",
+                "No free tier (trial only)",
+                "Can sound generic without Brand Voice"
+            ],
+            "best_for": "Marketing teams who need SEO-optimized content at scale",
+            "alternatives": [
+                "chatgpt",
+                "copy-ai",
+                "writesonic"
+            ],
+            "tags": [
+                "ai-writing",
+                "marketing",
+                "seo",
+                "brand-voice"
+            ],
+            "featured": true
         }
     ],
     "upcoming": [
