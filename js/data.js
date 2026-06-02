@@ -2353,6 +2353,635 @@ window.__TOOLS_DATA__ = {
                 "huggingface"
             ],
             "featured": false
+        },
+        {
+            "id": "gradio",
+            "name": "Gradio",
+            "url": "https://gradio.app",
+            "affiliate": null,
+            "category": "coding",
+            "pricing": "Free",
+            "price_detail": "Free (open-source)",
+            "rating": 8.3,
+            "summary": "Build & share ML web demos in minutes. The fastest way to demo AI models.",
+            "description": "Gradio is an open-source Python library that lets you build interactive ML demos in minutes. Wrap any Python function with a web UI — no frontend skills needed. Hugging Face uses Gradio for all their model demos. Great for prototyping and sharing models with clients.",
+            "tutorial": "1. Install: pip install gradio. 2. Write a Python function (e.g., def classify_text(text): ...). 3. Create interface: gr.Interface(fn=classify_text, inputs='text', outputs='label').launch(). 4. Share publicly: .launch(share=True) gives you a public URL. 5. For Hugging Face: create a Space, pick Gradio template, push your code. 6. Advanced: use gr.ChatInterface for chatbots, gr.Gallery for image galleries.",
+            "pros": [
+                "Fastest way to demo ML models",
+                "No frontend code needed",
+                "Auto-generates public share link",
+                "Deep integration with Hugging Face"
+            ],
+            "cons": [
+                "Python-only",
+                "Limited UI customization",
+                "Not for production (use FastAPI + React)"
+            ],
+            "best_for": "ML engineers who want to demo models quickly",
+            "alternatives": [
+                "streamlit",
+                "dash",
+                "shiny"
+            ],
+            "tags": [
+                "ml-demo",
+                "python",
+                "open-source",
+                "huggingface"
+            ],
+            "featured": false
+        },
+        {
+            "id": "streamlit",
+            "name": "Streamlit",
+            "url": "https://streamlit.io",
+            "affiliate": null,
+            "category": "coding",
+            "pricing": "Freemium",
+            "price_detail": "Free (self-hosted) / Cloud free tier",
+            "rating": 8.5,
+            "summary": "Turn Python scripts into web apps in minutes. No frontend needed.",
+            "description": "Streamlit is the fastest way to build data apps in Python. Write a normal Python script, add Streamlit commands, and get an interactive web app. Popular for AI/ML dashboards, data visualization, and internal tools. Streamlit Cloud lets you deploy from GitHub in one click.",
+            "tutorial": "1. Install: pip install streamlit. 2. Create app.py with import streamlit as st. 3. Add widgets: st.slider('X'), st.button('Run'). 4. Run: streamlit run app.py — browser opens automatically. 5. Deploy: push to GitHub, connect to share.streamlit.io. 6. Advanced: st.session_state for state, st.cache for performance.",
+            "pros": [
+                "Turns Python script into web app",
+                "Huge community + templates",
+                "Free cloud hosting",
+                "Great for AI/ML dashboards"
+            ],
+            "cons": [
+                "Python-only",
+                "Limited layout control vs React",
+                "Not for complex multi-page apps"
+            ],
+            "best_for": "Data scientists who want to build AI/ML web apps without frontend code",
+            "alternatives": [
+                "gradio",
+                "dash",
+                "shiny"
+            ],
+            "tags": [
+                "data-app",
+                "python",
+                "mlops",
+                "freemium"
+            ],
+            "featured": true
+        },
+        {
+            "id": "wandb",
+            "name": "Weights & Biases (W&B)",
+            "url": "https://wandb.ai",
+            "affiliate": null,
+            "category": "coding",
+            "pricing": "Freemium",
+            "price_detail": "Free (individual) / Team $50/user/mo",
+            "rating": 8.6,
+            "summary": "ML experiment tracking, dataset versioning, and model management. Industry standard.",
+            "description": "W&B is the industry-standard MLOps platform. Track experiments (metrics, hyperparameters, git commits), version datasets, monitor model performance in production, and collaborate with your team. Every serious AI lab uses W&B.",
+            "tutorial": "1. Install: pip install wandb. 2. Initialize: import wandb; wandb.init(project='my-project'). 3. Log metrics: wandb.log({'loss': 0.5, 'acc': 0.95}). 4. View dashboard: wandb.ai — see all your runs. 5. Dataset versioning: wandb.Artifact logs datasets. 6. Sweeps: hyperparameter search with Bayesian optimization.",
+            "pros": [
+                "Industry standard for ML experiment tracking",
+                "Beautiful dashboards",
+                "Great for team collaboration",
+                "Free tier is generous"
+            ],
+            "cons": [
+                "Learning curve for advanced features",
+                "Can slow down training (disable with mode='disabled')",
+                "UI can feel cluttered"
+            ],
+            "best_for": "ML engineers and researchers who need experiment tracking and MLOps",
+            "alternatives": [
+                "mlflow",
+                "tensorboard",
+                "comet"
+            ],
+            "tags": [
+                "mlops",
+                "experiment-tracking",
+                "ml",
+                "enterprise"
+            ],
+            "featured": false
+        },
+        {
+            "id": "huggingface",
+            "name": "Hugging Face Hub",
+            "url": "https://huggingface.co",
+            "affiliate": null,
+            "category": "coding",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro $9/mo / Enterprise custom",
+            "rating": 9.2,
+            "summary": "The GitHub of AI. 500K+ models, 100K+ datasets. Free inference API.",
+            "description": "Hugging Face Hub is the central platform for open AI. Hosts 500K+ models (Llama, Mistral, Stable Diffusion, etc.), 100K+ datasets, and 50K+ demos. Free inference API (serverless) lets you call models without GPUs. Transformers library is the standard for loading models.",
+            "tutorial": "1. Sign up at huggingface.co (free). 2. Try models in browser: click any model → 'Deploy' → 'Inference API'. 3. Use via Python: pip install transformers; from transformers import pipeline; pipe = pipeline('text-generation', model='mistralai/Mistral-7B'). 4. Free inference API: get token from settings, call https://api-inference.huggingface.co. 5. Host your own model: create a Space (Gradio/Streamlit/Docker). 6. Fine-tune: use TRL library or AutoTrain.",
+            "pros": [
+                "Largest collection of open AI models",
+                "Free inference API (serverless)",
+                "Transformers library = industry standard",
+                "Great community + Spaces for demos"
+            ],
+            "cons": [
+                "Free inference API has rate limits",
+                "Some models are unmaintained",
+                "Can be overwhelming for beginners"
+            ],
+            "best_for": "AI/ML engineers who want to use, fine-tune, or share open models",
+            "alternatives": [
+                "replicate",
+                "together-ai",
+                "modal"
+            ],
+            "tags": [
+                "model-hub",
+                "open-source",
+                "inference-api",
+                "transformers"
+            ],
+            "featured": true
+        },
+        {
+            "id": "replicate",
+            "name": "Replicate",
+            "url": "https://replicate.com",
+            "affiliate": null,
+            "category": "coding",
+            "pricing": "Paid",
+            "price_detail": "Pay-per-second (e.g., $0.002/sec for Llama 3)",
+            "rating": 8.8,
+            "summary": "Run open-source AI models in the cloud. No GPU needed. API for image, video, music generation.",
+            "description": "Replicate lets you run open-source AI models (Llama, Stable Diffusion, MusicGen, etc.) via API — no GPU needed. Perfect for adding AI features to your app without managing infrastructure. Host your own models too. Used by Unsplash, Vercel, and thousands of startups.",
+            "tutorial": "1. Sign up at replicate.com, get API token. 2. Install: pip install replicate. 3. Run a model: replicate.run('stability-ai/sdxl:...', input={'prompt': '...'}). 4. For image generation: use SDXL, DALL-E 3 (via API), or Flux. 5. For text: Llama 3, Mistral, Claude (via API). 6. Deploy your own model: push a Cog Docker image to Replicate.",
+            "pros": [
+                "Run 1000+ open models via API",
+                "No GPU/infrastructure to manage",
+                "Host your own models",
+                "Great documentation"
+            ],
+            "cons": [
+                "Pay-per-second (costs add up)",
+                "Not for fine-tuning (use HF instead)",
+                "Cold starts can be slow"
+            ],
+            "best_for": "Developers who want to add AI features via API without managing GPUs",
+            "alternatives": [
+                "huggingface",
+                "together-ai",
+                "modal"
+            ],
+            "tags": [
+                "api",
+                "open-models",
+                "serverless",
+                "paid"
+            ],
+            "featured": true
+        },
+        {
+            "id": "together-ai",
+            "name": "Together AI",
+            "url": "https://together.ai",
+            "affiliate": null,
+            "category": "coding",
+            "pricing": "Paid",
+            "price_detail": "Pay-per-token (cheaper than OpenAI)",
+            "rating": 8.4,
+            "summary": "Run open-source LLMs at scale. Cheaper than OpenAI. Great for production AI.",
+            "description": "Together AI provides fast inference for open-source LLMs (Llama 3, Mistral, Gemma, etc.) at a fraction of OpenAI's cost. Also offers GPU clusters for fine-tuning and training. Great for startups that want to avoid vendor lock-in with OpenAI.",
+            "tutorial": "1. Sign up at together.ai, get API key. 2. Install: pip install together. 3. Call Llama 3: together.Complete.create(model='meta-llama/Llama-3-8b', prompt='...'). 4. Fine-tune: upload dataset, start a fine-tuning job on Together's GPUs. 5. Deploy: host your fine-tuned model on Together's inference endpoint. 6. Compare: Together Playground lets you compare 20+ models side-by-side.",
+            "pros": [
+                "Much cheaper than OpenAI API",
+                "Runs latest open models",
+                "Great for fine-tuning",
+                "OpenAI-compatible API"
+            ],
+            "cons": [
+                "Smaller model selection than OpenAI",
+                "Fine-tuning requires technical skills",
+                "No consumer chatbot"
+            ],
+            "best_for": "Startups and enterprises that want cheap LLM inference with open models",
+            "alternatives": [
+                "openai",
+                "replicate",
+                "modal"
+            ],
+            "tags": [
+                "llm-api",
+                "open-models",
+                "cheap",
+                "production"
+            ],
+            "featured": false
+        },
+        {
+            "id": "modal",
+            "name": "Modal",
+            "url": "https://modal.com",
+            "affiliate": null,
+            "category": "coding",
+            "pricing": "Freemium",
+            "price_detail": "Free tier / Pay-as-you-go",
+            "rating": 8.7,
+            "summary": "Serverless GPU compute for AI. Run any code on expensive hardware — pay only for what you use.",
+            "description": "Modal is serverless compute for AI workloads. Run training jobs, inference endpoints, and data pipelines on GPU/TPU hardware — without managing infrastructure. Write Python functions, decorate with @stub.function(gpu='A100'), and deploy. Used by Character.AI, Perplexity, and other AI startups.",
+            "tutorial": "1. Install: pip install modal. 2. Authenticate: modal setup. 3. Write a function: @stub.function(gpu='T4') def generate(prompt): ... 4. Deploy: modal deploy app.py. 5. Call remotely: stub.run(generate, 'a cat'). 6. For web endpoints: @stub.function() @modal.web_server(8000) def serve(): .... 7. Monitor: modal dashboard shows logs and metrics.",
+            "pros": [
+                "Access to A100/H100 GPUs without buying",
+                "Pay only for actual usage",
+                "Great for inference endpoints",
+                "Used by top AI startups"
+            ],
+            "cons": [
+                "Python-only",
+                "Learning curve for configuration",
+                "Can get expensive if not monitored"
+            ],
+            "best_for": "AI engineers who need GPU compute without infrastructure management",
+            "alternatives": [
+                "replicate",
+                "together-ai",
+                "aws-sagemaker"
+            ],
+            "tags": [
+                "serverless",
+                "gpu",
+                "inference",
+                "training"
+            ],
+            "featured": false
+        },
+        {
+            "id": "zeus",
+            "name": "Zeus AI Assistant",
+            "url": "https://zeus.ai",
+            "affiliate": null,
+            "category": "chat",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro $15/mo",
+            "rating": 8.0,
+            "summary": "AI assistant with real-time web access and advanced reasoning capabilities.",
+            "description": "Zeus AI Assistant combines real-time web browsing with advanced reasoning to provide up-to-date answers. Unlike static models, Zeus can search the web for current information, verify facts, and provide citations. Great for research and staying current.",
+            "tutorial": "1. Go to zeus.ai and sign up. 2. Start chatting - Zeus automatically searches the web when needed. 3. Ask for current events: 'What happened in tech today?'. 4. Use for research: 'Find recent papers on quantum computing'. 5. Enable 'Deep Research' mode for comprehensive reports.",
+            "pros": [
+                "Real-time web access",
+                "Fact checking with citations",
+                "Research-focused",
+                "Free tier available"
+            ],
+            "cons": [
+                "Less known than ChatGPT",
+                "Sometimes slower due to web searches",
+                "Limited creative writing"
+            ],
+            "best_for": "Researchers and users who need current information",
+            "alternatives": [
+                "chatgpt",
+                "perplexity",
+                "claude"
+            ],
+            "tags": [
+                "chatbot",
+                "web-access",
+                "research",
+                "freemium"
+            ],
+            "featured": false
+        },
+        {
+            "id": "youchat",
+            "name": "YouChat",
+            "url": "https://you.com",
+            "affiliate": null,
+            "category": "chat",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro $20/mo",
+            "rating": 8.3,
+            "summary": "Search-engine-integrated AI chat. Real-time web results with AI synthesis.",
+            "description": "YouChat is an AI chatbot built into the You.com search engine. It provides real-time web search results with AI-synthesized answers. Great for research, fact-checking, and getting current information without leaving the chat interface.",
+            "tutorial": "1. Go to you.com and click 'Chat'. 2. Sign up for free (optional but recommended). 3. Ask anything - YouChat searches the web in real-time. 4. Click citations to verify sources. 5. Use 'AI Mode' for more creative tasks. 6. Upgrade to Pro for GPT-4 quality and unlimited searches.",
+            "pros": [
+                "Real-time web search",
+                "Shows citations",
+                "No hallucinations (verifiable)",
+                "Free tier is generous"
+            ],
+            "cons": [
+                "Less creative than Claude",
+                "Occasional slow searches",
+                "Search-oriented (less good for coding)"
+            ],
+            "best_for": "Users who want verified, citation-backed AI answers",
+            "alternatives": [
+                "chatgpt",
+                "perplexity",
+                "bing-chat"
+            ],
+            "tags": [
+                "chatbot",
+                "search",
+                "citations",
+                "freemium"
+            ],
+            "featured": false
+        },
+        {
+            "id": "bing-chat",
+            "name": "Microsoft Copilot (Bing Chat)",
+            "url": "https://copilot.microsoft.com",
+            "affiliate": null,
+            "category": "chat",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro $20/mo (Microsoft 365)",
+            "rating": 8.4,
+            "summary": "Microsoft's AI powered by GPT-4. Free, with web access and DALL-E 3 image generation.",
+            "description": "Microsoft Copilot (formerly Bing Chat) is free and powered by GPT-4. It has real-time web access, can generate images via DALL-E 3, and is integrated into Windows/Microsoft 365. The free tier has higher limits than ChatGPT Free.",
+            "tutorial": "1. Go to copilot.microsoft.com (Edge recommended). 2. Sign in with Microsoft account (free). 3. Choose conversation style: Creative, Balanced, or Precise. 4. Ask anything - it searches the web automatically. 5. Generate images: 'Create an image of...'. 6. Use in Windows: Win+C opens Copilot.",
+            "pros": [
+                "Free GPT-4 (no paywall)",
+                "DALL-E 3 image generation included",
+                "Real-time web access",
+                "Integrated into Windows/Office"
+            ],
+            "cons": [
+                "Requires Microsoft account",
+                "Sometimes pushes Bing search",
+                "Less customizable than ChatGPT"
+            ],
+            "best_for": "Windows users who want free GPT-4 with web access",
+            "alternatives": [
+                "chatgpt",
+                "claude",
+                "gemini"
+            ],
+            "tags": [
+                "chatbot",
+                "free-gpt4",
+                "microsoft",
+                "image-gen"
+            ],
+            "featured": true
+        },
+        {
+            "id": "ernie",
+            "name": "Ernie Bot (Wenxin Yiyan)",
+            "url": "https://yiyan.baidu.com",
+            "affiliate": null,
+            "category": "chat",
+            "pricing": "Freemium",
+            "price_detail": "Free / Premium membership",
+            "rating": 8.1,
+            "summary": "Baidu's Chinese AI chatbot. Strong in Chinese language understanding and local knowledge.",
+            "description": "Ernie Bot (Wenxin Yiyan) is Baidu's answer to ChatGPT, optimized for Chinese language and culture. It excels at Chinese writing, poetry, local business knowledge, and understanding Chinese idioms. Also available in English with decent performance.",
+            "tutorial": "1. Go to yiyan.baidu.com and sign up with Chinese phone number. 2. Chat in Chinese - it understands context, idioms, and cultural references. 3. Try creative writing: 'Write a poem in Tang dynasty style'. 4. Use for business: 'Draft a WeChat official account post'. 5. English available but less fluent than Chinese.",
+            "pros": [
+                "Best-in-class Chinese understanding",
+                "Deep cultural knowledge of China",
+                "Integrated with Baidu search",
+                "Free tier available"
+            ],
+            "cons": [
+                "Chinese-centric (less good at other languages)",
+                "Requires Chinese phone number",
+                "Limited API access outside China"
+            ],
+            "best_for": "Chinese-speaking users who need culturally-aware AI",
+            "alternatives": [
+                "chatgpt",
+                "qianwen",
+                "doubao"
+            ],
+            "tags": [
+                "chatbot",
+                "chinese",
+                "baidu",
+                "local-knowledge"
+            ],
+            "featured": false
+        },
+        {
+            "id": "qianwen",
+            "name": "Qianwen (Tongyi Qianwen)",
+            "url": "https://tongyi.aliyun.com",
+            "affiliate": null,
+            "category": "chat",
+            "pricing": "Freemium",
+            "price_detail": "Free / Premium membership",
+            "rating": 8.2,
+            "summary": "Alibaba's AI assistant. Strong in e-commerce, business, and Chinese language tasks.",
+            "description": "Qianwen (Tongyi Qianwen) is Alibaba's large language model, integrated into Alibaba's ecosystem (Taobao, Tmall, Alipay, DingTalk). It excels at e-commerce tasks, business writing, and Chinese language understanding. Free tier available via Alibaba Cloud.",
+            "tutorial": "1. Go to tongyi.aliyun.com and sign up. 2. Use in DingTalk (Alibaba's Slack) for business workflows. 3. Try e-commerce features: 'Write a product description for...'. 4. Generate images: Qianwen can create product images. 5. API access via Alibaba Cloud for developers.",
+            "pros": [
+                "Integrated into Alibaba ecosystem",
+                "Strong e-commerce features",
+                "Chinese business writing",
+                "Free tier available"
+            ],
+            "cons": [
+                "Less capable in English",
+                "Requires Alibaba account",
+                "API pricing complex"
+            ],
+            "best_for": "Chinese businesses using Alibaba ecosystem",
+            "alternatives": [
+                "chatgpt",
+                "ernie",
+                "doubao"
+            ],
+            "tags": [
+                "chatbot",
+                "chinese",
+                "ecommerce",
+                "alibaba"
+            ],
+            "featured": false
+        },
+        {
+            "id": "doubao",
+            "name": "Doubao",
+            "url": "https://www.doubao.com",
+            "affiliate": null,
+            "category": "chat",
+            "pricing": "Free",
+            "price_detail": "Free (ByteDance)",
+            "rating": 8.0,
+            "summary": "ByteDance's AI chatbot. Free, fast, and integrated with TikTok/Douyin ecosystem.",
+            "description": "Doubao is ByteDance's AI assistant, completely free and optimized for Chinese users. It's integrated with TikTok/Douyin (for content creation) and offers image generation, voice cloning, and real-time search. The mobile app is well-designed.",
+            "tutorial": "1. Download Doubao app (iOS/Android) or use web version. 2. Sign up with phone number. 3. Chat - it's fast and free. 4. Generate images: 'Create an image of...'. 5. Use for content creation: 'Write a TikTok script about...'. 6. Voice mode: hold mic and speak.",
+            "pros": [
+                "100% free (no paywall)",
+                "Fast response times",
+                "Integrated with TikTok/Douyin",
+                "Good mobile app"
+            ],
+            "cons": [
+                "Chinese-focused",
+                "Less capable than GPT-4 at complex reasoning",
+                "Limited API access"
+            ],
+            "best_for": "Chinese users who want free, fast AI for daily tasks",
+            "alternatives": [
+                "chatgpt",
+                "ernie",
+                "qianwen"
+            ],
+            "tags": [
+                "chatbot",
+                "free",
+                "chinese",
+                "bytedance"
+            ],
+            "featured": false
+        },
+        {
+            "id": "perplexity-pro",
+            "name": "Perplexity Pro",
+            "url": "https://perplexity.ai",
+            "affiliate": null,
+            "category": "chat",
+            "pricing": "Paid",
+            "price_detail": "$20/mo (Pro)",
+            "rating": 9.0,
+            "summary": "The best AI search engine. Pro version uses GPT-4, Claude 3.5, and other top models.",
+            "description": "Perplexity Pro is the paid tier of Perplexity AI, using top models (GPT-4, Claude 3.5 Sonnet, Mistral Large) for highest-quality answers. Pro users get unlimited Pro searches, file analysis, and image generation. The best AI search experience available.",
+            "tutorial": "1. Go to perplexity.ai and sign up. 2. Subscribe to Pro ($20/mo). 3. Choose your model: GPT-4o, Claude 3.5 Sonnet, Mistral Large, etc. 4. Search: 'Best noise-canceling headphones 2024' - get a synthesized answer with citations. 5. Upload files (PDF, etc.) for analysis. 6. Image generation: 'Create an image of...' (Pro only).",
+            "pros": [
+                "Uses top models (GPT-4, Claude)",
+                "Unlimited Pro searches",
+                "File analysis (PDF, etc.)",
+                "Image generation (Pro)"
+            ],
+            "cons": [
+                "$20/mo paywall",
+                "Less customizable than ChatGPT",
+                "No memory across searches"
+            ],
+            "best_for": "Researchers and professionals who want the best AI search",
+            "alternatives": [
+                "chatgpt-plus",
+                "youchat",
+                "bing-chat"
+            ],
+            "tags": [
+                "search",
+                "pro",
+                "gpt4",
+                "claude"
+            ],
+            "featured": true
+        },
+        {
+            "id": "claude-35",
+            "name": "Claude 3.5 Sonnet",
+            "url": "https://claude.ai",
+            "affiliate": null,
+            "category": "chat",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro $20/mo",
+            "rating": 9.4,
+            "summary": "Anthropic's most capable model. Beats GPT-4o on many benchmarks. 200K context.",
+            "description": "Claude 3.5 Sonnet is Anthropic's flagship model, beating GPT-4o on many benchmarks (especially coding and analysis). It has a 200K token context window (entire book), excellent writing quality, and 'Artifacts' - an interactive preview panel for code/documents. The best all-around AI model available today.",
+            "tutorial": "1. Go to claude.ai and sign up. 2. Start chatting - try complex tasks: 'Refactor this 500-line function', 'Summarize this 50-page PDF'. 3. Use Artifacts: ask for code/document/diagram, and it appears in a side panel. 4. Upload files: PDF, Word, Excel - Claude reads them all. 5. Pro tier ($20/mo) gives 5x more usage.",
+            "pros": [
+                "Beats GPT-4o on many tasks",
+                "200K context (entire book)",
+                "Artifacts feature is amazing",
+                "Best coding model"
+            ],
+            "cons": [
+                "No image generation",
+                "Pro tier needed for heavy use",
+                "Sometimes overly cautious"
+            ],
+            "best_for": "Developers, writers, and analysts who need top-tier AI",
+            "alternatives": [
+                "chatgpt",
+                "gemini",
+                "perplexity"
+            ],
+            "tags": [
+                "chatbot",
+                "top-tier",
+                "coding",
+                "analysis"
+            ],
+            "featured": true
+        },
+        {
+            "id": "gpt4o",
+            "name": "GPT-4o (OpenAI)",
+            "url": "https://chat.openai.com",
+            "affiliate": null,
+            "category": "chat",
+            "pricing": "Freemium",
+            "price_detail": "Free / Plus $20/mo / Pro $200/mo",
+            "rating": 9.2,
+            "summary": "OpenAI's fastest, cheapest flagship model. Multimodal: text, vision, audio.",
+            "description": "GPT-4o ('o' for 'omni') is OpenAI's flagship multimodal model. It's faster and 50% cheaper than GPT-4 Turbo, with the same capabilities: text, vision (image understanding), and audio (voice mode). The free tier uses GPT-4o mini; Plus gets full GPT-4o with higher limits.",
+            "tutorial": "1. Go to chat.openai.com and sign up. 2. Free tier uses GPT-4o mini (good enough for most tasks). 3. Plus ($20/mo): full GPT-4o, higher message limits, faster responses. 4. Voice mode: click the headphones icon, speak naturally. 5. Upload images: click paperclip, analyze screenshots/photos. 6. Pro ($200/mo): highest limits + o1 reasoning model.",
+            "pros": [
+                "Fastest flagship model",
+                "Multimodal (text+vision+audio)",
+                "Huge plugin ecosystem",
+                "Regular updates"
+            ],
+            "cons": [
+                "Free tier has message limits",
+                "Can hallucinate confidently",
+                "Privacy concerns"
+            ],
+            "best_for": "Everyone - the most versatile AI available",
+            "alternatives": [
+                "claude",
+                "gemini",
+                "perplexity"
+            ],
+            "tags": [
+                "chatbot",
+                "multimodal",
+                "fast",
+                "versatile"
+            ],
+            "featured": true
+        },
+        {
+            "id": "o1",
+            "name": "o1 (OpenAI Reasoning Model)",
+            "url": "https://chat.openai.com",
+            "affiliate": null,
+            "category": "chat",
+            "pricing": "Paid",
+            "price_detail": "ChatGPT Pro $200/mo (unlimited) / API pay-per-token",
+            "rating": 9.0,
+            "summary": "OpenAI's reasoning model. Thinks before responding. Best for math, coding, science.",
+            "description": "o1 is OpenAI's reasoning model that 'thinks' before responding - it spends more time reasoning, leading to fewer errors on complex tasks. Beats GPT-4o on math, coding, and scientific reasoning. Available via ChatGPT Pro ($200/mo) or API (pay-per-token).",
+            "tutorial": "1. Subscribe to ChatGPT Pro ($200/mo) - includes unlimited o1. 2. Or use API: openai.ChatCompletion.create(model='o1', messages=[...]). 3. Use for: complex math, multi-step coding, scientific reasoning, logic puzzles. 4. Be patient - o1 takes 10-30 seconds to 'think'. 5. Not for: quick chats, creative writing (use GPT-4o instead).",
+            "pros": [
+                "Best reasoning model available",
+                "Fewer errors on complex tasks",
+                "Great for math/coding/science",
+                "Chain-of-thought transparency"
+            ],
+            "cons": [
+                "$200/mo (Pro) or expensive API",
+                "Slower than GPT-4o",
+                "Not for creative tasks"
+            ],
+            "best_for": "Researchers, scientists, and developers solving hard problems",
+            "alternatives": [
+                "gpt4o",
+                "claude-35",
+                "gemini-advanced"
+            ],
+            "tags": [
+                "reasoning",
+                "math",
+                "coding",
+                "science"
+            ],
+            "featured": false
         }
     ],
     "upcoming": [
