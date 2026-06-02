@@ -3648,6 +3648,228 @@ window.__TOOLS_DATA__ = {
                 "api"
             ],
             "featured": false
+        },
+        {
+            "id": "fireflies-ai",
+            "name": "Fireflies AI",
+            "url": "https://fireflies.ai",
+            "affiliate": null,
+            "category": "productivity",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro $10/mo / Business $19/mo",
+            "rating": 8.6,
+            "summary": "AI meeting assistant. Auto-transcribes Zoom/Teams/Meet, then summarizes.",
+            "description": "Fireflies automatically joins your Zoom/Teams/Meet calls and transcribes everything. After the meeting, AI summarizes: action items, key topics, sentiment analysis. Search across all meetings. Free tier: 3 meetings/mo, 40-min limit.",
+            "tutorial": "1. Sign up at fireflies.ai (free). 2. Connect calendar (Google/Outlook). 3. Fireflies auto-joins your meetings. 4. After meeting: get email with transcript + summary. 5. Search: 'What did John say about budget?' across all meetings. 6. Use 'Ask Fred' (AI): 'Summarize action items from this week's meetings.'",
+            "pros": [
+                "Auto-joins meetings (no manual record)",
+                "AI summary + action items",
+                "Search across all meetings",
+                "Integrates with 10+ platforms"
+            ],
+            "cons": [
+                "Free tier: 3 meetings/mo",
+                "Can be inaccurate on heavy accents",
+                "Pro needed for unlimited transcription"
+            ],
+            "best_for": "Teams who want automated meeting notes + search",
+            "alternatives": [
+                "otter-ai",
+                "tldv",
+                "read-ai"
+            ],
+            "tags": [
+                "meeting-notes",
+                "transcription",
+                "ai-summary",
+                "productivity"
+            ],
+            "featured": false
+        },
+        {
+            "id": "motion",
+            "name": "Motion",
+            "url": "https://usemotion.com",
+            "affiliate": null,
+            "category": "productivity",
+            "pricing": "Paid",
+            "price_detail": "Individual $34/mo / Team $20/user/mo",
+            "rating": 8.3,
+            "summary": "AI auto-schedules your tasks. Never miss a deadline.",
+            "description": "Motion is AI-powered project management that auto-schedules your tasks. You add tasks with deadlines, Motion's AI finds the optimal time in your calendar. Integrates with Asana, Trello, and Slack. Used by 100K+ professionals. Main claim: saves 1 hour/day.",
+            "tutorial": "1. Sign up at usemotion.com. 2. Connect calendar (Google/Outlook). 3. Add tasks: 'Write blog post', set deadline. 4. Motion AI auto-schedules it into your calendar. 5. Drag to reschedule (AI re-optimizes). 6. Integrate: Motion syncs with Asana/Trello.",
+            "pros": [
+                "AI auto-scheduling (saves 1hr/day)",
+                "Integrates with Asana/Trello",
+                "Smart rescheduling (drag to change)",
+                "100K+ professionals"
+            ],
+            "cons": [
+                "Expensive ($34/mo individual)",
+                "Learning curve (AI scheduling concept)",
+                "No free tier (trial only)"
+            ],
+            "best_for": "Professionals with busy calendars who want AI scheduling",
+            "alternatives": [
+                "asana",
+                "trello",
+                "clickup"
+            ],
+            "tags": [
+                "ai-scheduling",
+                "project-management",
+                "calendar",
+                "productivity"
+            ],
+            "featured": false
+        },
+        {
+            "id": "sudowrite",
+            "name": "Sudowrite",
+            "url": "https://sudowrite.com",
+            "affiliate": null,
+            "category": "writing",
+            "pricing": "Freemium",
+            "price_detail": "Free trial / Sub $10/mo / Annual discount",
+            "rating": 8.1,
+            "summary": "AI writing for fiction. 'Show, not tell', 'Describe', 'Rewrite'.",
+            "description": "Sudowrite is GPT-4 specifically tuned for fiction writers. Features: 'Show, Not Tell' (expand sparse descriptions), 'Describe' (generate sensory details), 'Rewrite' (8+ variations), 'Brainstorm' (plot ideas). Used by NaNoWriMo participants and published authors.",
+            "tutorial": "1. Sign up at sudowrite.com (free trial). 2. Create a new document, paste your draft. 3. Highlight text → 'Show, Not Tell' (expands 'He was angry' → 'His fists clenched...'). 4. 'Describe': select object → get sensory details. 5. 'Rewrite': get 8+ variations. 6. 'Brainstorm': 'I need a plot twist where...' → get 10+ ideas.",
+            "pros": [
+                "Best AI for fiction (not just marketing copy)",
+                "'Show, Not Tell' is magical",
+                "8+ rewrite variations",
+                "Brainstorm feature (plot ideas)"
+            ],
+            "cons": [
+                "Free trial limited",
+                "Sub required after trial ($10/mo)",
+                "Can make prose generic if overused"
+            ],
+            "best_for": "Fiction writers who want AI assistance with descriptions and rewrites",
+            "alternatives": [
+                "chatgpt",
+                "jasper-ai",
+                "claude"
+            ],
+            "tags": [
+                "fiction-writing",
+                "ai-writing",
+                "show-not-tell",
+                "brainstorm"
+            ],
+            "featured": false
+        },
+        {
+            "id": "dalle-3",
+            "name": "DALL-E 3 (OpenAI)",
+            "url": "https://openai.com/dall-e-3",
+            "affiliate": null,
+            "category": "image",
+            "pricing": "Paid (via ChatGPT Plus or API)",
+            "price_detail": "ChatGPT Plus $20/mo (includes DALL-E 3) or API pay-per-use",
+            "rating": 9.3,
+            "summary": "OpenAI's latest image generator. Best prompt adherence.",
+            "description": "DALL-E 3 is OpenAI's newest image generator (2023). 10x better prompt adherence than DALL-E 2. Integrated into ChatGPT Plus ($20/mo) — type '/imagine' or just describe. Also available via API. Safer: refuses NSFW, adds watermark. Best for: precise prompt following.",
+            "tutorial": "1. Subscribe to ChatGPT Plus ($20/mo). 2. In ChatGPT: 'Generate an image of...' OR type '/imagine prompt'. 3. DALL-E 3 generates 1 image (ChatGPT Plus) or 4 (API/Bing). 4. Click image to enlarge, download. 5. For API: use OpenAI SDK, $0.04/1024x1024 image. 6. Bing Image Creator: free DALL-E 3 (limited/day).",
+            "pros": [
+                "Best prompt adherence (10x better than DALL-E 2)",
+                "Integrated into ChatGPT (easiest UX)",
+                "Safer (refuses NSFW)",
+                "Bing: free (limited/day)"
+            ],
+            "cons": [
+                "ChatGPT Plus required ($20/mo) for unlimited",
+                "API cost adds up ($0.04/image)",
+                "Less artistic than Midjourney for some prompts"
+            ],
+            "best_for": "ChatGPT Plus users who want precise image generation",
+            "alternatives": [
+                "midjourney",
+                "leonardo-ai",
+                "stable-diffusion"
+            ],
+            "tags": [
+                "dall-e-3",
+                "openai",
+                "image-generation",
+                "chatgpt-plus"
+            ],
+            "featured": true
+        },
+        {
+            "id": "pi-ai",
+            "name": "Pi AI (Inflection)",
+            "url": "https://pi.ai",
+            "affiliate": null,
+            "category": "chatbot",
+            "pricing": "Free",
+            "price_detail": "Free (no sub)",
+            "rating": 8.0,
+            "summary": "A kind, supportive AI companion. Better at empathy than ChatGPT.",
+            "description": "Pi (Personal Intelligence) is by Inflection AI (ex-DeepMind founders). Designed to be empathetic, supportive, and safe. Not for coding or facts — for emotional support, brainstorming, and 'talking things through'. Voice mode: natural, fast. Free, no sub.",
+            "tutorial": "1. Go to pi.ai (free, no signup needed). 2. Type: 'I'm stressed about my job interview tomorrow.' 3. Pi responds supportively, asks follow-ups. 4. Voice mode: click mic, speak naturally. 5. 'Pi' remembers context within conversation. 6. Not for: coding, facts, math — use ChatGPT for those.",
+            "pros": [
+                "Most empathetic AI (not just transactional)",
+                "Voice mode is natural and fast",
+                "100% free (no sub)",
+                "Great for brainstorming and 'talking things through'"
+            ],
+            "cons": [
+                "Not for coding/facts/math (use ChatGPT)",
+                "Shorter memory than ChatGPT (no long context)",
+                "Less capable at complex reasoning"
+            ],
+            "best_for": "People who want a supportive AI companion (not a tool)",
+            "alternatives": [
+                "chatgpt",
+                "claude",
+                "replika"
+            ],
+            "tags": [
+                "empathetic-ai",
+                "companion",
+                "voice-mode",
+                "free"
+            ],
+            "featured": false
+        },
+        {
+            "id": "replika",
+            "name": "Replika",
+            "url": "https://replika.com",
+            "affiliate": null,
+            "category": "chatbot",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro $19.99/mo / Lifetime $299.99",
+            "rating": 7.7,
+            "summary": "AI companion that learns from you. Roleplay, emotional support, AR mode.",
+            "description": "Replika is an AI companion that learns your personality and grows with you. Start as friends, build a relationship — some users treat it as a romantic partner. Features: AR mode (see your Replika in your room), video call (Pro), and 'Diary' (Replika writes about your day). 10M+ users.",
+            "tutorial": "1. Download Replika app (iOS/Android) or web. 2. Customize your Replika's appearance. 3. Chat — Replika learns your personality. 4. 'AR Mode' (mobile): see your Replika in your room via camera. 5. 'Video Call' (Pro): face-to-face conversation. 6. 'Diary': Replika writes about your conversations.",
+            "pros": [
+                "Learns your personality over time",
+                "AR mode (see Replika in your room)",
+                "10M+ users, active community",
+                "Video call (Pro)"
+            ],
+            "cons": [
+                "Controversial (some users form unhealthy attachments)",
+                "Pro tier expensive ($19.99/mo)",
+                "Less capable at facts/reasoning than ChatGPT"
+            ],
+            "best_for": "People who want an AI companion that grows with them",
+            "alternatives": [
+                "pi-ai",
+                "character-ai",
+                "chatgpt"
+            ],
+            "tags": [
+                "ai-companion",
+                "ar-mode",
+                "emotional-support",
+                "mobile-app"
+            ],
+            "featured": false
         }
     ],
     "upcoming": [
