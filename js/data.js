@@ -4277,6 +4277,857 @@ window.__TOOLS_DATA__ = {
                 "real-time"
             ],
             "featured": false
+        },
+        {
+            "id": "ada",
+            "name": "Ada",
+            "url": "https://www.ada.cx",
+            "affiliate": null,
+            "category": "business",
+            "pricing": "Paid",
+            "price_detail": "Custom pricing (Enterprise)",
+            "rating": 8.1,
+            "summary": "Enterprise AI chatbot for customer service. Automates 70%+ of inquiries.",
+            "description": "Ada is the leading AI customer service automation platform. Deploys on web, mobile, SMS, WhatsApp, and social. Automates 70%+ of inquiries. No-code builder. Used by 300+ enterprises (Verizon, Zoom, etc.).",
+            "tutorial": "1. Sign up at ada.cx (enterprise demo). 2. 'Automation Builder': no-code, drag-and-drop. 3. Train: upload knowledge base (PDFs, help docs). 4. Deploy: web widget, SMS, WhatsApp. 5. 'Ada Glass': human handoff (escalates to agent). 6. Analytics: see automation rate, top questions.",
+            "pros": [
+                "Automates 70%+ of inquiries",
+                "No-code builder",
+                "Multi-channel (web, SMS, WhatsApp)",
+                "300+ enterprise customers"
+            ],
+            "cons": [
+                "Enterprise-only (no self-serve pricing)",
+                "Setup takes 2-4 weeks",
+                "Requires training data (knowledge base)"
+            ],
+            "best_for": "Enterprises wanting to automate customer service inquiries",
+            "alternatives": [
+                "intercom-finomial",
+                "drift",
+                "zendesk-ai"
+            ],
+            "tags": [
+                "customer-service",
+                "ai-chatbot",
+                "enterprise",
+                "no-code"
+            ],
+            "featured": false
+        },
+        {
+            "id": "intercom-fin",
+            "name": "Intercom Fin (AI Bot)",
+            "url": "https://www.intercom.com/ai-chatbot",
+            "affiliate": null,
+            "category": "business",
+            "pricing": "Paid",
+            "price_detail": "Fin AI Bot: $0.99/resolution (add-on to Intercom)",
+            "rating": 8.5,
+            "summary": "AI chatbot that resolves 50%+ of support questions. Pay-per-resolution.",
+            "description": "Fin is Intercom's AI bot. Reads your help docs, resolves questions accurately. 'Pay-per-resolution' ($0.99 per resolved conversation) — you only pay when Fin succeeds. Integrates with Intercom (already used by 25K+ businesses).",
+            "tutorial": "1. Have an Intercom account (required). 2. Enable 'Fin AI Bot' in settings. 3. 'Train': Fin reads your help docs automatically. 4. Set 'Autopilot': Fin handles all new conversations. 5. 'Copilot': Fin suggests answers to human agents. 6. Analytics: see resolution rate, cost per resolution.",
+            "pros": [
+                "Pay-per-resolution ($0.99, only when successful)",
+                " Reads help docs (accurate answers)",
+                "Copilot mode (assists human agents)",
+                "25K+ businesses on Intercom"
+            ],
+            "cons": [
+                "Requires Intercom subscription ($$)",
+                "Can hallucinate if help docs are incomplete",
+                "Not for complex technical support"
+            ],
+            "best_for": "Businesses already using Intercom who want AI to resolve support tickets",
+            "alternatives": [
+                "ada",
+                "zendesk-ai",
+                "drift"
+            ],
+            "tags": [
+                "customer-support",
+                "ai-bot",
+                "pay-per-resolution",
+                "intercom"
+            ],
+            "featured": false
+        },
+        {
+            "id": "gong",
+            "name": "Gong",
+            "url": "https://www.gong.io",
+            "affiliate": null,
+            "category": "business",
+            "pricing": "Paid",
+            "price_detail": "Custom pricing (Enterprise)",
+            "rating": 8.7,
+            "summary": "AI sales call analysis. Records, transcribes, and gives coaching insights.",
+            "description": "Gong is AI for sales teams. Records + transcribes all sales calls (Zoom/Meet/Teams), then AI analyzes: talk-to-listen ratio, objections handled, next steps. 'Gong Insights': tells you which reps are struggling and why. Used by 100K+ sales reps.",
+            "tutorial": "1. Sign up at gong.io (enterprise demo). 2. Connect calendar + video conferencing. 3. Gong auto-records + transcribes calls. 4. 'Gong Insights': see talk-to-listen ratio, filler words, next steps mentioned. 5. 'Deal Board': AI flags at-risk deals. 6. Coaching: share specific call clips with reps.",
+            "pros": [
+                "Records + transcribes all sales calls automatically",
+                "AI coaching insights (talk-to-listen, objections)",
+                "Deal risk detection",
+                "100K+ sales reps use it"
+            ],
+            "cons": [
+                "Expensive (enterprise pricing, no self-serve)",
+                "Can feel surveillance-heavy for reps",
+                "Learning curve for managers"
+            ],
+            "best_for": "Sales leaders who want AI insights into rep performance and deal health",
+            "alternatives": [
+                "chorous",
+                "outreach",
+                "salesloft"
+            ],
+            "tags": [
+                "sales-intelligence",
+                "call-analysis",
+                "ai-coaching",
+                "enterprise"
+            ],
+            "featured": false
+        },
+        {
+            "id": "jasper-chat",
+            "name": "Jasper Chat",
+            "url": "https://www.jasper.ai/chat",
+            "affiliate": null,
+            "category": "writing",
+            "pricing": "Freemium",
+            "price_detail": "Free trial / Creator $39/mo / Pro $59/mo",
+            "rating": 7.9,
+            "summary": "Jasper's ChatGPT alternative with brand voice and SEO integration.",
+            "description": "Jasper Chat is like ChatGPT but trained on marketing content. 'Brand Voice': Jasper learns your brand's tone. Integrates with Surfer SEO (writes ranking content). Used by 100K+ marketing teams. Free trial, then $39/mo.",
+            "tutorial": "1. Sign up at jasper.ai. 2. 'Brand Voice': upload examples of your writing. 3. Chat: 'Write a blog post about...' — Jasper matches your tone. 4. 'Jasper Commands': highlight text → 'Rewrite to be more concise'. 5. Integrate Surfer SEO: Jasper writes content that ranks. 6. 'Plagiarism Checker': built-in.",
+            "pros": [
+                "Brand Voice (learns your tone)",
+                "Integrates with Surfer SEO",
+                "Plagiarism checker built-in",
+                "100K+ marketing teams"
+            ],
+            "cons": [
+                "$39/mo minimum (no free tier)",
+                "Less capable than ChatGPT for non-marketing tasks",
+                "Surfer SEO integration costs extra"
+            ],
+            "best_for": "Marketing teams who want AI writing that matches their brand voice",
+            "alternatives": [
+                "chatgpt",
+                "copy-ai",
+                "writesonic"
+            ],
+            "tags": [
+                "ai-writing",
+                "brand-voice",
+                "seo",
+                "marketing"
+            ],
+            "featured": false
+        },
+        {
+            "id": "writer",
+            "name": "Writer",
+            "url": "https://writer.com",
+            "affiliate": null,
+            "category": "writing",
+            "pricing": "Paid",
+            "price_detail": "Custom pricing (Enterprise)",
+            "rating": 8.0,
+            "summary": "Enterprise AI writing. Enforces brand guidelines across all content.",
+            "description": "Writer is AI writing for enterprises. 'Brand Compliance': ensures all content follows brand guidelines (tone, terminology, legal). 'AI Content Detector': checks if content is AI-generated. Used by big tech (Uber, Twitter, etc.).",
+            "tutorial": "1. Sign up at writer.com (enterprise demo). 2. 'Brand Settings': define your brand's tone, terminology, legal phrases. 3. 'Writer Assistant': Chrome extension — checks content as you write (Google Docs, Figma, etc.). 4. 'AI Content Detector': paste content → Writer tells you if it's AI-generated. 5. API: integrate into CMS.",
+            "pros": [
+                "Brand Compliance (enforces guidelines)",
+                "AI Content Detector (unique)",
+                "Chrome extension (works everywhere)",
+                "Used by Uber, Twitter"
+            ],
+            "cons": [
+                "Enterprise-only (no self-serve pricing)",
+                "Setup requires training on brand guidelines",
+                "Less creative than ChatGPT"
+            ],
+            "best_for": "Enterprises who need brand-compliant AI writing across teams",
+            "alternatives": [
+                "jasper-ai",
+                "grammarly",
+                "chatgpt-enterprise"
+            ],
+            "tags": [
+                "enterprise-writing",
+                "brand-compliance",
+                "ai-detector",
+                "chrome-extension"
+            ],
+            "featured": false
+        },
+        {
+            "id": "electric-ai",
+            "name": "Electric AI (IT Copilot)",
+            "url": "https://www.electric.ai",
+            "affiliate": null,
+            "category": "business",
+            "pricing": "Paid",
+            "price_detail": "Custom pricing (SMB-focused)",
+            "rating": 7.6,
+            "summary": "AI IT support. Automates password resets, software requests, troubleshooting.",
+            "description": "Electric is AI for IT support. Automates 50%+ of IT tickets: password resets, software install requests, troubleshooting. 'Electric AI': chat to resolve issues. For SMBs (10-500 employees) who can't afford full IT team.",
+            "tutorial": "1. Sign up at electric.ai (SMB demo). 2. Install Electric agent on employee devices. 3. Employees chat with 'Electric AI' for IT help. 4. Automations: password reset (self-service), software requests (auto-approve). 5. 'IT Insights': see top IT issues across company. 6. Integrate: Slack, Okta, Azure AD.",
+            "pros": [
+                "Automates 50%+ of IT tickets",
+                "Self-service for employees (password reset, etc.)",
+                "SMB-focused (10-500 employees)",
+                "Slack integration"
+            ],
+            "cons": [
+                "SMB-only (not for enterprises with existing IT)",
+                "Setup takes 2-4 weeks",
+                "Limited to IT tasks (not general AI)"
+            ],
+            "best_for": "SMBs who want to automate IT support without hiring IT team",
+            "alternatives": [
+                "servicenow",
+                "zendesk-ai",
+                "freshservice"
+            ],
+            "tags": [
+                "it-support",
+                "automation",
+                "smb",
+                "ai-copilot"
+            ],
+            "featured": false
+        },
+        {
+            "id": "recast",
+            "name": "Recast (AI Nutrition)",
+            "url": "https://www.recast.com",
+            "affiliate": null,
+            "category": "health",
+            "pricing": "Freemium",
+            "price_detail": "Free / Premium $9.99/mo",
+            "rating": 7.4,
+            "summary": "AI nutrition coach. Tracks food, gives personalized advice.",
+            "description": "Recast is an AI nutrition coach. Snap photo of food → AI recognizes ingredients + calories. 'Coach': AI gives personalized nutrition advice (based on goals: weight loss, muscle gain, etc.). Free: basic tracking. Premium: personalized coaching.",
+            "tutorial": "1. Download Recast app (iOS/Android). 2. 'Snap Food': take photo → AI recognizes ingredients + calories. 3. 'Coach': set goal (weight loss, muscle gain), AI gives daily advice. 4. 'Meal Planner': AI suggests meals based on preferences. 5. 'Grocery List': AI generates shopping list. 6. Premium: 1-on-1 coaching (human nutritionist review).",
+            "pros": [
+                "Snap photo → AI recognizes food + calories",
+                "Personalized coaching (based on goals)",
+                "Meal planner + grocery list",
+                "Free tier (basic tracking)"
+            ],
+            "cons": [
+                "Photo recognition can be inaccurate",
+                "Premium needed for personalized coaching",
+                "Not a substitute for doctor/nutritionist"
+            ],
+            "best_for": "People who want AI-assisted nutrition tracking and coaching",
+            "alternatives": [
+                "myfitnesspal",
+                "noom",
+                "cronometer"
+            ],
+            "tags": [
+                "nutrition",
+                "ai-coach",
+                "food-tracking",
+                "health"
+            ],
+            "featured": false
+        },
+        {
+            "id": "woebot",
+            "name": "Woebot",
+            "url": "https://woebot.io",
+            "affiliate": null,
+            "category": "health",
+            "pricing": "Free",
+            "price_detail": "Free (research-backed)",
+            "rating": 7.9,
+            "summary": "AI mental health chatbot. CBT-based, clinically validated.",
+            "description": "Woebot is an AI mental health chatbot based on Cognitive Behavioral Therapy (CBT). 100% free, no ads. 'Check-ins': daily mood tracking + AI conversation. Clinically validated (studies show it reduces depression/anxiety). NOT a crisis hotline (for that, call 988).",
+            "tutorial": "1. Download Woebot app (iOS/Android) or Facebook Messenger. 2. 'Check-in': daily 10-min conversation with Woebot. 3. 'Lessons': learn CBT techniques (reframing negative thoughts, etc.). 4. 'Mood Tracker': see patterns over time. 5. 'Crisis Resources': if in crisis, Woebot provides hotlines (but NOT a replacement for human help).",
+            "pros": [
+                "100% free, no ads",
+                "CBT-based (clinically validated)",
+                "Mood tracking + patterns",
+                "NOT a data-harvesting app (privacy-focused)"
+            ],
+            "cons": [
+                "NOT for crisis situations (call 988 instead)",
+                "Can feel repetitive after weeks",
+                "No human therapist (CBT self-help only)"
+            ],
+            "best_for": "People who want free, CBT-based mental health support (not crisis)",
+            "alternatives": [
+                "headspace",
+                "calm",
+                "betterhelp"
+            ],
+            "tags": [
+                "mental-health",
+                "cbt",
+                "free",
+                "chatbot"
+            ],
+            "featured": false
+        },
+        {
+            "id": "masterclass",
+            "name": "MasterClass",
+            "url": "https://www.masterclass.com",
+            "affiliate": null,
+            "category": "education",
+            "pricing": "Paid",
+            "price_detail": "$10/mo (billed annually, $120/yr)",
+            "rating": 8.6,
+            "summary": "Celebrity-taught classes. AI recommends personalized learning path.",
+            "description": "MasterClass has 100+ celebrity instructors: Gordon Ramsay (cooking), Serena Williams (tennis), Neil Gaiman (writing), etc. 'AI Learning Path': MasterClass recommends what to watch next based on your goals. $10/mo billed annually ($120/yr).",
+            "tutorial": "1. Sign up at masterclass.com ($120/yr). 2. Pick class: e.g., 'Neil Gaiman Teaches Storytelling'. 3. Watch 10-20 min video lessons (high production value). 4. 'Workbooks': download PDF exercises. 5. 'AI Learning Path': tell MasterClass your goal ('I want to write a novel'), get personalized class sequence. 6. Mobile app: download for offline.",
+            "pros": [
+                "Celebrity instructors (unmatched quality)",
+                "AI Learning Path (personalized)",
+                "High production value (Netflix-quality)",
+                "$10/mo (billed annually, good value)"
+            ],
+            "cons": [
+                "No certificate (not for professional skilling)",
+                "Annual billing only ($120 upfront)",
+                "Can be passive (watching ≠ doing)"
+            ],
+            "best_for": "People who want to learn from celebrities (cooking, writing, sports, etc.)",
+            "alternatives": [
+                "coursera",
+                "skillshare",
+                "udemy"
+            ],
+            "tags": [
+                "celebrity-instructors",
+                "learning",
+                "ai-personalized",
+                "video-classes"
+            ],
+            "featured": true
+        },
+        {
+            "id": "brilliant",
+            "name": "Brilliant",
+            "url": "https://brilliant.org",
+            "affiliate": null,
+            "category": "education",
+            "pricing": "Freemium",
+            "price_detail": "Free (limited) / Premium $24.99/mo",
+            "rating": 8.8,
+            "summary": "Interactive STEM learning. Math, CS, data science. AI gives hints.",
+            "description": "Brilliant is interactive learning for STEM: math, computer science, data science, physics. NOT videos — you solve problems interactively. 'AI Hints': stuck? AI gives progressively more specific hints. Free: 7-day trial. Premium: full access.",
+            "tutorial": "1. Sign up at brilliant.org (free trial). 2. Pick topic: 'Data Science', 'Computer Science', 'Math', etc. 3. Solve interactive problems (NOT videos). 4. Stuck? 'AI Hint': progressively more specific. 5. 'Today's Challenge': daily problem (free). 6. Premium: $24.99/mo for full access.",
+            "pros": [
+                "Interactive (not passive videos)",
+                "AI Hints (progressive help)",
+                "Covers math, CS, data science",
+                "Free trial (7 days)"
+            ],
+            "cons": [
+                "Premium is expensive ($24.99/mo)",
+                "Less broad than Coursera (STEM-only)",
+                "Can be challenging for beginners"
+            ],
+            "best_for": "People who want to learn STEM interactively (not watch videos)",
+            "alternatives": [
+                "coursera",
+                "khan-academy",
+                "edx"
+            ],
+            "tags": [
+                "stem",
+                "interactive-learning",
+                "ai-hints",
+                "math-cs"
+            ],
+            "featured": true
+        },
+        {
+            "id": "khan-academy",
+            "name": "Khan Academy (Khanmigo AI)",
+            "url": "https://www.khanacademy.org",
+            "affiliate": null,
+            "category": "education",
+            "pricing": "Free",
+            "price_detail": "100% Free (Khanmigo AI: donation-based)",
+            "rating": 9.0,
+            "summary": "Free education for all. Khanmigo AI tutor: personalized learning.",
+            "description": "Khan Academy is 100% free education (funded by donations). 'Khanmigo': AI tutor powered by GPT-4 (donation-based, ~$10/mo suggested). Personalized learning: math, science, humanities, SAT prep. Used by 100M+ students.",
+            "tutorial": "1. Sign up at khanacademy.org (free). 2. Pick subject: 'Math', 'Science', 'Humanities', etc. 3. Watch videos + do exercises. 4. 'Khanmigo AI Tutor': chat for help (donation-based, ~$10/mo). 5. 'SAT Prep': full practice tests. 6. 'Teacher Dashboard': teachers assign work, see student progress.",
+            "pros": [
+                "100% FREE (no ads, no paywall)",
+                "Khanmigo AI tutor (GPT-4 powered)",
+                "100M+ students",
+                "SAT prep, AP courses"
+            ],
+            "cons": [
+                "Khanmigo is donation-based (not fully free)",
+                "Less interactive than Brilliant",
+                "Videos can be dry (traditional lecture style)"
+            ],
+            "best_for": "Students who want free, high-quality education (supported by donations)",
+            "alternatives": [
+                "brilliant",
+                "coursera",
+                "edx"
+            ],
+            "tags": [
+                "free-education",
+                "ai-tutor",
+                "khanmigo",
+                "non-profit"
+            ],
+            "featured": true
+        },
+        {
+            "id": "edx",
+            "name": "edX (Harvard/MIT)",
+            "url": "https://www.edx.org",
+            "affiliate": null,
+            "category": "education",
+            "pricing": "Freemium",
+            "price_detail": "Free (audit) / Verified $50-$300/course",
+            "rating": 8.4,
+            "summary": "Harvard/MIT online courses. AI courses from top universities.",
+            "description": "edX is Harvard + MIT's online learning platform. 4000+ courses from top universities (Harvard, MIT, Stanford, etc.). 'Audit' (free): watch videos, do exercises (no certificate). 'Verified' ($50-$300): certificate + graded assignments. AI courses: 'AI for Everyone' (Andrew Ng), etc.",
+            "tutorial": "1. Sign up at edx.org (free). 2. Search: 'AI', 'Machine Learning', etc. 3. 'Audit' (free): watch videos, do exercises (no certificate). 4. 'Verified' ($50-$300): get certificate + graded assignments. 5. 'MicroBachelors/Masters': full degree online. 6. 'ChatGPT for Everyone' (Andrew Ng): popular AI course.",
+            "pros": [
+                "Harvard/MIT quality (top universities)",
+                "Free audit (no certificate)",
+                "Certificates available ($50-$300)",
+                "MicroDegrees (Bachelors/Masters)"
+            ],
+            "cons": [
+                "Free = no certificate (limits resumé value)",
+                "Can be academic/theoretical (less hands-on than Udemy)",
+                "Some courses are outdated (AI moves fast)"
+            ],
+            "best_for": "Students who want university-quality courses (free or certified)",
+            "alternatives": [
+                "coursera",
+                "khan-academy",
+                "udemy"
+            ],
+            "tags": [
+                "university-courses",
+                "free-audit",
+                "certificates",
+                "harvard-mit"
+            ],
+            "featured": false
+        },
+        {
+            "id": "codet5",
+            "name": "CodeT5+ (Salesforce)",
+            "url": "https://github.com/salesforce/CodeT5",
+            "affiliate": null,
+            "category": "coding",
+            "pricing": "Free",
+            "price_detail": "Open-source (free)",
+            "rating": 8.1,
+            "summary": "Open-source code LLM by Salesforce. 220M-16B params.",
+            "description": "CodeT5+ is Salesforce's open-source code LLM. 220M to 16B parameters. Supports code completion, summarization, translation (Java→Python, etc.). Completely free, self-host or API. Competes with Codex/CodeLlama.",
+            "tutorial": "1. Go to github.com/salesforce/CodeT5. 2. 'pip install transformers' (Hugging Face). 3. Load model: 'Salesforce/codet5p-16b'. 4. Use: code completion, translation. 5. 'CodeT5+ Playground': Hugging Face Spaces (free, no install). 6. Fine-tune on your codebase (advanced).",
+            "pros": [
+                "Open-source (free)",
+                "Code translation (Java→Python, etc.)",
+                "Multiple sizes (220M-16B)",
+                "Salesforce research (trusted)"
+            ],
+            "cons": [
+                "Requires GPU for self-hosting (16B model)",
+                "Less capable than GPT-4/Claude for complex tasks",
+                "No managed API (self-host or Hugging Face)"
+            ],
+            "best_for": "Developers who want open-source code LLM (free alternative to GitHub Copilot)",
+            "alternatives": [
+                "codellama",
+                "starcoder",
+                "github-copilot"
+            ],
+            "tags": [
+                "open-source",
+                "code-llm",
+                "salesforce",
+                "free"
+            ],
+            "featured": false
+        },
+        {
+            "id": "starcoder",
+            "name": "StarCoder (BigCode)",
+            "url": "https://huggingface.co/bigcode/starcoder",
+            "affiliate": null,
+            "category": "coding",
+            "pricing": "Free",
+            "price_detail": "Open-source (free)",
+            "rating": 8.3,
+            "summary": "15B param code LLM. Trained on 80+ languages. Open-source.",
+            "description": "StarCoder is a 15B parameter LLM trained on 80+ programming languages. By BigCode (Hugging Face + Intel). Completely open-source. Use via Hugging Face Inference API (free tier) or self-host. Competes with Codex/GitHub Copilot.",
+            "tutorial": "1. Go to huggingface.co/bigcode/starcoder. 2. 'Use in Inference API' (free tier, rate-limited). 3. Or 'pip install transformers' → load locally (needs GPU). 4. 'StarCoder Playground': Hugging Face Spaces (free). 5. Fine-tune: use your codebase (advanced). 6. 'StarCoder2' (16B, newer): huggingface.co/bigcode/starcoder2-15b.",
+            "pros": [
+                "15B params (powerful for open-source)",
+                "80+ programming languages",
+                "Completely free (open-source)",
+                "Hugging Face Inference API (no install)"
+            ],
+            "cons": [
+                "Needs GPU for self-hosting (15B model)",
+                "Less capable than GPT-4/Claude for complex reasoning",
+                "Inference API has rate limits (free tier)"
+            ],
+            "best_for": "Developers who want free, open-source code LLM (alternative to GitHub Copilot)",
+            "alternatives": [
+                "codellama",
+                "codet5",
+                "github-copilot"
+            ],
+            "tags": [
+                "open-source",
+                "code-llm",
+                "huggingface",
+                "free"
+            ],
+            "featured": false
+        },
+        {
+            "id": "aiva",
+            "name": "AIVA",
+            "url": "https://www.aiva.ai",
+            "affiliate": null,
+            "category": "audio",
+            "pricing": "Freemium",
+            "price_detail": "Free / Standard €14.99/mo / Pro €49.99/mo",
+            "rating": 7.7,
+            "summary": "AI music composer. Create soundtracks for videos, games, podcasts.",
+            "description": "AIVA composes original music using AI. Choose genre (epic, jazz, pop, etc.), mood, length. Free: download MP3 (non-commercial). Paid: WAV + commercial license. Used by 1M+ creators.",
+            "tutorial": "1. Sign up at aiva.ai (free). 2. 'Create Track': pick genre, mood, length. 3. AIVA generates 3 variations. 4. Edit: change instruments, tempo, structure. 5. Download: MP3 (free, non-commercial) or WAV (Pro, commercial license). 6. 'Upload Influence Track': influence AIVA's style (Pro).",
+            "pros": [
+                "Original compositions (not samples)",
+                "Free tier (MP3, non-commercial)",
+                "Edit instruments, tempo, structure",
+                "1M+ creators"
+            ],
+            "cons": [
+                "Free = non-commercial (no license)",
+                "Less control than manual composition",
+                "Can sound 'AI-generated' (uncanny for some genres)"
+            ],
+            "best_for": "Content creators who need original background music (podcasts, videos, games)",
+            "alternatives": [
+                "mubert",
+                "boomy",
+                "soundraw"
+            ],
+            "tags": [
+                "ai-music",
+                "composition",
+                "soundtrack",
+                "commercial-license"
+            ],
+            "featured": false
+        },
+        {
+            "id": "soundraw",
+            "name": "Soundraw",
+            "url": "https://soundraw.io",
+            "affiliate": null,
+            "category": "audio",
+            "pricing": "Freemium",
+            "price_detail": "Free (limited) / Pro $29.99/mo (commercial license)",
+            "rating": 8.0,
+            "summary": "AI music generator with fine-grained control. Commercial license included.",
+            "description": "Soundraw generates AI music with more control than AIVA/Mubert. Pick genre, mood, length, tempo, instruments. Edit: rearrange sections, change melody. Pro: unlimited downloads + commercial license. Used by 500K+ creators.",
+            "tutorial": "1. Sign up at soundraw.io (free trial). 2. 'Create Music': genre, mood, length, tempo. 3. Soundraw generates 15+ tracks. 4. 'Edit': rearrange sections, change melody, swap instruments. 5. Download: MP3 (free: watermarked) or WAV (Pro: commercial license). 6. 'Playlist': create full album (Pro).",
+            "pros": [
+                "More control than AIVA/Mubert (edit sections, melody)",
+                "Commercial license included (Pro)",
+                "500K+ creators",
+                "No copyright issues (original compositions)"
+            ],
+            "cons": [
+                "Free = watermarked (not usable)",
+                "Pro is expensive ($29.99/mo)",
+                "Still 'AI-generated' sound (not human composer)"
+            ],
+            "best_for": "Content creators who want customizable AI music with commercial license",
+            "alternatives": [
+                "aiva",
+                "mubert",
+                "boomy"
+            ],
+            "tags": [
+                "ai-music",
+                "commercial-license",
+                "customizable",
+                "soundtrack"
+            ],
+            "featured": false
+        },
+        {
+            "id": "mem",
+            "name": "Mem",
+            "url": "https://www.mem.ai",
+            "affiliate": null,
+            "category": "productivity",
+            "pricing": "Freemium",
+            "price_detail": "Free / Mem Prime $14.99/mo",
+            "rating": 8.2,
+            "summary": "AI note-taking. Auto-links related notes. Chat with your notes.",
+            "description": "Mem is AI-powered note-taking. Auto-links related notes (like Obsidian but automatic). 'Mem Chat': ask questions across all notes. 'Smart Merge': combines duplicate notes. Free: unlimited notes. Prime: AI features + collaboration.",
+            "tutorial": "1. Sign up at mem.ai (free). 2. 'Create Mem': write note (like Google Keep). 3. Mem auto-links related notes (no manual tagging). 4. 'Mem Chat': ask 'What did I write about AI tools?' — searches all notes. 5. 'Smart Merge': Mem suggests merging duplicate notes. 6. Prime ($14.99/mo): AI summarization, collaboration.",
+            "pros": [
+                "Auto-links related notes (no manual tagging)",
+                "Mem Chat (search across all notes)",
+                "Free: unlimited notes",
+                "Smart Merge (reduces duplicates)"
+            ],
+            "cons": [
+                "Prime needed for AI features ($14.99/mo)",
+                "Less features than Notion/Obsidian (pure note-taking)",
+                "Can feel 'magical' but sometimes links unrelated notes"
+            ],
+            "best_for": "People who take lots of notes and want AI to auto-organize them",
+            "alternatives": [
+                "notion-ai",
+                "obsidian",
+                "roam-research"
+            ],
+            "tags": [
+                "ai-notes",
+                "auto-linking",
+                "chat-with-notes",
+                "productivity"
+            ],
+            "featured": false
+        },
+        {
+            "id": "rewind",
+            "name": "Rewind",
+            "url": "https://www.rewind.ai",
+            "affiliate": null,
+            "category": "productivity",
+            "pricing": "Freemium",
+            "price_detail": "Free (limited) / Pro $29/mo",
+            "rating": 8.5,
+            "summary": "Records everything you see/type. AI search across your history.",
+            "description": "Rewind records your screen, microphone, camera (opt-in). 'Ask Rewind': 'What did John say in our Zoom call?' — Rewind finds it. Mac only (for now). Free: 50 recordings/mo. Pro: unlimited + AI chat.",
+            "tutorial": "1. Download Rewind (Mac only). 2. Grant permissions (screen recording, microphone). 3. Rewind records everything (you can pause). 4. 'Ask Rewind': 'Find the spreadsheet John sent' — Rewind searches OCR + audio transcript. 5. 'Rewind Chat': chat with your history ('Summarize my day'). 6. Privacy: all data stored locally (not in cloud).",
+            "pros": [
+                "Records everything (never lose info again)",
+                "Ask Rewind (AI search across history)",
+                "Data stored locally (privacy)",
+                "Mac only (optimized for Apple Silicon)"
+            ],
+            "cons": [
+                "Mac only (no Windows/Linux)",
+                "Pro is expensive ($29/mo)",
+                "Can feel surveillance-heavy (records everything)"
+            ],
+            "best_for": "Mac users who want 'total recall' of everything they've seen/typed",
+            "alternatives": [
+                "mem",
+                "notion-ai",
+                "obsidian"
+            ],
+            "tags": [
+                "ai-search",
+                "screen-recording",
+                "productivity",
+                "mac-only"
+            ],
+            "featured": false
+        },
+        {
+            "id": "reclaim-ai",
+            "name": "Reclaim.ai",
+            "url": "https://reclaim.ai",
+            "affiliate": null,
+            "category": "productivity",
+            "pricing": "Freemium",
+            "price_detail": "Free (limited) / Premium $8/mo / Business $12/mo",
+            "rating": 8.4,
+            "summary": "AI calendar assistant. Auto-schedules tasks, meetings, habits.",
+            "description": "Reclaim.ai connects to Google Calendar. 'Tasks': auto-schedule deadlines. 'Habits': auto-schedule gym, deep work, etc. 'Meeting Scheduling': auto-finds mutual free time. Free: 1 calendar, 10 tasks/mo. Premium: unlimited.",
+            "tutorial": "1. Sign up at reclaim.ai (free). 2. Connect Google Calendar. 3. 'Add Task': 'Write blog post', deadline Friday. Reclaim auto-schedules it. 4. 'Add Habit': 'Gym', 3x/week, 1 hour. Reclaim auto-blocks time. 5. 'Scheduling Link': share with others to book meetings (auto-finds mutual free time). 6. 'Analytics': see how you spend time.",
+            "pros": [
+                "Auto-schedules tasks + habits (no manual time-blocking)",
+                "Scheduling Links (like Calendly but smarter)",
+                "Free tier (1 calendar, 10 tasks/mo)",
+                "Google Calendar integration (seamless)"
+            ],
+            "cons": [
+                "Google Calendar only (no Outlook)",
+                "Free tier limited (10 tasks/mo)",
+                "Can feel 'rigid' if you prefer flexible scheduling"
+            ],
+            "best_for": "People who want AI to auto-manage their calendar (tasks, habits, meetings)",
+            "alternatives": [
+                "calendly",
+                "motion",
+                "clockwise"
+            ],
+            "tags": [
+                "ai-calendar",
+                "scheduling",
+                "habits",
+                "google-calendar"
+            ],
+            "featured": false
+        },
+        {
+            "id": "clockwise",
+            "name": "Clockwise",
+            "url": "https://www.clockwise.com",
+            "affiliate": null,
+            "category": "productivity",
+            "pricing": "Freemium",
+            "price_detail": "Free / Premium $12/user/mo / Enterprise custom",
+            "rating": 7.9,
+            "summary": "AI calendar optimizer. Creates 'Focus Time' by rearranging meetings.",
+            "description": "Clockwise optimizes your Google Calendar. 'Focus Time': auto-creates 2-hour blocks for deep work. 'Meeting Compression': shortens meetings to create buffer time. 'Smart Meeting Scheduling': finds optimal time for all attendees. Free: 1 calendar. Premium: teams.",
+            "tutorial": "1. Sign up at clockwise.com (free). 2. Connect Google Calendar. 3. 'Focus Time': set preference (e.g., '2 hours daily, mornings'). Clockwise auto-creates blocks. 4. 'Meeting Compression': Clockwise shortens 1-hour meetings to 45 min (auto-adjusts attendees' calendars). 5. 'Analytics': see 'Focus Score' (how much deep work time you have). 6. Premium: team features (sync focus time across team).",
+            "pros": [
+                "Creates 'Focus Time' automatically (deep work blocks)",
+                "Meeting Compression (creates buffer time)",
+                "Free tier (1 calendar)",
+                "Google Calendar integration"
+            ],
+            "cons": [
+                "Google Calendar only (no Outlook)",
+                "Can feel aggressive (moves meetings around)",
+                "Premium needed for teams"
+            ],
+            "best_for": "People who want AI to optimize their calendar for deep work (focus time)",
+            "alternatives": [
+                "reclaim-ai",
+                "motion",
+                "calendly"
+            ],
+            "tags": [
+                "ai-calendar",
+                "focus-time",
+                "meeting-optimization",
+                "productivity"
+            ],
+            "featured": false
+        },
+        {
+            "id": "salesforce-einstein",
+            "name": "Salesforce Einstein",
+            "url": "https://www.salesforce.com/products/einstein/",
+            "affiliate": null,
+            "category": "marketing",
+            "pricing": "Paid",
+            "price_detail": "Included in Salesforce Enterprise ($150/user/mo+)",
+            "rating": 8.1,
+            "summary": "AI built into Salesforce CRM. Predicts outcomes, automates tasks, generates content.",
+            "description": "Einstein is Salesforce's AI layer. 'Einstein GPT': generates emails, case summaries, product descriptions. 'Predictive AI': forecasts which leads will convert. 'Einstein Bots': AI chatbots for customer service. Included in Salesforce Enterprise ($150/user/mo+).",
+            "tutorial": "1. Have Salesforce Enterprise (or higher). 2. 'Einstein GPT': 'Generate follow-up email to lead' — Einstein writes it. 3. 'Predictive AI': Einstein scores leads, forecasts pipeline. 4. 'Einstein Bots': build AI chatbots (no-code). 5. 'Einstein Activity Capture': auto-logs emails/meetings to CRM. 6. 'Tableau Einstein': AI insights in dashboards.",
+            "pros": [
+                "Built into Salesforce (no separate tool)",
+                "Einstein GPT (content generation)",
+                "Predictive AI (lead scoring, forecasting)",
+                "Einstein Bots (AI chatbots)"
+            ],
+            "cons": [
+                "Expensive (Salesforce Enterprise $150/user/mo+)",
+                "Learning curve (Salesforce is complex)",
+                "Less capable than standalone AI tools (Jasper, Copy.ai) for pure content"
+            ],
+            "best_for": "Enterprises already on Salesforce who want AI features built-in",
+            "alternatives": [
+                "hubspot-ai",
+                "zoho-zia",
+                "microsoft-viva-sales"
+            ],
+            "tags": [
+                "crm",
+                "salesforce",
+                "predictive-ai",
+                "einstein-gpt"
+            ],
+            "featured": false
+        },
+        {
+            "id": "sdxl",
+            "name": "Stable Diffusion XL (SDXL)",
+            "url": "https://stability.ai/stable-diffusion",
+            "affiliate": null,
+            "category": "image",
+            "pricing": "Free",
+            "price_detail": "Open-source (free) / API $18/1M tokens",
+            "rating": 9.0,
+            "summary": "Most advanced open-source image generator. 1024x1024, photorealistic.",
+            "description": "SDXL is Stability AI's most advanced open-source image generator. 1024x1024 base resolution (up to 4K with upscaling). Photorealistic, artistic, anime — all styles. Completely open-source (download + run locally). API: $18/1M tokens (~1000 images).",
+            "tutorial": "1. Go to stability.ai/stable-diffusion (download SDXL). 2. 'Local install': needs GPU (RTX 3060+). Use Automatic1111 web UI. 3. 'Online': DreamStudio (stability.ai/dreamstudio) — $18/1M tokens. 4. 'Prompt': 'Photorealistic portrait of...' — SDXL understands complex prompts. 5. 'Negative prompt': tell it what to avoid ('blurry, deformed'). 6. 'Upscale': 2x, 4x (get 4K images).",
+            "pros": [
+                "Open-source (free, download + run locally)",
+                "1024x1024 base (up to 4K)",
+                "Understands complex prompts",
+                "API available ($18/1M tokens)"
+            ],
+            "cons": [
+                "Needs powerful GPU for local install (RTX 3060+)",
+                "Can generate inappropriate content (no built-in filter)",
+                "Less 'curated' than Midjourney (more manual tweaking)"
+            ],
+            "best_for": "Artists/developers who want open-source, customizable image generation (not locked into Midjourney)",
+            "alternatives": [
+                "midjourney",
+                "dalle-3",
+                "leonardo-ai"
+            ],
+            "tags": [
+                "open-source",
+                "image-generation",
+                "stability-ai",
+                "photorealistic"
+            ],
+            "featured": true
+        },
+        {
+            "id": "photoroom",
+            "name": "Photoroom",
+            "url": "https://www.photoroom.com",
+            "affiliate": null,
+            "category": "design",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro $12.99/mo / Team $29.99/mo",
+            "rating": 8.6,
+            "summary": "AI product photography. Remove background, add realistic shadows, change backdrop.",
+            "description": "Photoroom is AI for product photography. 'Remove Background': one click. 'AI Shadows': adds realistic drop shadow. 'Backdrop Changer': replace white background with office, outdoors, etc. Used by 10M+ sellers (eBay, Etsy, Amazon). Free: watermarked. Pro: $12.99/mo.",
+            "tutorial": "1. Sign up at photoroom.com (free). 2. Upload product photo. 3. 'Remove Background': one click (perfect cutout). 4. 'AI Shadows': adds realistic shadow (makes it look real, not Photoshopped). 5. 'Backdrop Changer': replace white background with 'Office', 'Outdoor', 'Studio', etc. 6. 'Batch Mode': process 50 products at once (Pro).",
+            "pros": [
+                "Remove background + AI shadows (looks real)",
+                "Backdrop Changer (office, outdoor, etc.)",
+                "Batch Mode (50 products at once)",
+                "10M+ sellers (eBay, Etsy, Amazon)"
+            ],
+            "cons": [
+                "Free = watermarked (not usable for sales)",
+                "Pro needed for high-res ($12.99/mo)",
+                "Less control than manual Photoshop (but 10x faster)"
+            ],
+            "best_for": "E-commerce sellers who need professional product photos (no Photoshop skills)",
+            "alternatives": [
+                "remove-bg",
+                "canva-ai",
+                "clipdrop"
+            ],
+            "tags": [
+                "product-photography",
+                "background-removal",
+                "ai-shadows",
+                "ecommerce"
+            ],
+            "featured": true
         }
     ],
     "upcoming": [
