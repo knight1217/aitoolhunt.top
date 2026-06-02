@@ -3870,6 +3870,43 @@ window.__TOOLS_DATA__ = {
                 "mobile-app"
             ],
             "featured": false
+        },
+        {
+            "id": "github-copilot",
+            "name": "GitHub Copilot",
+            "url": "https://github.com/features/copilot",
+            "affiliate": null,
+            "category": "coding",
+            "pricing": "Freemium",
+            "price_detail": "Free for students/OSS / $10/mo / Business $19/mo",
+            "rating": 9.2,
+            "summary": "AI pair programmer by GitHub. Code completions in real-time.",
+            "description": "GitHub Copilot is the most widely-used AI coding assistant. Trained on public code (billions of lines). Supports VS Code, Visual Studio, Neovim, JetBrains. Chat: Copilot Chat answers coding questions. Free for students, teachers, and open-source maintainers.",
+            "tutorial": "1. Install Copilot extension (VS Code/JetBrains). 2. Sign in with GitHub. 3. Start typing — Copilot suggests completions (gray text). 4. Tab to accept. 5. Copilot Chat: Cmd/Ctrl+I → ask coding questions. 6. '/' commands: /fix, /tests, /docs, /explain.",
+            "pros": [
+                "Most widely-used AI coder (10M+ devs)",
+                "Free for students/OSS",
+                "Chat mode (fix, tests, docs)",
+                "Supports 20+ languages"
+            ],
+            "cons": [
+                "$10/mo for individuals (after free tier)",
+                "Can suggest insecure code (review needed)",
+                "Telemetry concerns (code sent to cloud)"
+            ],
+            "best_for": "Developers who want the most mature AI coding assistant",
+            "alternatives": [
+                "cursor",
+                "cody",
+                "codeium"
+            ],
+            "tags": [
+                "ai-coding",
+                "copilot",
+                "github",
+                "code-completion"
+            ],
+            "featured": true
         }
     ],
     "upcoming": [
