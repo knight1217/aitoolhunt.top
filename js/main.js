@@ -1,5 +1,19 @@
 // ===== AI Tools Directory - Main JS =====
 
+// Google Analytics 4
+(function() {
+  var script = document.createElement('script');
+  script.async = true;
+  script.src = 'https://www.googletagmanager.com/gtag/js?id=G-HNVS8KTTEE';
+  document.head.appendChild(script);
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  window.gtag = gtag;
+  gtag('js', new Date());
+  gtag('config', 'G-HNVS8KTTEE');
+})();
+
 // App state
 let appData = null;
 let currentCategory = null;
