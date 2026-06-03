@@ -14,6 +14,15 @@
   gtag('config', 'G-HNVS8KTTEE');
 })();
 
+// Google AdSense
+(function() {
+  var ads = document.createElement('script');
+  ads.async = true;
+  ads.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1693165095863269';
+  ads.crossOrigin = 'anonymous';
+  document.head.appendChild(ads);
+})();
+
 // App state
 let appData = null;
 let currentCategory = null;
