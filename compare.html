@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Side-by-side AI tool comparison. Features, pricing, and honest verdicts.">
-  <title>Compare AI Tools | AI Tool Directory</title>
+  <title>Compare AI Tools | AI Tool Hunt</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
 </head>
@@ -29,11 +29,12 @@
 <main class="section">
   <div class="container" id="compareContent">
     <!-- Default state when no tools selected -->
-    <div style="text-align:center;padding:60px 0">
+    <div style="text-align:center;padding:60px 0;">
       <div style="font-size:4rem;margin-bottom:16px">⚔️</div>
       <h1 style="font-size:2rem;margin-bottom:8px">Compare AI Tools</h1>
       <p style="color:var(--text-secondary);margin-bottom:24px">Pick two tools to see how they stack up.</p>
-      <p style="color:var(--text-muted);font-size:0.9rem">Visit any tool page and click "Compare" to start. Or try: 
+      <p style="color:var(--text-muted);font-size:0.9rem">
+        Visit any tool page and click "Compare" to start. Or try:
         <a href="compare.html?t1=chatgpt&t2=claude" style="color:var(--accent)">ChatGPT vs Claude</a>
       </p>
     </div>
@@ -41,31 +42,94 @@
     <div class="section-header" style="margin-top: 40px;">
       <h2 class="section-title">📝 In-Depth Comparison Articles</h2>
     </div>
-    <div class="tool-grid" style="grid-template-columns: repeat(2, 1fr);">
-      <a href="compare/chatgpt-vs-claude.html" class="tool-card" style="padding: 24px;">
-        <h3 style="margin-bottom: 8px;">🤖 ChatGPT vs Claude</h3>
-        <p style="color: var(--text-secondary); font-size: 0.9rem;">Full comparison: writing quality, coding ability, context windows, and which one is worth your $20/month.</p>
+    <div class="tool-grid" style="grid-template-columns: repeat(2, 1fr); gap: 24px;">
+
+      <!-- 6篇旧比较 -->
+      <a href="compare/chatgpt-vs-claude.html" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;transition:var(--transition);display:block;text-decoration:none;color:inherit;">
+        <span style="display:inline-block;background:var(--border);color:var(--text-secondary);font-size:0.75rem;padding:4px 10px;border-radius:20px;margin-bottom:12px;">Comparison</span>
+        <h3 style="font-size:1.15rem;margin-bottom:8px;line-height:1.4;">🤖 ChatGPT vs Claude</h3>
+        <p style="color:var(--text-secondary);font-size:0.9rem;line-height:1.6;margin-bottom:12px;">Full comparison: writing quality, coding ability, context windows, and which one is worth your $20/month.</p>
+        <span style="color:var(--text-muted);font-size:0.8rem;">📅 June 2026 · Comparison</span>
       </a>
-      <a href="compare/midjourney-vs-dalle.html" class="tool-card" style="padding: 24px;">
-        <h3 style="margin-bottom: 8px;">🎨 Midjourney vs DALL-E 3</h3>
-        <p style="color: var(--text-secondary); font-size: 0.9rem;">Which AI creates more beautiful images? Quality, prompt accuracy, and pricing compared.</p>
+
+      <a href="compare/midjourney-vs-dalle.html" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;transition:var(--transition);display:block;text-decoration:none;color:inherit;">
+        <span style="display:inline-block;background:var(--border);color:var(--text-secondary);font-size:0.75rem;padding:4px 10px;border-radius:20px;margin-bottom:12px;">Comparison</span>
+        <h3 style="font-size:1.15rem;margin-bottom:8px;line-height:1.4;">🎨 Midjourney vs DALL-E 3</h3>
+        <p style="color:var(--text-secondary);font-size:0.9rem;line-height:1.6;margin-bottom:12px;">Which AI creates more beautiful images? Quality, prompt accuracy, and pricing compared.</p>
+        <span style="color:var(--text-muted);font-size:0.8rem;">📅 June 2026 · Comparison</span>
       </a>
-      <a href="compare/cursor-vs-copilot.html" class="tool-card" style="padding: 24px;">
-        <h3 style="margin-bottom: 8px;">💻 Cursor vs GitHub Copilot</h3>
-        <p style="color: var(--text-secondary); font-size: 0.9rem;">AI-first editor vs AI plugin. Which coding assistant makes you more productive?</p>
+
+      <a href="compare/cursor-vs-copilot.html" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;transition:var(--transition);display:block;text-decoration:none;color:inherit;">
+        <span style="display:inline-block;background:var(--border);color:var(--text-secondary);font-size:0.75rem;padding:4px 10px;border-radius:20px;margin-bottom:12px;">Comparison</span>
+        <h3 style="font-size:1.15rem;margin-bottom:8px;line-height:1.4;">💻 Cursor vs GitHub Copilot</h3>
+        <p style="color:var(--text-secondary);font-size:0.9rem;line-height:1.6;margin-bottom:12px;">AI-first editor vs AI plugin. Which coding assistant makes you more productive?</p>
+        <span style="color:var(--text-muted);font-size:0.8rem;">📅 June 2026 · Comparison</span>
       </a>
-      <a href="compare/perplexity-vs-google.html" class="tool-card" style="padding: 24px;">
-        <h3 style="margin-bottom: 8px;">🔍 Perplexity vs Google Search</h3>
-        <p style="color: var(--text-secondary); font-size: 0.9rem;">Can AI search engines really replace Google? Accuracy, speed, and use cases compared.</p>
+
+      <a href="compare/perplexity-vs-google.html" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;transition:var(--transition);display:block;text-decoration:none;color:inherit;">
+        <span style="display:inline-block;background:var(--border);color:var(--text-secondary);font-size:0.75rem;padding:4px 10px;border-radius:20px;margin-bottom:12px;">Comparison</span>
+        <h3 style="font-size:1.15rem;margin-bottom:8px;line-height:1.4;">🔍 Perplexity vs Google Search</h3>
+        <p style="color:var(--text-secondary);font-size:0.9rem;line-height:1.6;margin-bottom:12px;">Can AI search engines really replace Google? Accuracy, speed, and use cases compared.</p>
+        <span style="color:var(--text-muted);font-size:0.8rem;">📅 June 2026 · Comparison</span>
       </a>
-      <a href="compare/chatgpt-vs-deepseek.html" class="tool-card" style="padding: 24px;">
-        <h3 style="margin-bottom: 8px;">🤖 ChatGPT vs DeepSeek</h3>
-        <p style="color: var(--text-secondary); font-size: 0.9rem;">OpenAI's $200/mo flagship vs the free Chinese disruptor. Coding, reasoning, and value compared.</p>
+
+      <a href="compare/chatgpt-vs-deepseek.html" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;transition:var(--transition);display:block;text-decoration:none;color:inherit;">
+        <span style="display:inline-block;background:var(--border);color:var(--text-secondary);font-size:0.75rem;padding:4px 10px;border-radius:20px;margin-bottom:12px;">Comparison</span>
+        <h3 style="font-size:1.15rem;margin-bottom:8px;line-height:1.4;">🤖 ChatGPT vs DeepSeek</h3>
+        <p style="color:var(--text-secondary);font-size:0.9rem;line-height:1.6;margin-bottom:12px;">OpenAI's $200/mo flagship vs the free Chinese disruptor. Coding, reasoning, and value compared.</p>
+        <span style="color:var(--text-muted);font-size:0.8rem;">📅 June 2026 · Comparison</span>
       </a>
-      <a href="compare/suno-vs-udio.html" class="tool-card" style="padding: 24px;">
-        <h3 style="margin-bottom: 8px;">🎵 Suno vs Udio</h3>
-        <p style="color: var(--text-secondary); font-size: 0.9rem;">Which AI music generator sounds more human? Vocal quality, genre range, and free tier compared.</p>
+
+      <a href="compare/suno-vs-udio.html" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;transition:var(--transition);display:block;text-decoration:none;color:inherit;">
+        <span style="display:inline-block;background:var(--border);color:var(--text-secondary);font-size:0.75rem;padding:4px 10px;border-radius:20px;margin-bottom:12px;">Comparison</span>
+        <h3 style="font-size:1.15rem;margin-bottom:8px;line-height:1.4;">🎵 Suno vs Udio</h3>
+        <p style="color:var(--text-secondary);font-size:0.9rem;line-height:1.6;margin-bottom:12px;">Which AI music generator sounds more human? Vocal quality, genre range, and free tier compared.</p>
+        <span style="color:var(--text-muted);font-size:0.8rem;">📅 June 2026 · Comparison</span>
       </a>
+
+      <!-- 6篇新比较 -->
+      <a href="compare/notion-ai-vs-obsidian-ai-2026.html" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;transition:var(--transition);display:block;text-decoration:none;color:inherit;">
+        <span style="display:inline-block;background:var(--border);color:var(--text-secondary);font-size:0.75rem;padding:4px 10px;border-radius:20px;margin-bottom:12px;">Comparison</span>
+        <h3 style="font-size:1.15rem;margin-bottom:8px;line-height:1.4;">📝 Notion AI vs. Obsidian AI 2026</h3>
+        <p style="color:var(--text-secondary);font-size:0.9rem;line-height:1.6;margin-bottom:12px;">We compare the two most popular AI-enhanced note-taking apps on features, AI quality, pricing, and privacy.</p>
+        <span style="color:var(--text-muted);font-size:0.8rem;">📅 June 2026 · Comparison</span>
+      </a>
+
+      <a href="compare/github-copilot-vs-codewhisperer-2026.html" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;transition:var(--transition);display:block;text-decoration:none;color:inherit;">
+        <span style="display:inline-block;background:var(--border);color:var(--text-secondary);font-size:0.75rem;padding:4px 10px;border-radius:20px;margin-bottom:12px;">Comparison</span>
+        <h3 style="font-size:1.15rem;margin-bottom:8px;line-height:1.4;">🤖 GitHub Copilot vs. Amazon CodeWhisperer 2026</h3>
+        <p style="color:var(--text-secondary);font-size:0.9rem;line-height:1.6;margin-bottom:12px;">Two AI coding assistants backed by tech giants. We compare code quality, IDE support, pricing, and security features.</p>
+        <span style="color:var(--text-muted);font-size:0.8rem;">📅 June 2026 · Comparison</span>
+      </a>
+
+      <a href="compare/grammarly-vs-prowritingaid-2026.html" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;transition:var(--transition);display:block;text-decoration:none;color:inherit;">
+        <span style="display:inline-block;background:var(--border);color:var(--text-secondary);font-size:0.75rem;padding:4px 10px;border-radius:20px;margin-bottom:12px;">Comparison</span>
+        <h3 style="font-size:1.15rem;margin-bottom:8px;line-height:1.4;">✍️ Grammarly vs. ProWritingAid 2026</h3>
+        <p style="color:var(--text-secondary);font-size:0.9rem;line-height:1.6;margin-bottom:12px;">Deep-dive comparison of the two leading AI writing tools. Which one actually makes you a better writer?</p>
+        <span style="color:var(--text-muted);font-size:0.8rem;">📅 June 2026 · Comparison</span>
+      </a>
+
+      <a href="compare/synthesia-vs-heygen-2026.html" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;transition:var(--transition);display:block;text-decoration:none;color:inherit;">
+        <span style="display:inline-block;background:var(--border);color:var(--text-secondary);font-size:0.75rem;padding:4px 10px;border-radius:20px;margin-bottom:12px;">Comparison</span>
+        <h3 style="font-size:1.15rem;margin-bottom:8px;line-height:1.4;">🎬 Synthesia vs. HeyGen 2026</h3>
+        <p style="color:var(--text-secondary);font-size:0.9rem;line-height:1.6;margin-bottom:12px;">Create professional AI avatar videos without a camera or crew. We compare quality, pricing, and customization.</p>
+        <span style="color:var(--text-muted);font-size:0.8rem;">📅 June 2026 · Comparison</span>
+      </a>
+
+      <a href="compare/jasper-vs-copyai-2026.html" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;transition:var(--transition);display:block;text-decoration:none;color:inherit;">
+        <span style="display:inline-block;background:var(--border);color:var(--text-secondary);font-size:0.75rem;padding:4px 10px;border-radius:20px;margin-bottom:12px;">Comparison</span>
+        <h3 style="font-size:1.15rem;margin-bottom:8px;line-height:1.4;">📝 Jasper vs. Copy.ai 2026</h3>
+        <p style="color:var(--text-secondary);font-size:0.9rem;line-height:1.6;margin-bottom:12px;">Both tools target marketers and agencies. We compare output quality, workflow features, pricing, and team collaboration.</p>
+        <span style="color:var(--text-muted);font-size:0.8rem;">📅 June 2026 · Comparison</span>
+      </a>
+
+      <a href="compare/runway-vs-pika-2026.html" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;transition:var(--transition);display:block;text-decoration:none;color:inherit;">
+        <span style="display:inline-block;background:var(--border);color:var(--text-secondary);font-size:0.75rem;padding:4px 10px;border-radius:20px;margin-bottom:12px;">Comparison</span>
+        <h3 style="font-size:1.15rem;margin-bottom:8px;line-height:1.4;">🎬 Runway ML vs. Pika 2026</h3>
+        <p style="color:var(--text-secondary);font-size:0.9rem;line-height:1.6;margin-bottom:12px;">Text-to-video is exploding. Runway Gen-4 vs. Pika 2.0 — which one should you use for AI video creation?</p>
+        <span style="color:var(--text-muted);font-size:0.8rem;">📅 June 2026 · Comparison</span>
+      </a>
+
     </div>
   </div>
 </main>
