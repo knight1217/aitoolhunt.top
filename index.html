@@ -48,11 +48,25 @@
   </div>
 </div>
 
+<!-- Editor's Intro -->
+<section class="section">
+  <div class="container">
+    <div class="editor-intro" style="max-width:800px;margin:0 auto;padding:32px 24px;background:var(--card-bg);border-radius:12px;border-left:4px solid var(--accent)">
+      <h2 style="font-size:1.4rem;margin-bottom:16px;color:var(--heading)">👋 Welcome to AI Tool Hunt</h2>
+      <p style="color:var(--text);line-height:1.8;margin-bottom:12px">In the past two years, we've watched AI go from a niche interest to an everyday necessity. Tools like ChatGPT and Midjourney have fundamentally changed how people write, design, code, and create. But with thousands of new AI tools launching every month, finding the ones actually worth your time — and your money — has become overwhelming.</p>
+      <p style="color:var(--text);line-height:1.8;margin-bottom:12px"><strong>That's why we built AI Tool Hunt.</strong> We personally test every tool we list. We don't just copy descriptions from product pages — we sign up, run real tasks, and write honest reviews based on actual experience. Each tool gets a rating from 1 to 10 based on usability, features, pricing, and real-world performance. We tell you what works, what doesn't, and who each tool is actually for.</p>
+      <p style="color:var(--text);line-height:1.8;margin-bottom:12px">Our catalog covers 10 categories — from AI writing assistants and image generators to coding copilots and video creation tools. Whether you're a solo freelancer trying to speed up your workflow, a small business owner looking to cut costs, or just someone curious about what AI can do — we've done the homework so you don't have to.</p>
+      <p style="color:var(--text-muted);font-size:0.9rem;margin-top:16px"><em>Last updated: June 4, 2026 &middot; Written by the AI Tool Hunt editorial team</em></p>
+    </div>
+  </div>
+</section>
+
 <!-- Categories -->
 <section class="section" id="categories">
   <div class="container">
     <div class="section-header">
       <h2 class="section-title">Browse by Category</h2>
+      <p style="color:var(--text-muted);font-size:0.95rem;margin-top:8px">Explore AI tools organized by what they actually do. From chatbots that write your emails to image generators that turn ideas into art — every category includes tools we've personally tested.</p>
     </div>
     <div class="cat-grid" id="catGrid"></div>
   </div>
@@ -79,14 +93,38 @@
   </div>
 </section>
 
-<!-- Featured Tools -->
+<!-- Top Picks -->
 <section class="section">
   <div class="container">
     <div class="section-header">
       <h2 class="section-title"><span class="emoji">⭐</span> Top Picks</h2>
       <a href="#allTools" class="section-link">View All →</a>
     </div>
+    <p style="color:var(--text-muted);font-size:0.95rem;margin-bottom:20px;text-align:center">These are the tools we recommend most often — the ones that deliver consistent results, have fair pricing, and are genuinely useful for everyday work.</p>
     <div class="tool-grid" id="featuredTools"></div>
+  </div>
+</section>
+
+<!-- How We Review -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">🔍 How We Review &amp; Rate Tools</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;max-width:900px;margin:0 auto">
+      <div style="background:var(--card-bg);padding:20px;border-radius:10px">
+        <h3 style="font-size:1.1rem;color:var(--heading);margin-bottom:8px">1. Hands-On Testing</h3>
+        <p style="color:var(--text);line-height:1.7;font-size:0.95rem">We create real accounts, run actual tasks, and use each tool the way a real user would. No reading product pages and guessing — every review comes from hours of firsthand use.</p>
+      </div>
+      <div style="background:var(--card-bg);padding:20px;border-radius:10px">
+        <h3 style="font-size:1.1rem;color:var(--heading);margin-bottom:8px">2. Multi-Factor Rating</h3>
+        <p style="color:var(--text);line-height:1.7;font-size:0.95rem">Each tool is scored on usability, feature depth, pricing fairness, output quality, and support. Our 1-10 rating isn't a guess — it's the average of these five real-world criteria.</p>
+      </div>
+      <div style="background:var(--card-bg);padding:20px;border-radius:10px">
+        <h3 style="font-size:1.1rem;color:var(--heading);margin-bottom:8px">3. Ongoing Updates</h3>
+        <p style="color:var(--text);line-height:1.7;font-size:0.95rem">AI tools change fast. We re-test major tools quarterly and update scores when features change, prices shift, or new competitors emerge. What was true in January may not be true in June.</p>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -96,6 +134,7 @@
     <div class="section-header">
       <h2 class="section-title"><span class="emoji">🛠️</span> All AI Tools</h2>
     </div>
+    <p style="color:var(--text-muted);font-size:0.95rem;margin-bottom:20px;text-align:center">Every tool in our directory has been manually reviewed and rated by our team. Each listing includes a detailed description, pros and cons, and an honest rating based on real-world testing.</p>
     <div class="tool-grid" id="allToolsGrid"></div>
   </div>
 </section>
@@ -118,7 +157,7 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <h3>🤖 AI Tool Hunt</h3>
-        <p>Your guide to the AI tool jungle. We test, compare, and review — so you don't have to.</p>
+        <p>Hand-tested AI tool reviews since 2026. We don't use AI to write our reviews — we use the tools ourselves and share what we learn. <a href="about.html" style="color:var(--accent)">Learn more about our process →</a></p>
       </div>
       <div class="footer-col">
         <h4>Categories</h4>
