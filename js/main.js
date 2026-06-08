@@ -169,8 +169,8 @@ function renderHome() {
   if (statEls.length >= 4) {
     statEls[0].textContent = totalTools + '+';
     statEls[1].textContent = appData.categories.length + '+';
-    statEls[2].textContent = '38';
-    statEls[3].textContent = '18+';
+    statEls[2].textContent = '43';
+    statEls[3].textContent = '23+';
   }
   
   // Search
