@@ -148,10 +148,10 @@ function animateStats() {
     const timer = setInterval(() => {
       current += step;
       if (current >= target) {
-        stat.textContent = target + '+';
+        stat.textContent = target;
         clearInterval(timer);
       } else {
-        stat.textContent = Math.floor(current) + '+';
+        stat.textContent = Math.floor(current);
       }
     }, 16);
   });
@@ -164,12 +164,13 @@ function renderHome() {
   const featured = appData.tools.filter(t => t.featured);
   const totalTools = appData.tools.length;
   
-  // Stats
+  // Stats — read from HTML, no JS override
   const statEls = document.querySelectorAll('.stat-number');
-  if (statEls.length >= 3) {
-    statEls[0].textContent = totalTools;
-    statEls[1].textContent = appData.categories.length;
-    statEls[2].textContent = 'Weekly';
+  if (statEls.length >= 4) {
+    statEls[0].textContent = totalTools + '+';
+    statEls[1].textContent = appData.categories.length + '+';
+    statEls[2].textContent = '38';
+    statEls[3].textContent = '18+';
   }
   
   // Search
