@@ -164,13 +164,13 @@ function renderHome() {
   const featured = appData.tools.filter(t => t.featured);
   const totalTools = appData.tools.length;
   
-  // Stats — read from HTML, no JS override
+  // Stats — read from dynamic data
   const statEls = document.querySelectorAll('.stat-number');
   if (statEls.length >= 4) {
-    statEls[0].textContent = totalTools + '+';
-    statEls[1].textContent = appData.categories.length + '+';
-    statEls[2].textContent = '43';
-    statEls[3].textContent = '23+';
+    statEls[0].textContent = totalTools;
+    statEls[1].textContent = appData.categories.length;
+    // Blog & Compare stats are set in HTML, not in data.js
+    // Keep HTML values (statEls[2] and statEls[3] untouched)
   }
   
   // Search
