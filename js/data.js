@@ -1,4 +1,4 @@
-// Auto-generated from tools.json -- embedded for file:// compatibility
+// Auto-generated from tools.json
 window.__TOOLS_DATA__ = {
     "categories": [
         {
@@ -5128,6 +5128,306 @@ window.__TOOLS_DATA__ = {
                 "ecommerce"
             ],
             "featured": true
+        },
+        {
+            "id": "devin",
+            "name": "Devin AI",
+            "url": "https://cognition.ai",
+            "affiliate": null,
+            "category": "coding",
+            "pricing": "Paid",
+            "price_detail": "From $500/mo",
+            "rating": 8.2,
+            "summary": "Autonomous AI software engineer that plans, codes, debugs, and deploys projects independently.",
+            "description": "Devin is an autonomous AI software engineer that can plan, write, test, and deploy code with minimal human input. You describe the task, and Devin handles the entire engineering workflow.",
+            "tutorial": "1. Sign up at cognition.ai. 2. Describe your project in natural language. 3. Devin plans, codes, and tests autonomously. 4. Review and iterate.",
+            "pros": [
+                "Truly autonomous",
+                "Handles complex multi-file projects",
+                "Built-in testing"
+            ],
+            "cons": [
+                "Expensive",
+                "Limited availability",
+                "Overkill for simple tasks"
+            ]
+        },
+        {
+            "id": "meshy",
+            "name": "Meshy",
+            "url": "https://meshy.ai",
+            "affiliate": null,
+            "category": "image",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro from $16/mo",
+            "rating": 7.8,
+            "summary": "AI-powered 3D model generation from text prompts or 2D images in seconds.",
+            "description": "Meshy uses AI to generate high-quality 3D models from text or 2D images. Supports FBX, OBJ, GLB exports. Ideal for game developers and 3D artists.",
+            "tutorial": "1. Sign up at meshy.ai. 2. Choose Text to 3D or Image to 3D. 3. Enter prompt or upload image. 4. Download in your preferred format. Free: 5 generations/month.",
+            "pros": [
+                "Fast generation",
+                "Multiple export formats",
+                "Easy to use"
+            ],
+            "cons": [
+                "Limited free tier",
+                "Complex models need refinement",
+                "Text-to-3D unpredictable"
+            ]
+        },
+        {
+            "id": "luma-ai",
+            "name": "Luma AI",
+            "url": "https://lumalabs.ai",
+            "affiliate": null,
+            "category": "image",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro from $29/mo",
+            "rating": 8.5,
+            "summary": "Capture real-world objects as photorealistic 3D models using your smartphone.",
+            "description": "Luma AI uses NeRF technology to convert smartphone videos into photorealistic 3D models. Also offers Genie for text-to-3D and Flythroughs for cinematic rendering.",
+            "tutorial": "1. Download Luma AI app. 2. Record video walking around an object. 3. AI processes into 3D model. 4. Export as USDZ, OBJ, or GLTF. Free: 5 captures/month.",
+            "pros": [
+                "Photorealistic results",
+                "Easy phone capture",
+                "Multiple output formats"
+            ],
+            "cons": [
+                "Requires good lighting",
+                "Moving objects cause artifacts",
+                "Limited editing"
+            ]
+        },
+        {
+            "id": "harvey-ai",
+            "name": "Harvey AI",
+            "url": "https://harvey.ai",
+            "affiliate": null,
+            "category": "productivity",
+            "pricing": "Enterprise",
+            "price_detail": "Custom pricing",
+            "rating": 8.0,
+            "summary": "AI for legal professionals — contract analysis, research, and document drafting.",
+            "description": "Harvey AI is a specialized AI for law firms. Handles contract review, legal research, document drafting, and due diligence with lawyer-level accuracy. Trusted by top firms.",
+            "tutorial": "1. Contact Harvey for enterprise demo. 2. Integrate with document management system. 3. Query case law and analyze contracts in natural language. 4. Generate legal document drafts. Enterprise-only.",
+            "pros": [
+                "Legal-domain specialized",
+                "Trusted by top law firms",
+                "High accuracy"
+            ],
+            "cons": [
+                "Enterprise only",
+                "Expensive",
+                "Not for individuals"
+            ]
+        },
+        {
+            "id": "v0-vercel",
+            "name": "v0 by Vercel",
+            "url": "https://v0.dev",
+            "affiliate": null,
+            "category": "coding",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro from $20/mo",
+            "rating": 8.8,
+            "summary": "Generate production-ready React UI components from text prompts or screenshots.",
+            "description": "v0 generates React/Tailwind components from natural language. Paste a screenshot and it recreates the design. Deploy directly to Vercel.",
+            "tutorial": "1. Go to v0.dev and sign in. 2. Describe your UI or paste a screenshot. 3. v0 generates React + Tailwind code. 4. Copy code or deploy to Vercel.",
+            "pros": [
+                "Production-quality code",
+                "Screenshot-to-code",
+                "Vercel integration"
+            ],
+            "cons": [
+                "React/Tailwind only",
+                "Limited free tier",
+                "UI components only"
+            ]
+        },
+        {
+            "id": "lovable",
+            "name": "Lovable",
+            "url": "https://lovable.dev",
+            "affiliate": null,
+            "category": "coding",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro from $20/mo",
+            "rating": 8.3,
+            "summary": "Build full-stack web apps with AI — backend, database, and frontend from one prompt.",
+            "description": "Lovable generates complete web applications with frontend, backend, and database. Get a working app with auth, data storage, and deployment in minutes.",
+            "tutorial": "1. Sign up at lovable.dev. 2. Describe your app idea. 3. Lovable generates full codebase. 4. Iterate with text edits. 5. Deploy with one click.",
+            "pros": [
+                "Full-stack generation",
+                "Instant deployment",
+                "Supports iteration"
+            ],
+            "cons": [
+                "Limited tech stack",
+                "Complex apps need fixes",
+                "Paid after free tier"
+            ]
+        },
+        {
+            "id": "elevenlabs",
+            "name": "ElevenLabs",
+            "url": "https://elevenlabs.io",
+            "affiliate": null,
+            "category": "audio",
+            "pricing": "Freemium",
+            "price_detail": "Free / Starter $5/mo / Pro $22/mo",
+            "rating": 9.0,
+            "summary": "Industry-leading AI voice synthesis and cloning — most natural-sounding AI voices.",
+            "description": "ElevenLabs provides state-of-the-art text-to-speech and voice cloning. Generate speech in 29 languages, clone voices from 1-min samples, and access API.",
+            "tutorial": "1. Sign up at elevenlabs.io. 2. Choose from 100+ voices or clone your own. 3. Type text and generate speech. 4. Adjust stability and clarity. Free: 10K chars/month.",
+            "pros": [
+                "Most natural voices",
+                "Voice cloning",
+                "29 languages",
+                "API access"
+            ],
+            "cons": [
+                "Limited free tier",
+                "Cloning needs verification",
+                "Premium voices cost more"
+            ]
+        },
+        {
+            "id": "scenario-gg",
+            "name": "Scenario.gg",
+            "url": "https://scenario.com",
+            "affiliate": null,
+            "category": "image",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro from $12/mo",
+            "rating": 7.5,
+            "summary": "AI game asset generator — train models on your art style for consistent characters.",
+            "description": "Scenario lets game devs train custom AI models on their own art for consistent game assets. Upload reference images to create style-specific generators.",
+            "tutorial": "1. Sign up at scenario.com. 2. Upload reference images to train custom model. 3. Generate assets in your style. 4. Download and use. Free: 50 generations/month.",
+            "pros": [
+                "Style-consistent output",
+                "Custom model training",
+                "Game-industry focus"
+            ],
+            "cons": [
+                "Needs training images",
+                "API can be slow",
+                "Limited free tier"
+            ]
+        },
+        {
+            "id": "inworld-ai",
+            "name": "Inworld AI",
+            "url": "https://inworld.ai",
+            "affiliate": null,
+            "category": "chat",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro from $20/mo",
+            "rating": 7.8,
+            "summary": "Create AI-powered NPCs with personality, memory, and realistic dialogue for games.",
+            "description": "Inworld AI provides a character engine for intelligent NPCs. Define personality, backstory, emotions — NPCs remember past interactions. Unity/Unreal SDKs.",
+            "tutorial": "1. Sign up at inworld.ai. 2. Create character with personality and backstory. 3. Integrate via SDK. 4. NPCs respond dynamically. Free: 5K interactions/month.",
+            "pros": [
+                "Rich personalities",
+                "Memory of interactions",
+                "Unity/Unreal SDKs"
+            ],
+            "cons": [
+                "Complex setup",
+                "Enterprise pricing unclear",
+                "Games only"
+            ]
+        },
+        {
+            "id": "ambio",
+            "name": "Ambience Healthcare",
+            "url": "https://ambiencehealth.ai",
+            "affiliate": null,
+            "category": "productivity",
+            "pricing": "Enterprise",
+            "price_detail": "Custom pricing",
+            "rating": 8.0,
+            "summary": "AI medical scribe — auto-generates clinical notes from doctor-patient conversations.",
+            "description": "Ambience Healthcare provides AI clinical documentation. Listens to appointments and generates structured notes, saving physicians hours per day. HIPAA-compliant.",
+            "tutorial": "1. Contact Ambience for demo. 2. Integrate with EHR. 3. AI listens and generates draft notes. 4. Physician reviews and signs. Reduces documentation time by 70%.",
+            "pros": [
+                "Saves hours of documentation",
+                "HIPAA compliant",
+                "EHR integration"
+            ],
+            "cons": [
+                "Enterprise only",
+                "Not for individual use",
+                "Requires IT setup"
+            ]
+        },
+        {
+            "id": "playht",
+            "name": "Play.ht",
+            "url": "https://play.ht",
+            "affiliate": null,
+            "category": "audio",
+            "pricing": "Freemium",
+            "price_detail": "Free / Creator $39/mo / Pro $99/mo",
+            "rating": 8.2,
+            "summary": "AI voice generation with 800+ voices across 142 languages and ultra-realistic cloning.",
+            "description": "Play.ht offers 800+ AI voices in 142 languages. Features ultra-realistic voice cloning, podcast tools, and API. Popular with podcasters and video creators.",
+            "tutorial": "1. Sign up at play.ht. 2. Choose from 800+ voices or clone yours. 3. Type text and generate speech. 4. Export MP3/WAV. Free: 12,500 chars/month.",
+            "pros": [
+                "800+ voices in 142 languages",
+                "Ultra-realistic cloning",
+                "Podcast tools"
+            ],
+            "cons": [
+                "Creator plan pricier",
+                "Complex UI",
+                "Some voices robotic"
+            ]
+        },
+        {
+            "id": "heygen",
+            "name": "HeyGen",
+            "url": "https://heygen.com",
+            "affiliate": null,
+            "category": "video",
+            "pricing": "Freemium",
+            "price_detail": "Free / Creator $29/mo / Business $89/mo",
+            "rating": 8.5,
+            "summary": "AI video generation with talking avatars — professional videos from text in minutes.",
+            "description": "HeyGen creates AI videos with lifelike digital avatars. Choose from 100+ avatars, add voiceovers in 40+ languages. No camera needed. For training, marketing, outreach.",
+            "tutorial": "1. Sign up at heygen.com. 2. Choose avatar or upload photo. 3. Type script. 4. Select voice and language. 5. Generate and download. Free: 1 credit/month.",
+            "pros": [
+                "Lifelike avatars",
+                "40+ languages",
+                "No filming equipment"
+            ],
+            "cons": [
+                "Expensive for frequent use",
+                "Limited free tier",
+                "Lip-sync imperfect"
+            ]
+        },
+        {
+            "id": "spline-ai",
+            "name": "Spline AI",
+            "url": "https://spline.design",
+            "affiliate": null,
+            "category": "design",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro from $12/mo",
+            "rating": 8.0,
+            "summary": "AI-powered 3D design tool — generate and edit 3D objects with text prompts.",
+            "description": "Spline is a browser-based 3D design tool with AI. Generate 3D objects from text, apply materials, create interactive scenes. Export for web, image, or video.",
+            "tutorial": "1. Go to spline.design. 2. Use AI prompt to generate 3D objects. 3. Edit, texture, animate. 4. Export for web, image, video. Free: limited AI generations.",
+            "pros": [
+                "Browser-based",
+                "AI + manual editing",
+                "Web export"
+            ],
+            "cons": [
+                "Basic AI generation",
+                "Learning curve",
+                "Limited free tier"
+            ]
         }
     ],
     "upcoming": [
@@ -5252,4 +5552,4 @@ window.__TOOLS_DATA__ = {
             ]
         }
     ]
-};
+}
