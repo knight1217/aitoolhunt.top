@@ -265,7 +265,10 @@
   </div>
 </footer>
 
-<script src="js/data.js?v=20260621"></script>
-<script src="js/main.js?v=20260621"></script>
+<script>
+document.querySelector('.mobile-toggle').addEventListener('click',function(){
+  document.querySelector('.nav-links').classList.toggle('open');
+});
+</script>
 </body>
 </html>
