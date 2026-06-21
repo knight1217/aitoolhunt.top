@@ -5428,6 +5428,237 @@ window.__TOOLS_DATA__ = {
                 "Learning curve",
                 "Limited free tier"
             ]
+        },
+        {
+            "id": "looka",
+            "name": "Looka",
+            "url": "https://looka.com",
+            "affiliate": null,
+            "category": "design",
+            "pricing": "Freemium",
+            "price_detail": "Free logo / Brand kit from $96",
+            "rating": 7.5,
+            "summary": "AI logo maker and brand identity designer — generate logos, business cards, and brand kits.",
+            "description": "Looka uses AI to generate custom logos from your style preferences. Pick from generated options, customize colors and fonts, then download. Also includes brand kit with business cards, social media assets, and brand guidelines.",
+            "tutorial": "1. Enter your company name and industry. 2. Pick 5+ logo styles you like. 3. AI generates dozens of options. 4. Customize and purchase. Free to design, pay to download.",
+            "pros": [
+                "Easy logo generation",
+                "Complete brand kit",
+                "Pay only when satisfied"
+            ],
+            "cons": [
+                "Logo quality varies",
+                "Limited free customization",
+                "One-time purchase, not subscription"
+            ]
+        },
+        {
+            "id": "superhuman",
+            "name": "Superhuman AI",
+            "url": "https://superhuman.com",
+            "affiliate": null,
+            "category": "productivity",
+            "pricing": "Paid",
+            "price_detail": "From $30/mo",
+            "rating": 8.5,
+            "summary": "AI-powered email client — blazing fast with AI triage, writing, and summarization.",
+            "description": "Superhuman is a premium email client with AI features: automatically categorize incoming email, generate AI-powered summaries, draft replies in your voice, and schedule follow-ups. Built for speed with keyboard shortcuts and split inbox.",
+            "tutorial": "1. Request access at superhuman.com. 2. Onboard with a 30-min concierge session. 3. AI auto-sorts email into Split Inbox. 4. Use Cmd+K for AI features. $30/mo after trial.",
+            "pros": [
+                "Insanely fast",
+                "AI triage and summaries",
+                "Concierge onboarding"
+            ],
+            "cons": [
+                "Expensive for email",
+                "Gmail/Outlook only",
+                "Waitlist sometimes"
+            ]
+        },
+        {
+            "id": "suno",
+            "name": "Suno AI",
+            "url": "https://suno.com",
+            "affiliate": null,
+            "category": "audio",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro $10/mo / Premier $30/mo",
+            "rating": 9.0,
+            "summary": "AI music generator — create full songs with vocals and instrumentation from text prompts.",
+            "description": "Suno generates complete songs including vocals, lyrics, and instrumentation from text descriptions. Specify genre, mood, and topic — AI composes original music in seconds. V4 model produces remarkably polished tracks up to 4 minutes.",
+            "tutorial": "1. Go to suno.com and sign in. 2. Click Create, describe your song or enter custom lyrics. 3. Choose genre and style. 4. Generate — Suno creates 2 variations. 5. Download audio or video. Free: 50 credits/day.",
+            "pros": [
+                "Full songs with vocals",
+                "Impressive quality",
+                "Fast generation"
+            ],
+            "cons": [
+                "Copyright ambiguity",
+                "Limited control over specifics",
+                "Free tier watermarks"
+            ]
+        },
+        {
+            "id": "aiva",
+            "name": "AIVA",
+            "url": "https://aiva.ai",
+            "affiliate": null,
+            "category": "audio",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro €15/mo / Studio €49/mo",
+            "rating": 7.8,
+            "summary": "AI classical and soundtrack composer — generate orchestral, piano, and cinematic music.",
+            "description": "AIVA specializes in composing orchestral, classical, and cinematic music with AI. Choose from 250+ styles, generate scores with full instrumentation, and export MIDI or audio. Popular with filmmakers, game composers, and content creators needing background music.",
+            "tutorial": "1. Sign up at aiva.ai. 2. Select a style preset. 3. AI generates original composition. 4. Edit in the built-in editor. 5. Export as MP3 or MIDI. Free: 3 downloads/month.",
+            "pros": [
+                "Full MIDI export",
+                "Classical/cinematic focus",
+                "Pro-level editing"
+            ],
+            "cons": [
+                "Only instrumental",
+                "Limited free downloads",
+                "Learning curve for editor"
+            ]
+        },
+        {
+            "id": "stockimg",
+            "name": "Stockimg.ai",
+            "url": "https://stockimg.ai",
+            "affiliate": null,
+            "category": "image",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro $19/mo",
+            "rating": 7.2,
+            "summary": "AI image generator specializing in logos, book covers, posters, and stock photos.",
+            "description": "Stockimg.ai focuses on specific design categories: logos, book covers, posters, wallpapers, and stock photos. Choose a category template, describe what you want, and AI generates tailored results. Good for non-designers needing quick visuals.",
+            "tutorial": "1. Go to stockimg.ai. 2. Pick a category (logo, poster, etc.). 3. Describe your design. 4. Generate and browse results. 5. Download or regenerate. Free: limited generations/day.",
+            "pros": [
+                "Category-specific templates",
+                "Easy for non-designers",
+                "Multiple design types"
+            ],
+            "cons": [
+                "Quality inconsistent",
+                "Limited free tier",
+                "Creative control limited"
+            ]
+        },
+        {
+            "id": "interior-ai",
+            "name": "Interior AI",
+            "url": "https://interiorai.com",
+            "affiliate": null,
+            "category": "design",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro $39/mo",
+            "rating": 7.0,
+            "summary": "AI interior design — upload a room photo and see it redesigned in any style instantly.",
+            "description": "Interior AI redesigns rooms from photos. Upload a picture of your space, choose from 50+ design styles (minimalist, boho, industrial, etc.), and AI generates a redesigned version. Great for renovation planning and furniture arrangement ideas.",
+            "tutorial": "1. Go to interiorai.com. 2. Upload a photo of your room. 3. Choose a design style. 4. AI generates 4+ redesign variations. 5. Save for reference. Free: limited renders.",
+            "pros": [
+                "Instant room transformations",
+                "50+ design styles",
+                "Real photo input"
+            ],
+            "cons": [
+                "Output quality varies",
+                "Furniture may look unrealistic",
+                "No real shopping integration"
+            ]
+        },
+        {
+            "id": "jasper",
+            "name": "Jasper AI",
+            "url": "https://jasper.ai",
+            "affiliate": null,
+            "category": "writing",
+            "pricing": "Paid",
+            "price_detail": "Creator $49/mo / Pro $69/mo",
+            "rating": 8.0,
+            "summary": "AI writing platform for marketing teams — brand voice, campaigns, and content at scale.",
+            "description": "Jasper is an enterprise-grade AI writing platform with brand voice customization, campaign workflows, and team collaboration. Generate blog posts, ad copy, emails, and social media content that matches your brand tone. Integrates with SurferSEO.",
+            "tutorial": "1. Sign up at jasper.ai. 2. Set up your brand voice and knowledge base. 3. Choose a template or describe your content. 4. Generate and edit with AI assistance. 5. Export or schedule. Paid plans only.",
+            "pros": [
+                "Brand voice consistency",
+                "Marketing team features",
+                "SurferSEO integration"
+            ],
+            "cons": [
+                "No free tier",
+                "Expensive for individuals",
+                "Learning curve"
+            ]
+        },
+        {
+            "id": "claude-pro",
+            "name": "Claude Pro",
+            "url": "https://claude.ai",
+            "affiliate": null,
+            "category": "chat",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro $20/mo",
+            "rating": 9.3,
+            "summary": "Anthropic's AI assistant — best long-context reasoning, nuanced writing, and code generation.",
+            "description": "Claude by Anthropic excels at long-form content, nuanced reasoning, and large-document analysis with its 200K token context window. Strongest in creative writing, editing, coding, and academic work. Known for more natural, human-like prose than competitors.",
+            "tutorial": "1. Go to claude.ai and sign up. 2. Start a conversation — upload PDFs, images, or code files. 3. Claude analyzes and responds. 4. Use Projects to organize work. Free tier: limited messages. Pro: $20/mo for higher limits.",
+            "pros": [
+                "200K token context",
+                "Most natural writing",
+                "Strong reasoning",
+                "File upload support"
+            ],
+            "cons": [
+                "No web browsing in free tier",
+                "Fewer integrations than ChatGPT",
+                "Rate limits on free"
+            ]
+        },
+        {
+            "id": "pika",
+            "name": "Pika",
+            "url": "https://pika.art",
+            "affiliate": null,
+            "category": "video",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro $10/mo",
+            "rating": 8.0,
+            "summary": "AI video generator — create and edit videos with text prompts, images, and lip-sync features.",
+            "description": "Pika generates short AI videos from text prompts or images. Features include Pikaffects (visual transformations), lip-sync (characters speak your text), and video-to-video restyling. Fast, creative, and accessible for social media content.",
+            "tutorial": "1. Go to pika.art and sign in. 2. Describe your video or upload an image. 3. Add effects or lip-sync if desired. 4. Generate video clip. 5. Download or share. Free: limited generations.",
+            "pros": [
+                "Fast generation",
+                "Creative effects",
+                "Easy to use"
+            ],
+            "cons": [
+                "Short clips only",
+                "Less realistic than top competitors",
+                "Limited control"
+            ]
+        },
+        {
+            "id": "fireflies",
+            "name": "Fireflies.ai",
+            "url": "https://fireflies.ai",
+            "affiliate": null,
+            "category": "productivity",
+            "pricing": "Freemium",
+            "price_detail": "Free / Pro $10/mo / Business $19/mo",
+            "rating": 8.6,
+            "summary": "AI meeting assistant — auto-joins calls, transcribes, summarizes, and extracts action items.",
+            "description": "Fireflies automatically joins your Zoom, Meet, and Teams calls to record, transcribe, and summarize conversations. AI generates meeting notes with action items, searchable transcripts, and speaker identification. Integrates with CRM and project tools.",
+            "tutorial": "1. Sign up at fireflies.ai. 2. Connect your calendar and conferencing apps. 3. Fred (Fireflies bot) auto-joins meetings. 4. Get AI summaries and transcripts after each call. Free: 800 min storage. Pro: unlimited.",
+            "pros": [
+                "Auto-joins meetings",
+                "Smart summaries",
+                "CRM integration"
+            ],
+            "cons": [
+                "Bot visible in calls",
+                "Occasional transcription errors",
+                "Free tier limited"
+            ]
         }
     ],
     "upcoming": [
