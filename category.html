@@ -56,7 +56,16 @@
   </div>
 </footer>
 
-<script src="js/data.js"></script>
-<script src="js/main.js"></script>
+<script>
+(function() {
+  var params = new URLSearchParams(window.location.search);
+  var id = params.get('id');
+  if (id) {
+    window.location.replace('category-' + encodeURIComponent(id) + '.html');
+  } else {
+    window.location.replace('categories.html');
+  }
+})();
+</script>
 </body>
 </html>

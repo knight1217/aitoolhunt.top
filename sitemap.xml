@@ -4,6 +4,18 @@
   <!-- Static Pages -->
   <url><loc>https://aitoolhunt.top/about.html</loc><lastmod>2026-06-29</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://aitoolhunt.top/automation.html</loc><lastmod>2026-06-29</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aitoolhunt.top/categories.html</loc><lastmod>2026-06-29</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://aitoolhunt.top/category-app-builder.html</loc><lastmod>2026-06-29</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://aitoolhunt.top/category-audio.html</loc><lastmod>2026-06-29</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://aitoolhunt.top/category-chat.html</loc><lastmod>2026-06-29</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://aitoolhunt.top/category-coding.html</loc><lastmod>2026-06-29</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://aitoolhunt.top/category-design.html</loc><lastmod>2026-06-29</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://aitoolhunt.top/category-education.html</loc><lastmod>2026-06-29</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://aitoolhunt.top/category-image.html</loc><lastmod>2026-06-29</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://aitoolhunt.top/category-marketing.html</loc><lastmod>2026-06-29</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://aitoolhunt.top/category-productivity.html</loc><lastmod>2026-06-29</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://aitoolhunt.top/category-video.html</loc><lastmod>2026-06-29</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://aitoolhunt.top/category-writing.html</loc><lastmod>2026-06-29</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
   <url><loc>https://aitoolhunt.top/category.html</loc><lastmod>2026-06-29</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
   <url><loc>https://aitoolhunt.top/compare.html</loc><lastmod>2026-06-29</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aitoolhunt.top/contact.html</loc><lastmod>2026-06-29</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
