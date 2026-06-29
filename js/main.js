@@ -403,7 +403,7 @@ function renderToolDetail() {
           const alt = appData.tools.find(t => t.id === altId);
           if (!alt) return '';
           return `
-            <a href="tool.html?id=${alt.id}" class="alt-card">
+            <a href="tools/${alt.id}.html" class="alt-card">
               <h4>${getToolEmoji(alt)} ${alt.name}</h4>
               <p>${alt.summary.substring(0, 80)}...</p>
               <span style="color: var(--accent); font-size: 0.85rem;">Compare →</span>
@@ -489,7 +489,7 @@ function initSearch() {
         results.innerHTML = '<div class="search-result-item"><span style="color:var(--text-muted)">No tools found</span></div>';
       } else {
         results.innerHTML = matches.map(t => `
-          <a href="tool.html?id=${t.id}" class="search-result-item">
+          <a href="tools/${t.id}.html" class="search-result-item">
             <span class="tool-icon">${getToolEmoji(t)}</span>
             <span class="tool-name">${t.name}</span>
             <span class="tool-cat">${t.category}</span>
@@ -510,7 +510,7 @@ function initSearch() {
 // ===== Tool Card HTML =====
 function toolCardHTML(tool, isFeatured) {
   return `
-    <a href="tool.html?id=${tool.id}" class="tool-card ${isFeatured ? 'featured' : ''}">
+    <a href="tools/${tool.id}.html" class="tool-card ${isFeatured ? 'featured' : ''}">
       <div class="tool-card-header">
         <div class="tool-card-icon">${getToolEmoji(tool)}</div>
         <div class="tool-card-meta">
