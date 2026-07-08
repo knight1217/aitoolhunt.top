@@ -5245,53 +5245,6 @@ window.__TOOLS_DATA__ = {
             ]
         },
         {
-            "id": "lovable",
-            "name": "Lovable",
-            "url": "https://lovable.dev",
-            "affiliate": null,
-            "category": "coding",
-            "pricing": "Freemium",
-            "price_detail": "Free / Pro from $20/mo",
-            "rating": 8.3,
-            "summary": "Build full-stack web apps with AI — backend, database, and frontend from one prompt.",
-            "description": "Lovable generates complete web applications with frontend, backend, and database. Get a working app with auth, data storage, and deployment in minutes.",
-            "tutorial": "1. Sign up at lovable.dev. 2. Describe your app idea. 3. Lovable generates full codebase. 4. Iterate with text edits. 5. Deploy with one click.",
-            "pros": [
-                "Full-stack generation",
-                "Instant deployment",
-                "Supports iteration"
-            ],
-            "cons": [
-                "Limited tech stack",
-                "Complex apps need fixes",
-                "Paid after free tier"
-            ]
-        },
-        {
-            "id": "elevenlabs",
-            "name": "ElevenLabs",
-            "url": "https://elevenlabs.io",
-            "affiliate": null,
-            "category": "audio",
-            "pricing": "Freemium",
-            "price_detail": "Free / Starter $5/mo / Pro $22/mo",
-            "rating": 9.0,
-            "summary": "Industry-leading AI voice synthesis and cloning — most natural-sounding AI voices.",
-            "description": "ElevenLabs provides state-of-the-art text-to-speech and voice cloning. Generate speech in 29 languages, clone voices from 1-min samples, and access API.",
-            "tutorial": "1. Sign up at elevenlabs.io. 2. Choose from 100+ voices or clone your own. 3. Type text and generate speech. 4. Adjust stability and clarity. Free: 10K chars/month.",
-            "pros": [
-                "Most natural voices",
-                "Voice cloning",
-                "29 languages",
-                "API access"
-            ],
-            "cons": [
-                "Limited free tier",
-                "Cloning needs verification",
-                "Premium voices cost more"
-            ]
-        },
-        {
             "id": "scenario-gg",
             "name": "Scenario.gg",
             "url": "https://scenario.com",
@@ -5361,52 +5314,6 @@ window.__TOOLS_DATA__ = {
             ]
         },
         {
-            "id": "playht",
-            "name": "Play.ht",
-            "url": "https://play.ht",
-            "affiliate": null,
-            "category": "audio",
-            "pricing": "Freemium",
-            "price_detail": "Free / Creator $39/mo / Pro $99/mo",
-            "rating": 8.2,
-            "summary": "AI voice generation with 800+ voices across 142 languages and ultra-realistic cloning.",
-            "description": "Play.ht offers 800+ AI voices in 142 languages. Features ultra-realistic voice cloning, podcast tools, and API. Popular with podcasters and video creators.",
-            "tutorial": "1. Sign up at play.ht. 2. Choose from 800+ voices or clone yours. 3. Type text and generate speech. 4. Export MP3/WAV. Free: 12,500 chars/month.",
-            "pros": [
-                "800+ voices in 142 languages",
-                "Ultra-realistic cloning",
-                "Podcast tools"
-            ],
-            "cons": [
-                "Creator plan pricier",
-                "Complex UI",
-                "Some voices robotic"
-            ]
-        },
-        {
-            "id": "heygen",
-            "name": "HeyGen",
-            "url": "https://heygen.com",
-            "affiliate": null,
-            "category": "video",
-            "pricing": "Freemium",
-            "price_detail": "Free / Creator $29/mo / Business $89/mo",
-            "rating": 8.5,
-            "summary": "AI video generation with talking avatars — professional videos from text in minutes.",
-            "description": "HeyGen creates AI videos with lifelike digital avatars. Choose from 100+ avatars, add voiceovers in 40+ languages. No camera needed. For training, marketing, outreach.",
-            "tutorial": "1. Sign up at heygen.com. 2. Choose avatar or upload photo. 3. Type script. 4. Select voice and language. 5. Generate and download. Free: 1 credit/month.",
-            "pros": [
-                "Lifelike avatars",
-                "40+ languages",
-                "No filming equipment"
-            ],
-            "cons": [
-                "Expensive for frequent use",
-                "Limited free tier",
-                "Lip-sync imperfect"
-            ]
-        },
-        {
             "id": "spline-ai",
             "name": "Spline AI",
             "url": "https://spline.design",
@@ -5430,29 +5337,6 @@ window.__TOOLS_DATA__ = {
             ]
         },
         {
-            "id": "looka",
-            "name": "Looka",
-            "url": "https://looka.com",
-            "affiliate": null,
-            "category": "design",
-            "pricing": "Freemium",
-            "price_detail": "Free logo / Brand kit from $96",
-            "rating": 7.5,
-            "summary": "AI logo maker and brand identity designer — generate logos, business cards, and brand kits.",
-            "description": "Looka uses AI to generate custom logos from your style preferences. Pick from generated options, customize colors and fonts, then download. Also includes brand kit with business cards, social media assets, and brand guidelines.",
-            "tutorial": "1. Enter your company name and industry. 2. Pick 5+ logo styles you like. 3. AI generates dozens of options. 4. Customize and purchase. Free to design, pay to download.",
-            "pros": [
-                "Easy logo generation",
-                "Complete brand kit",
-                "Pay only when satisfied"
-            ],
-            "cons": [
-                "Logo quality varies",
-                "Limited free customization",
-                "One-time purchase, not subscription"
-            ]
-        },
-        {
             "id": "superhuman",
             "name": "Superhuman AI",
             "url": "https://superhuman.com",
@@ -5473,52 +5357,6 @@ window.__TOOLS_DATA__ = {
                 "Expensive for email",
                 "Gmail/Outlook only",
                 "Waitlist sometimes"
-            ]
-        },
-        {
-            "id": "suno",
-            "name": "Suno AI",
-            "url": "https://suno.com",
-            "affiliate": null,
-            "category": "audio",
-            "pricing": "Freemium",
-            "price_detail": "Free / Pro $10/mo / Premier $30/mo",
-            "rating": 9.0,
-            "summary": "AI music generator — create full songs with vocals and instrumentation from text prompts.",
-            "description": "Suno generates complete songs including vocals, lyrics, and instrumentation from text descriptions. Specify genre, mood, and topic — AI composes original music in seconds. V4 model produces remarkably polished tracks up to 4 minutes.",
-            "tutorial": "1. Go to suno.com and sign in. 2. Click Create, describe your song or enter custom lyrics. 3. Choose genre and style. 4. Generate — Suno creates 2 variations. 5. Download audio or video. Free: 50 credits/day.",
-            "pros": [
-                "Full songs with vocals",
-                "Impressive quality",
-                "Fast generation"
-            ],
-            "cons": [
-                "Copyright ambiguity",
-                "Limited control over specifics",
-                "Free tier watermarks"
-            ]
-        },
-        {
-            "id": "aiva",
-            "name": "AIVA",
-            "url": "https://aiva.ai",
-            "affiliate": null,
-            "category": "audio",
-            "pricing": "Freemium",
-            "price_detail": "Free / Pro €15/mo / Studio €49/mo",
-            "rating": 7.8,
-            "summary": "AI classical and soundtrack composer — generate orchestral, piano, and cinematic music.",
-            "description": "AIVA specializes in composing orchestral, classical, and cinematic music with AI. Choose from 250+ styles, generate scores with full instrumentation, and export MIDI or audio. Popular with filmmakers, game composers, and content creators needing background music.",
-            "tutorial": "1. Sign up at aiva.ai. 2. Select a style preset. 3. AI generates original composition. 4. Edit in the built-in editor. 5. Export as MP3 or MIDI. Free: 3 downloads/month.",
-            "pros": [
-                "Full MIDI export",
-                "Classical/cinematic focus",
-                "Pro-level editing"
-            ],
-            "cons": [
-                "Only instrumental",
-                "Limited free downloads",
-                "Learning curve for editor"
             ]
         },
         {
@@ -5568,29 +5406,6 @@ window.__TOOLS_DATA__ = {
             ]
         },
         {
-            "id": "jasper",
-            "name": "Jasper AI",
-            "url": "https://jasper.ai",
-            "affiliate": null,
-            "category": "writing",
-            "pricing": "Paid",
-            "price_detail": "Creator $49/mo / Pro $69/mo",
-            "rating": 8.0,
-            "summary": "AI writing platform for marketing teams — brand voice, campaigns, and content at scale.",
-            "description": "Jasper is an enterprise-grade AI writing platform with brand voice customization, campaign workflows, and team collaboration. Generate blog posts, ad copy, emails, and social media content that matches your brand tone. Integrates with SurferSEO.",
-            "tutorial": "1. Sign up at jasper.ai. 2. Set up your brand voice and knowledge base. 3. Choose a template or describe your content. 4. Generate and edit with AI assistance. 5. Export or schedule. Paid plans only.",
-            "pros": [
-                "Brand voice consistency",
-                "Marketing team features",
-                "SurferSEO integration"
-            ],
-            "cons": [
-                "No free tier",
-                "Expensive for individuals",
-                "Learning curve"
-            ]
-        },
-        {
             "id": "claude-pro",
             "name": "Claude Pro",
             "url": "https://claude.ai",
@@ -5612,29 +5427,6 @@ window.__TOOLS_DATA__ = {
                 "No web browsing in free tier",
                 "Fewer integrations than ChatGPT",
                 "Rate limits on free"
-            ]
-        },
-        {
-            "id": "pika",
-            "name": "Pika",
-            "url": "https://pika.art",
-            "affiliate": null,
-            "category": "video",
-            "pricing": "Freemium",
-            "price_detail": "Free / Pro $10/mo",
-            "rating": 8.0,
-            "summary": "AI video generator — create and edit videos with text prompts, images, and lip-sync features.",
-            "description": "Pika generates short AI videos from text prompts or images. Features include Pikaffects (visual transformations), lip-sync (characters speak your text), and video-to-video restyling. Fast, creative, and accessible for social media content.",
-            "tutorial": "1. Go to pika.art and sign in. 2. Describe your video or upload an image. 3. Add effects or lip-sync if desired. 4. Generate video clip. 5. Download or share. Free: limited generations.",
-            "pros": [
-                "Fast generation",
-                "Creative effects",
-                "Easy to use"
-            ],
-            "cons": [
-                "Short clips only",
-                "Less realistic than top competitors",
-                "Limited control"
             ]
         },
         {
@@ -5661,15 +5453,7 @@ window.__TOOLS_DATA__ = {
             ]
         }
     ],
-    "upcoming": [
-        {
-            "name": "Grok (xAI)",
-            "category": "chat",
-            "eta": "Coming soon",
-            "desc": "Elon Musk's AI chatbot with real-time X (Twitter) access and unfiltered responses.",
-            "details": "Grok stands out for its real-time access to X platform data, giving it a unique advantage in current events and trending topics. It's known for a more irreverent, less censored tone than competitors like ChatGPT. Best for: users who want real-time information and a more personality-driven AI experience."
-        }
-    ],
+    "upcoming": [],
     "comparisons": [
         {
             "id": "chatgpt-vs-claude",
