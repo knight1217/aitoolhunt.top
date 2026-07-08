@@ -154,26 +154,26 @@
     },
     {
       "id": "gemini",
-      "name": "Gemini",
+      "name": "Gemini 3.1 Pro",
       "url": "https://gemini.google.com",
       "affiliate": null,
       "category": "chat",
       "pricing": "Freemium",
-      "price_detail": "Free / AI Plus $7.99/mo / AI Pro $19.99/mo / AI Ultra $99.99/mo",
+      "price_detail": "Free / Gemini Advanced $20/mo (Google One) / API from $2/$12 per 1M tokens",
       "rating": 8.8,
-      "summary": "Google's AI with 750M+ monthly users. Deep Google Workspace integration, 1M+ token context, and Veo 3.1 video gen.",
-      "description": "Google Gemini is the largest AI service by user count in 2026, with over 750 million monthly active users. It integrates deeply with Google Workspace (Gmail, Docs, Sheets, Drive, YouTube) and Android. The May 2026 pricing restructure introduced three paid tiers with increasing context windows and capabilities. Gemini's 1M+ token context window enables analysis of entire books, codebases, and video libraries in a single session.",
+      "summary": "Google AI — GPQA Diamond leader (94.3%). 1M token context, native multimodal. Gemini 3.5 Pro coming July.",
+      "description": "Gemini 3.1 Pro leads GPQA Diamond (94.3%). Native multimodal — processes text, images, video, audio. 1M context. Deep Think reasoning. Available in Google AI Studio, Vertex AI, Gemini app. 3.5 Pro expected July 2026.",
       "tutorial": "1. Go to gemini.google.com and log in with your Google account. 2. Type a question or upload images/files using the + button. 3. Use @-mentions to pull data from Gmail, Drive, or YouTube (e.g., '@Gmail summarize my last 5 emails'). 4. Click the double-check button (G icon) to verify factual claims against Google Search. 5. For document analysis, upload a PDF and ask Gemini to answer questions from it. 6. Use voice input on mobile: tap the microphone and speak naturally. Free tier gives generous usage; Advanced ($19.99/mo) gets Gemini Ultra and 1M token context.",
       "pros": [
-        "1M context (Advanced)",
-        "Google ecosystem integration",
-        "Strong multimodal",
-        "Free tier is generous"
+        "GPQA Diamond leader (94.3%)",
+        "Native multimodal",
+        "1M token context",
+        "Deep Think reasoning"
       ],
       "cons": [
-        "Less creative than Claude",
-        "Sometimes too cautious",
-        "Limited outside Google ecosystem"
+        "Less natural prose than Claude",
+        "3.5 Pro not yet available",
+        "Weaker coding than Claude/GPT"
       ],
       "best_for": "Google Workspace users; anyone needing huge context windows",
       "alternatives": [
@@ -191,26 +191,26 @@
     },
     {
       "id": "midjourney",
-      "name": "Midjourney",
+      "name": "Midjourney V8.1",
       "url": "https://www.midjourney.com",
       "affiliate": null,
       "category": "image",
       "pricing": "Paid",
-      "price_detail": "Basic $10/mo (200 images) / Standard $30/mo / Pro $60/mo / Mega $120/mo",
+      "price_detail": "Basic $10/mo (200 images) / Standard $30/mo (unlimited relax) / Pro $60/mo / Mega $120/mo",
       "rating": 9.4,
-      "summary": "The gold standard for AI image generation. V7 model with unparalleled artistic quality and photorealism. V8 in alpha.",
-      "description": "Midjourney remains the gold standard for AI-generated artistic imagery in 2026. The current V7 model delivers unprecedented photorealism and artistic control, while V8 is in early alpha with rumored video generation capabilities. Accessible via Discord or the dedicated web app, Midjourney continues to be the go-to tool for concept artists, game developers, and creative professionals.",
+      "summary": "AI image generation gold standard. V8.1 with 3x faster HD at 3x lower cost. V9 coming soon.",
+      "description": "Midjourney V8.1 delivers the highest aesthetic quality. HD Mode is 3x faster and 3x cheaper than V8. Prompt Shortener helps optimize. Still the gold standard for artistic, cinematic, and stylized images.",
       "tutorial": "1. Go to midjourney.com and subscribe (Basic $10/mo is enough to start). 2. Join Midjourney Discord server OR use the web app at midjourney.com/imagine. 3. Type /imagine followed by your prompt. Example: '/imagine a cyberpunk city at sunset, neon lights reflecting on wet streets, 8k, cinematic lighting'. 4. Bot generates 4 variants — click U1-U4 to upscale (enlarge), V1-V4 to create variations of that image. 5. Add parameters to control output: '--ar 16:9' for widescreen, '--style raw' for realistic, '--stylize 500' for artistic flair. 6. Reference existing images with '--cref [imageURL]' to match style.",
       "pros": [
-        "Best image quality",
-        "Incredible artistic styles",
-        "Active community",
-        "Constant improvements"
+        "Unmatched aesthetic quality",
+        "V8.1: 3x faster HD at 3x lower cost",
+        "Strong artistic control",
+        "V9 coming with better text rendering"
       ],
       "cons": [
-        "Requires Discord (mostly)",
-        "No free tier anymore",
-        "Steep learning curve for prompts"
+        "Requires Discord/subscription",
+        "No free tier beyond trial",
+        "Text rendering imperfect (V9 fix)"
       ],
       "best_for": "Artists, designers, and anyone who needs beautiful AI images",
       "alternatives": [
@@ -299,26 +299,25 @@
     },
     {
       "id": "cursor",
-      "name": "Cursor",
+      "name": "Cursor 3",
       "url": "https://cursor.sh",
       "affiliate": null,
       "category": "coding",
       "pricing": "Paid",
-      "price_detail": "Pro $20/mo / Business $40/user/mo / Enterprise custom (no free tier for agentic features)",
-      "rating": 9.2,
-      "summary": "AI-first code editor with Claude-powered agentic coding. 200K context window, background agents, multi-file editing.",
-      "description": "Cursor is an AI-first VS Code fork that leads the industry in agentic coding capability in 2026. With a 200K token context window (via Claude 3.5 Sonnet), Cursor can understand entire codebases in a single session. New 2026 features include Background Agents (async refactoring that runs while you work) and improved multi-file agent mode. Developer surveys consistently rank Cursor first for perceived productivity improvement. VS Code only (no JetBrains support).",
+      "price_detail": "Free (Hobby) / Pro $20/mo / Business $40/user/mo",
+      "rating": 9.3,
+      "summary": "AI-first code editor — Cursor 3 with parallel agent windows, Background Agents (isolated VMs), Composer 2 model, Design Mode.",
+      "description": "Cursor 3 (April 2026) is the most advanced AI code editor. Parallel agent windows for simultaneous coding tasks. Background Agents work autonomously in isolated VMs. Composer 2 custom model. Design Mode: screenshot to UI code. /best-of-n for multi-model comparison.",
       "tutorial": "1. Download Cursor from cursor.sh (Windows/Mac/Linux). 2. Sign in with GitHub or Google. 3. Open your project folder — Cursor indexes your codebase automatically. 4. Press Ctrl+K (Cmd+K on Mac) to open the inline editor: select code, type what you want (e.g., 'add error handling'), and Cursor rewrites it. 5. Press Ctrl+L for the chat sidebar: ask 'Explain how the auth system works' or 'Find the bug in login flow'. 6. Use Cmd+I (Ctrl+I) for Composer — describe a feature in plain English, Cursor writes it across multiple files. Free tier: 2000 completions + 50 slow premium requests/month.",
       "pros": [
-        "Deep codebase understanding",
-        "Multi-file editing",
-        "Familiar VS Code UX",
-        "Excellent autocomplete"
+        "Parallel agent windows",
+        "Background Agents (isolated VMs)",
+        "Composer 2 custom model",
+        "Design Mode: screenshot to code"
       ],
       "cons": [
-        "$20/mo for heavy use",
-        "Privacy concerns with code sharing",
-        "Can be slow on large repos"
+        "Higher system resource usage",
+        "Learning curve for agent features"
       ],
       "best_for": "Professional developers who want AI deeply integrated into their workflow",
       "alternatives": [
@@ -371,26 +370,26 @@
     },
     {
       "id": "runway",
-      "name": "Runway",
+      "name": "Runway Gen-4",
       "url": "https://runwayml.com",
       "affiliate": null,
       "category": "video",
       "pricing": "Freemium",
-      "price_detail": "Free (125 credits/mo) / Standard $15/mo / Pro $35/mo / Unlimited $95/mo / Enterprise custom",
-      "rating": 8.9,
-      "summary": "Professional AI video generation. Gen-4.5 model with 4K output, Motion Brush, and camera control. $15/mo Standard.",
-      "description": "Runway is the leading AI video platform, used by Hollywood studios and indie creators alike. Gen-4 Alpha can generate highly realistic video clips from text prompts, images, or existing footage. It also includes AI-powered video editing, color grading, and object removal tools.",
+      "price_detail": "Free (limited) / Standard $15/mo / Pro $35/mo / Unlimited $95/mo",
+      "rating": 9.0,
+      "summary": "Professional AI video — Gen-4 with Motion Brush, Reference Pack, Act-One camera controls. Best for filmmakers.",
+      "description": "Runway Gen-4 is the filmmaker choice for AI video. Professional camera controls: Motion Brush for directing movement, Reference Pack for style consistency, Act-One for character performances. 4K export. Best for directors and creative teams who need precise control.",
       "tutorial": "1. Sign up at runwayml.com (free credits for new users). 2. Click 'Generate Video' and choose Text-to-Video. 3. Write a detailed prompt: 'A drone shot flying over a misty forest at sunrise, golden light piercing through pine trees, cinematic'. 4. Select video length (4s or 10s) and style preset. 5. Use Image-to-Video: upload a photo and describe how it should animate. 6. After generation, use the editor to trim, add music, or generate additional segments. Free tier gives ~125 one-time credits. Standard plan ($15/mo) for regular use.",
       "pros": [
-        "Professional-grade output",
-        "Video-to-video generation",
-        "Comprehensive editing suite",
-        "Industry adoption"
+        "Motion Brush camera controls",
+        "Reference Pack style consistency",
+        "Act-One character animation",
+        "Professional 4K output"
       ],
       "cons": [
-        "Expensive for heavy use",
-        "Generation takes time",
-        "Credit system limits creativity"
+        "Higher learning curve",
+        "Less plug-and-play than Veo 3.1",
+        "Free tier very limited"
       ],
       "best_for": "Video creators, filmmakers, and marketers who need professional AI video",
       "alternatives": [
@@ -412,21 +411,20 @@
       "affiliate": null,
       "category": "chat",
       "pricing": "Freemium",
-      "price_detail": "Free / Pro $20/mo (300+ searches/day) / Max $200/mo (Deep Research) / Enterprise $40/seat/mo",
-      "rating": 9.0,
-      "summary": "AI research engine with real-time web citations. 300+ Pro searches/day, Deep Research reports, Comet browser agent.",
-      "description": "Perplexity combines AI chat with real-time web search, providing answers with direct citations to sources. It's like having a research assistant that checks the web for you. Pro mode allows choosing between GPT-4o, Claude 3.5, and Sonar models.",
+      "price_detail": "Free (includes Comet browser agent) / Pro $20/mo",
+      "rating": 9.2,
+      "summary": "AI research engine — Comet browser agent now FREE, Deep Research generates PPTs/dashboards, 20+ model selection.",
+      "description": "Perplexity is the best AI research tool in July 2026. Comet browser agent, previously $200/month, is now FREE — autonomous web browsing and research for all users. Deep Research generates complete reports with slides, tables, and dashboards. 20+ models including GPT-5.5, Claude, Gemini.",
       "tutorial": "1. Go to perplexity.ai — no login needed for basic use. 2. Type a question like 'What caused the recent NVIDIA stock surge?' — Perplexity searches the web and synthesizes an answer with numbered citations. 3. Click citation numbers to verify sources. 4. Use the 'Focus' dropdown to narrow searches: Academic (papers), YouTube, Wolfram Alpha (math), or Writing. 5. Follow-up questions maintain context: ask 'How does this compare to last year?' 6. Enable 'Pro Search' for multi-step research (free users get 5/day). To unlock unlimited Pro Search, subscribe at $20/month.",
       "pros": [
-        "Real-time web search",
-        "Source citations",
-        "Multiple AI model choice",
-        "Clean UI"
+        "Comet browser agent now free",
+        "Deep Research generates PPTs + dashboards",
+        "20+ model selection",
+        "Verification-first cited answers"
       ],
       "cons": [
-        "Not great for creative writing",
-        "Limited context vs Claude",
-        "Pro needed for best models"
+        "Pro required for unlimited searches",
+        "Less creative than ChatGPT/Claude"
       ],
       "best_for": "Researchers, students, and anyone who needs factual, cited answers",
       "alternatives": [
@@ -665,26 +663,26 @@
     },
     {
       "id": "deepseek",
-      "name": "DeepSeek",
+      "name": "DeepSeek V4",
       "url": "https://chat.deepseek.com",
       "affiliate": null,
       "category": "chat",
       "pricing": "Freemium",
-      "price_detail": "Free / API from $0.14/M input tokens (V4-Flash)",
-      "rating": 9.2,
-      "summary": "Chinese AI with V4 models, coding excellence, and absurdly cheap API. Free web access.",
-      "description": "DeepSeek is the Chinese AI lab that shocked the industry with cost-efficient, high-performance models. The 2026 V4 and V4-Pro models compete with GPT-5 class performance at a fraction of the cost. In April 2026, DeepSeek announced a 75% price cut on V4-Pro API access, making it the most affordable frontier AI for developers. The free web interface includes file upload, long context, and code execution.",
+      "price_detail": "Free web app / API from $0.14/$0.28 per 1M tokens / Self-host (MIT license)",
+      "rating": 9.3,
+      "summary": "Open-source powerhouse — 80.6% SWE-bench at $0.14/$0.28 per 1M tokens. MIT license. Best open-weight alternative.",
+      "description": "DeepSeek V4 achieves 80.6% SWE-bench Verified matching Gemini 3.1 Pro at fraction of cost. MIT licensed. Available via web app, API, and self-hosting. The best open-weight alternative to frontier models.",
       "tutorial": "1. Go to chat.deepseek.com and sign up (free). 2. Type your question — DeepSeek shows its reasoning process (Chain of Thought) before answering. 3. Toggle 'Deep Think' mode for complex problems — the model spends more time reasoning through math, coding, and logic. 4. Upload files (PDFs, images, code) for analysis using the attachment button. 5. Enable web search for real-time information (toggle next to input box). 6. Use the mobile app (iOS/Android) for on-the-go access. The API is priced at $0.14/M input tokens for R1 — significantly cheaper than GPT-4.",
       "pros": [
-        "R1 reasoning is outstanding",
-        "Completely free chat",
-        "1M token context",
-        "Cheapest API pricing"
+        "80.6% SWE-bench Verified",
+        "MIT license",
+        "Dramatically cheaper",
+        "Self-hostable"
       ],
       "cons": [
-        "Occasional server overload",
-        "Chinese censorship on sensitive topics",
-        "Smaller ecosystem than OpenAI"
+        "Less polished web experience",
+        "Smaller ecosystem",
+        "Limited multimodal"
       ],
       "best_for": "Developers, researchers, and anyone wanting GPT-4 level AI for free",
       "alternatives": [
@@ -1576,28 +1574,26 @@
     },
     {
       "id": "grok",
-      "name": "Grok",
+      "name": "Grok 4 (xAI)",
       "url": "https://grok.com",
       "affiliate": null,
       "category": "chat",
       "pricing": "Freemium",
-      "price_detail": "Free tier available / X Premium+ ($22/mo) / SuperGrok ($30/mo)",
-      "rating": 8.0,
-      "summary": "xAI's AI chatbot with real-time X (Twitter) access. Now free with standalone web and iOS app.",
-      "description": "Grok is xAI's AI assistant developed by Elon Musk's team. As of 2026, Grok is available for free with a standalone web app (grok.com) and iOS app — no longer requiring X Premium+. It features real-time access to X platform data, image generation via Aurora model, and Deep Search for web research. Known for a more irreverent, less censored tone than competitors, Grok has expanded to include file uploads, long context, and voice mode.",
+      "price_detail": "Free / SuperGrok $30/mo / Heavy $300/mo / API from $1.25/$2.50 per 1M tokens",
+      "rating": 8.5,
+      "summary": "Elon Musk xAI chatbot — Grok 4 with live X data, Aurora image gen (best stylized art), cheapest major-lab API at $1.25/$2.50 per 1M tokens.",
+      "description": "Grok 4 is xAI latest model as of July 2026, free at grok.com. Features real-time X platform data, Aurora image generation (stylized/abstract art leader), Deep Search for web research. Cheapest major-lab API at $1.25/$2.50 per 1M tokens. SuperGrok ($30/mo) includes 50 video renders + unlimited images/day.",
       "tutorial": "1. Visit grok.com or download the iOS app — free tier available for everyone. 2. Sign in with X account, Google, or email. 3. Type your question — Grok can access real-time X data for current events. 4. Use Deep Search for in-depth web research on any topic. 5. Click the image icon to generate images with Aurora. 6. Upload PDFs, images, or documents for analysis. 7. Try voice mode on mobile for hands-free interaction. 8. Upgrade to SuperGrok ($30/mo) for higher limits, unlimited image gen, and priority access.",
       "pros": [
-        "Real-time X (Twitter) data access",
-        "Now free tier available to everyone",
-        "Standalone web and iOS apps",
-        "Image generation with Aurora",
-        "Deep Search for web research"
+        "Real-time X platform data",
+        "Aurora: best stylized image gen",
+        "Cheapest major-lab API",
+        "Free tier available"
       ],
       "cons": [
-        "Smaller context window than competitors",
-        "Fewer integrations than ChatGPT",
-        "Less suitable for professional/business use",
-        "Android app still limited"
+        "Smaller context than Claude/Gemini",
+        "Not as strong on complex reasoning",
+        "Fewer integrations"
       ],
       "best_for": "X/Twitter users, news junkies, and anyone who wants an unfiltered AI with real-time data",
       "alternatives": [
@@ -2569,6 +2565,77 @@
         "api"
       ],
       "featured": false
+    },
+    {
+      "id": "veo",
+      "name": "Veo 3.1 (Google)",
+      "url": "https://deepmind.google/technologies/veo/",
+      "affiliate": null,
+      "category": "video",
+      "pricing": "Freemium",
+      "price_detail": "Included in Gemini Advanced $20/mo / API via Google AI Studio",
+      "rating": 9.2,
+      "summary": "Google video AI — #1 since Sora 2 retired. Native audio, 1080p, strongest physics. Uncontested leader in July 2026.",
+      "description": "Veo 3.1 is the undisputed leader in AI video generation as of July 2026, following Sora 2 consumer app retirement on April 26. Generates videos with native audio, 1080p output, and the strongest physics consistency of any model. Available in Gemini app, Google AI Studio, and Vertex AI. Best for cinematic video, nature/heavy-physics content, and long clips with accurate motion.",
+      "tutorial": "1. Open Gemini app or Google AI Studio. 2. Select Veo 3.1 as your model. 3. Describe your scene in detail. 4. Veo generates video with native audio. 5. Export in 1080p. Free tier available via Gemini.",
+      "pros": [
+        "#1 video AI (post-Sora retirement)",
+        "Native audio generation",
+        "1080p output",
+        "Strongest physics consistency",
+        "Available in Gemini app"
+      ],
+      "cons": [
+        "No standalone consumer app",
+        "Requires Google ecosystem",
+        "Less creative camera control than Runway"
+      ],
+      "tags": [
+        "video-generation",
+        "text-to-video",
+        "google"
+      ],
+      "featured": true,
+      "best_for": "Cinematic video creation, nature content, physics-heavy scenes, content creators migrating from Sora",
+      "alternatives": [
+        "runway",
+        "kling",
+        "sora"
+      ]
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "url": "https://n8n.io",
+      "affiliate": null,
+      "category": "productivity",
+      "pricing": "Freemium",
+      "price_detail": "Free (self-host) / Cloud from $20/mo / Enterprise custom",
+      "rating": 8.7,
+      "summary": "Open-source AI agent and workflow automation — 422+ integrations, GDPR-compliant self-hosting. Top 10 Q2 2026 AI tool.",
+      "description": "n8n is the leading open-source workflow automation platform as of July 2026 — ranked in Q2 Top 10 AI tools. Connect 422+ apps and services. AI Agent nodes support self-correcting workflows. Self-host for full data sovereignty and GDPR compliance. Popular with European enterprises, municipal governments, and privacy-conscious teams. Fair-code licensed.",
+      "tutorial": "1. Self-host: docker run n8nio/n8n. 2. Or sign up at n8n.cloud. 3. Connect apps via 422+ integrations. 4. Build workflows with visual drag-and-drop. 5. Add AI Agent nodes for self-correcting automation. 6. Deploy and monitor. Free self-host tier includes all features.",
+      "pros": [
+        "422+ app integrations",
+        "Self-hosted for data sovereignty",
+        "AI Agent nodes with self-correction",
+        "GDPR compliant",
+        "Fair-code open source"
+      ],
+      "cons": [
+        "Self-hosting requires technical setup",
+        "Cloud version pricier than Zapier/Make",
+        "Learning curve for complex workflows"
+      ],
+      "tags": [
+        "automation",
+        "workflow",
+        "open-source",
+        "ai-agent"
+      ],
+      "featured": false,
+      "best_for": "Custom AI automation, data-sovereign workflows, enterprise process automation, GDPR-compliant deployments",
+      "alternatives": []
     }
   ],
   "upcoming": [],
