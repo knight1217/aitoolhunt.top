@@ -25,6 +25,7 @@
 
 // App state
 let appData = null;
+let appDetail = null;  // heavy fields: description, tutorial, pros, cons, etc.
 let currentCategory = null;
 let currentTool = null;
 let searchTimeout = null;
@@ -32,22 +33,40 @@ let searchTimeout = null;
 // ===== Init =====
 document.addEventListener('DOMContentLoaded', () => {
   initMobileMenu();
-  loadData().then(() => {
-    const page = detectPage();
+  const page = detectPage();
+  
+  // Home/category/compare: only need core data
+  if (page === 'home' || page === 'category' || page === 'blog' || page === 'about' || page === 'static') {
+    loadCoreData().then(() => {
+      try {
+        switch(page) {
+          case 'home': renderHome(); break;
+          case 'category': renderCategory(); break;
+          case 'blog': initBlogArticleNav(); break;
+          case 'about': break;
+          case 'static': break;
+        }
+      } catch(e) {
+        console.error('Page render error (' + page + '):', e.message, e.stack);
+        const mainContent = document.querySelector('main .container') || document.querySelector('main');
+        if (mainContent) {
+          mainContent.innerHTML = '<div class="empty-state" style="padding:40px"><div class="emoji">🔧</div><p>Something went wrong loading this page. Please try again.</p></div>';
+        }
+      }
+    });
+    return;
+  }
+  
+  // Tool/compare: need core + detail data
+  loadFullData().then(() => {
     try {
       switch(page) {
-        case 'home': renderHome(); break;
-        case 'category': renderCategory(); break;
         case 'tool': renderToolDetail(); break;
         case 'compare': renderCompare(); break;
-        case 'guide': break;  // static page, no JS rendering needed
-        case 'blog': initBlogArticleNav(); break;  // add back link on article pages
-        case 'about': break;
-        case 'static': break; // unknown static page, do nothing
+        case 'guide': break;
       }
     } catch(e) {
       console.error('Page render error (' + page + '):', e.message, e.stack);
-      // Target main content area only, never the header
       const mainContent = document.querySelector('main .container') || document.querySelector('main');
       if (mainContent) {
         mainContent.innerHTML = '<div class="empty-state" style="padding:40px"><div class="emoji">🔧</div><p>Something went wrong loading this page. Please try again.</p></div>';
@@ -57,21 +76,53 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // ===== Data Loading =====
-async function loadData() {
+async function loadCoreData() {
   try {
-    // Use embedded data if available (avoids fetch CORS on file://)
+    // Try embedded data first (production with data.js)
     if (window.__TOOLS_DATA__) {
       appData = window.__TOOLS_DATA__;
       if (!appData.tools) appData.tools = [];
       return appData;
     }
-    // Fallback: fetch from file (works on HTTP server)
-    const res = await fetch('data/tools.json');
+    // Load lightweight core data for homepage/category pages
+    const res = await fetch('data/data-core.json');
     appData = await res.json();
     if (!appData.tools) appData.tools = [];
     return appData;
   } catch(e) {
-    console.error('Failed to load data:', e);
+    console.error('Failed to load core data:', e);
+    appData = { categories: [], tools: [] };
+    return appData;
+  }
+}
+
+async function loadFullData() {
+  try {
+    // Try embedded data first
+    if (window.__TOOLS_DATA__) {
+      appData = window.__TOOLS_DATA__;
+      if (!appData.tools) appData.tools = [];
+      return appData;
+    }
+    // Load both core and detail for tool detail pages
+    const [coreRes, detailRes] = await Promise.all([
+      fetch('data/data-core.json'),
+      fetch('data/data-detail.json')
+    ]);
+    const core = await coreRes.json();
+    const detail = await detailRes.json();
+    // Merge detail into core tools
+    for (const dt of detail.tools) {
+      const tool = core.tools.find(t => t.id === dt.id);
+      if (tool) {
+        Object.assign(tool, dt);
+      }
+    }
+    appData = core;
+    if (!appData.tools) appData.tools = [];
+    return appData;
+  } catch(e) {
+    console.error('Failed to load full data:', e);
     appData = { categories: [], tools: [] };
     return appData;
   }
